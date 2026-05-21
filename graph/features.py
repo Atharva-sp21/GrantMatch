@@ -1,101 +1,102 @@
 import torch
 import numpy as np
-from sentence_transformers import SentenceTransformer
 
-embedder = SentenceTransformer('allenai-specter')
+def normalize_features(features_tensor):
+    """Standardize features to mean=0, std=1."""
+    features = features_tensor.float()
+    mean = features.mean(dim=0)
+    std = features.std(dim=0)
+    std[std == 0] = 1.0
+    normalized = (features - mean) / (std + 1e-8)
+    normalized[torch.isnan(normalized)] = 0.0
+    normalized[torch.isinf(normalized)] = 0.0
+    return torch.clamp(normalized, -5.0, 5.0)
 
-# ── Researcher tensor [N, 9] ─────────────────────────────────────────
 def build_researcher_features(researchers):
+    """Build researcher features from citation/publication metrics."""
     rows = []
     for r in researchers:
-        abstract_emb = embedder.encode(r.get('abstract', ''))
         row = [
             r.get('h_index', 0),
-            r.get('publication_count', 0),
-            r.get('citation_count', 0),
-            r.get('career_age', 0),
-            encode_career_stage(r.get('career_stage', 'unknown')),
-            r.get('grant_success_rate', 0.0),
-            r.get('total_funding', 0),
+            r.get('works_count', 0),
+            r.get('cited_by_count', 0),
+            r.get('i10_index', 0),
+            1.0 if r.get('institution_id') is not None else 0.0,
+            r.get('h_index', 0) / 50.0,
+            r.get('cited_by_count', 0) / 1000.0,
+            r.get('works_count', 0) / 100.0,
+            1.0 if r.get('h_index', 0) > 0 else 0.0,
         ]
         rows.append(row)
-    return torch.tensor(rows, dtype=torch.float)
+    tensor = torch.tensor(rows, dtype=torch.float)
+    return normalize_features(tensor)
 
-# ── Institution tensor [N, 5] ────────────────────────────────────────
 def build_institution_features(institutions):
+    """Build institution features."""
     rows = []
     for i in institutions:
         rows.append([
-            i.get('world_ranking', 999),
-            encode_inst_type(i.get('institution_type', 'unknown')),
-            i.get('rd_spend', 0),
-            encode_country(i.get('country', 'unknown')),
-            i.get('faculty_size', 0),
+            i.get('researcher_count', 0) / 100.0,
+            1.0 if i.get('name') else 0.0,
+            i.get('total_works', 0) / 1000.0,
+            i.get('researcher_count', 0) / 100.0,
+            i.get('researcher_count', 0) / 500.0,
         ])
-    return torch.tensor(rows, dtype=torch.float)
+    if not rows:
+        return torch.zeros(0, 5, dtype=torch.float)
+    tensor = torch.tensor(rows, dtype=torch.float)
+    return normalize_features(tensor)
 
-# ── Topic tensor [N, 5] ──────────────────────────────────────────────
 def build_topic_features(topics):
+    """Build topic features."""
     rows = []
     for t in topics:
         rows.append([
-            t.get('funding_frequency', 0),
-            t.get('researcher_count', 0),
-            t.get('trend_score', 0),
-            encode_field(t.get('field_of_study', 'unknown')),
-            0,  # placeholder for topic embedding index
+            t.get('grant_count', 0) / 10.0,
+            t.get('researcher_count', 0) / 10.0,
+            1.0 if t.get('name') else 0.0,
+            encode_field(t.get('name', 'unknown')),
+            t.get('grant_count', 0) / 50.0,
         ])
-    return torch.tensor(rows, dtype=torch.float)
+    tensor = torch.tensor(rows, dtype=torch.float)
+    return normalize_features(tensor)
 
-# ── Grant tensor [N, 7] ──────────────────────────────────────────────
 def build_grant_features(grants):
+    """Build grant features emphasizing funding amount and relevance."""
     rows = []
     for g in grants:
-        rows.append([
-            g.get('funding_amount', 0),
-            encode_grant_type(g.get('grant_type', 'unknown')),
-            g.get('deadline_days_remaining', 0),
-            encode_career_stage(g.get('career_stage_eligibility', 'any')),
-            g.get('acceptance_rate', 0.0),
-            encode_country(g.get('country_restriction', 'any')),
-            0,  # placeholder for guidelines embedding index
-        ])
-    return torch.tensor(rows, dtype=torch.float)
+        row = [
+            g.get('amount', 0) / 100000.0,
+            1.0,
+            1.0,
+            2.0,
+            0.5 + (g.get('amount', 0) / 1000000.0),
+            g.get('amount', 0) / 50000.0,
+            1.0 if g.get('title') else 0.0,
+        ]
+        rows.append(row)
+    tensor = torch.tensor(rows, dtype=torch.float)
+    return normalize_features(tensor)
 
-# ── Agency tensor [N, 4] ─────────────────────────────────────────────
 def build_agency_features(agencies):
+    """Build agency features."""
     rows = []
     for a in agencies:
         rows.append([
-            encode_agency_type(a.get('agency_type', 'unknown')),
-            a.get('total_annual_budget', 0),
-            a.get('avg_grant_size', 0),
-            0,  # placeholder for focus area embedding index
+            1.0,
+            a.get('total_funding', 0) / 1000000.0,
+            a.get('total_funding', 0) / max(a.get('grant_count', 1), 1) / 100000.0,
+            a.get('grant_count', 0) / 50.0,
         ])
-    return torch.tensor(rows, dtype=torch.float)
-
-# ── Encoders ─────────────────────────────────────────────────────────
-def encode_career_stage(s):
-    return {'phd': 0, 'postdoc': 1, 'assistant_prof': 2,
-            'full_prof': 3, 'any': 4, 'unknown': 4}.get(s, 4)
-
-def encode_inst_type(s):
-    return {'public': 0, 'private': 1, 'hospital': 2,
-            'national_lab': 3, 'unknown': 4}.get(s, 4)
-
-def encode_grant_type(s):
-    return {'fellowship': 0, 'project': 1, 'equipment': 2,
-            'travel': 3, 'collaborative': 4, 'unknown': 5}.get(s, 5)
-
-def encode_agency_type(s):
-    return {'government': 0, 'private': 1,
-            'corporate': 2, 'international': 3, 'unknown': 4}.get(s, 4)
-
-def encode_country(s):
-    mapping = {'US': 0, 'UK': 1, 'EU': 2, 'any': 3, 'unknown': 4}
-    return mapping.get(s, 4)
+    tensor = torch.tensor(rows, dtype=torch.float)
+    return normalize_features(tensor)
 
 def encode_field(s):
-    mapping = {'AI': 0, 'Biology': 1, 'Physics': 2,
-               'Chemistry': 3, 'Engineering': 4, 'unknown': 5}
-    return mapping.get(s, 5)
+    """Encode research field."""
+    mapping = {'AI': 0, 'Machine Learning': 0, 'Biology': 1, 'Chemistry': 1,
+               'Physics': 2, 'Engineering': 3, 'Medicine': 4, 'Climate': 4,
+               'Energy': 3, 'Quantum': 2, 'unknown': 5}
+    for key in mapping:
+        if key.lower() in s.lower():
+            return float(mapping[key])
+    return 5.0

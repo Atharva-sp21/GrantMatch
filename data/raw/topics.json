@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "name": "AI",
+    "researcher_count": 0,
+    "grant_count": 0
+  },
+  {
+    "id": 1,
+    "name": "Climate",
+    "researcher_count": 0,
+    "grant_count": 0
+  },
+  {
+    "id": 2,
+    "name": "Energy",
+    "researcher_count": 0,
+    "grant_count": 0
+  },
+  {
+    "id": 3,
+    "name": "Machine Learning",
+    "researcher_count": 0,
+    "grant_count": 0
+  },
+  {
+    "id": 4,
+    "name": "Quantum",
+    "researcher_count": 0,
+    "grant_count": 0
+  }
+]

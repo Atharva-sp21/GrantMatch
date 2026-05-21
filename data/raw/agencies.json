@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "name": "NIH",
+    "grant_count": 50,
+    "total_funding": 250000000
+  },
+  {
+    "id": 1,
+    "name": "NSF",
+    "grant_count": 150,
+    "total_funding": 760000000
+  }
+]

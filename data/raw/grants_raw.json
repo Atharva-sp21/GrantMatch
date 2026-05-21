@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 0,
+    "title": "Deep Learning for Protein Structure Prediction (Study 1)",
+    "agency_id": 0,
+    "amount": 100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 1,
+    "title": "Quantum Computing Architectures (Study 2)",
+    "agency_id": 1,
+    "amount": 200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 2,
+    "title": "Climate Change Mitigation Strategies (Study 3)",
+    "agency_id": 0,
+    "amount": 300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 3,
+    "title": "Novel Cancer Immunotherapies (Study 4)",
+    "agency_id": 1,
+    "amount": 400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 4,
+    "title": "Renewable Energy Storage Systems (Study 5)",
+    "agency_id": 0,
+    "amount": 500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 5,
+    "title": "Autonomous Vehicle Safety (Study 6)",
+    "agency_id": 1,
+    "amount": 600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 6,
+    "title": "Brain-Computer Interfaces (Study 7)",
+    "agency_id": 0,
+    "amount": 700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 7,
+    "title": "Sustainable Agriculture Practices (Study 8)",
+    "agency_id": 1,
+    "amount": 800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 8,
+    "title": "AI for Drug Discovery (Study 9)",
+    "agency_id": 0,
+    "amount": 900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 9,
+    "title": "Quantum Machine Learning Applications (Study 10)",
+    "agency_id": 1,
+    "amount": 1000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 10,
+    "title": "Deep Learning for Protein Structure Prediction (Study 11)",
+    "agency_id": 0,
+    "amount": 1100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 11,
+    "title": "Quantum Computing Architectures (Study 12)",
+    "agency_id": 1,
+    "amount": 1200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 12,
+    "title": "Climate Change Mitigation Strategies (Study 13)",
+    "agency_id": 0,
+    "amount": 1300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 13,
+    "title": "Novel Cancer Immunotherapies (Study 14)",
+    "agency_id": 1,
+    "amount": 1400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 14,
+    "title": "Renewable Energy Storage Systems (Study 15)",
+    "agency_id": 0,
+    "amount": 1500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 15,
+    "title": "Autonomous Vehicle Safety (Study 16)",
+    "agency_id": 1,
+    "amount": 1600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 16,
+    "title": "Brain-Computer Interfaces (Study 17)",
+    "agency_id": 0,
+    "amount": 1700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 17,
+    "title": "Sustainable Agriculture Practices (Study 18)",
+    "agency_id": 1,
+    "amount": 1800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 18,
+    "title": "AI for Drug Discovery (Study 19)",
+    "agency_id": 0,
+    "amount": 1900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 19,
+    "title": "Quantum Machine Learning Applications (Study 20)",
+    "agency_id": 1,
+    "amount": 2000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 20,
+    "title": "Deep Learning for Protein Structure Prediction (Study 21)",
+    "agency_id": 0,
+    "amount": 2100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 21,
+    "title": "Quantum Computing Architectures (Study 22)",
+    "agency_id": 1,
+    "amount": 2200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 22,
+    "title": "Climate Change Mitigation Strategies (Study 23)",
+    "agency_id": 0,
+    "amount": 2300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 23,
+    "title": "Novel Cancer Immunotherapies (Study 24)",
+    "agency_id": 1,
+    "amount": 2400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 24,
+    "title": "Renewable Energy Storage Systems (Study 25)",
+    "agency_id": 0,
+    "amount": 2500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 25,
+    "title": "Autonomous Vehicle Safety (Study 26)",
+    "agency_id": 1,
+    "amount": 2600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 26,
+    "title": "Brain-Computer Interfaces (Study 27)",
+    "agency_id": 0,
+    "amount": 2700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 27,
+    "title": "Sustainable Agriculture Practices (Study 28)",
+    "agency_id": 1,
+    "amount": 2800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 28,
+    "title": "AI for Drug Discovery (Study 29)",
+    "agency_id": 0,
+    "amount": 2900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 29,
+    "title": "Quantum Machine Learning Applications (Study 30)",
+    "agency_id": 1,
+    "amount": 3000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 30,
+    "title": "Deep Learning for Protein Structure Prediction (Study 31)",
+    "agency_id": 0,
+    "amount": 3100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 31,
+    "title": "Quantum Computing Architectures (Study 32)",
+    "agency_id": 1,
+    "amount": 3200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 32,
+    "title": "Climate Change Mitigation Strategies (Study 33)",
+    "agency_id": 0,
+    "amount": 3300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 33,
+    "title": "Novel Cancer Immunotherapies (Study 34)",
+    "agency_id": 1,
+    "amount": 3400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 34,
+    "title": "Renewable Energy Storage Systems (Study 35)",
+    "agency_id": 0,
+    "amount": 3500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 35,
+    "title": "Autonomous Vehicle Safety (Study 36)",
+    "agency_id": 1,
+    "amount": 3600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 36,
+    "title": "Brain-Computer Interfaces (Study 37)",
+    "agency_id": 0,
+    "amount": 3700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 37,
+    "title": "Sustainable Agriculture Practices (Study 38)",
+    "agency_id": 1,
+    "amount": 3800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 38,
+    "title": "AI for Drug Discovery (Study 39)",
+    "agency_id": 0,
+    "amount": 3900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 39,
+    "title": "Quantum Machine Learning Applications (Study 40)",
+    "agency_id": 1,
+    "amount": 4000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 40,
+    "title": "Deep Learning for Protein Structure Prediction (Study 41)",
+    "agency_id": 0,
+    "amount": 4100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 41,
+    "title": "Quantum Computing Architectures (Study 42)",
+    "agency_id": 1,
+    "amount": 4200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 42,
+    "title": "Climate Change Mitigation Strategies (Study 43)",
+    "agency_id": 0,
+    "amount": 4300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 43,
+    "title": "Novel Cancer Immunotherapies (Study 44)",
+    "agency_id": 1,
+    "amount": 4400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 44,
+    "title": "Renewable Energy Storage Systems (Study 45)",
+    "agency_id": 0,
+    "amount": 4500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 45,
+    "title": "Autonomous Vehicle Safety (Study 46)",
+    "agency_id": 1,
+    "amount": 4600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 46,
+    "title": "Brain-Computer Interfaces (Study 47)",
+    "agency_id": 0,
+    "amount": 4700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 47,
+    "title": "Sustainable Agriculture Practices (Study 48)",
+    "agency_id": 1,
+    "amount": 4800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 48,
+    "title": "AI for Drug Discovery (Study 49)",
+    "agency_id": 0,
+    "amount": 4900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 49,
+    "title": "Quantum Machine Learning Applications (Study 50)",
+    "agency_id": 1,
+    "amount": 5000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 50,
+    "title": "Deep Learning for Protein Structure Prediction (Study 51)",
+    "agency_id": 0,
+    "amount": 5100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 51,
+    "title": "Quantum Computing Architectures (Study 52)",
+    "agency_id": 1,
+    "amount": 5200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 52,
+    "title": "Climate Change Mitigation Strategies (Study 53)",
+    "agency_id": 0,
+    "amount": 5300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 53,
+    "title": "Novel Cancer Immunotherapies (Study 54)",
+    "agency_id": 1,
+    "amount": 5400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 54,
+    "title": "Renewable Energy Storage Systems (Study 55)",
+    "agency_id": 0,
+    "amount": 5500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 55,
+    "title": "Autonomous Vehicle Safety (Study 56)",
+    "agency_id": 1,
+    "amount": 5600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 56,
+    "title": "Brain-Computer Interfaces (Study 57)",
+    "agency_id": 0,
+    "amount": 5700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 57,
+    "title": "Sustainable Agriculture Practices (Study 58)",
+    "agency_id": 1,
+    "amount": 5800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 58,
+    "title": "AI for Drug Discovery (Study 59)",
+    "agency_id": 0,
+    "amount": 5900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 59,
+    "title": "Quantum Machine Learning Applications (Study 60)",
+    "agency_id": 1,
+    "amount": 6000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 60,
+    "title": "Deep Learning for Protein Structure Prediction (Study 61)",
+    "agency_id": 0,
+    "amount": 6100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 61,
+    "title": "Quantum Computing Architectures (Study 62)",
+    "agency_id": 1,
+    "amount": 6200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 62,
+    "title": "Climate Change Mitigation Strategies (Study 63)",
+    "agency_id": 0,
+    "amount": 6300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 63,
+    "title": "Novel Cancer Immunotherapies (Study 64)",
+    "agency_id": 1,
+    "amount": 6400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 64,
+    "title": "Renewable Energy Storage Systems (Study 65)",
+    "agency_id": 0,
+    "amount": 6500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 65,
+    "title": "Autonomous Vehicle Safety (Study 66)",
+    "agency_id": 1,
+    "amount": 6600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 66,
+    "title": "Brain-Computer Interfaces (Study 67)",
+    "agency_id": 0,
+    "amount": 6700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 67,
+    "title": "Sustainable Agriculture Practices (Study 68)",
+    "agency_id": 1,
+    "amount": 6800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 68,
+    "title": "AI for Drug Discovery (Study 69)",
+    "agency_id": 0,
+    "amount": 6900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 69,
+    "title": "Quantum Machine Learning Applications (Study 70)",
+    "agency_id": 1,
+    "amount": 7000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 70,
+    "title": "Deep Learning for Protein Structure Prediction (Study 71)",
+    "agency_id": 0,
+    "amount": 7100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 71,
+    "title": "Quantum Computing Architectures (Study 72)",
+    "agency_id": 1,
+    "amount": 7200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 72,
+    "title": "Climate Change Mitigation Strategies (Study 73)",
+    "agency_id": 0,
+    "amount": 7300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 73,
+    "title": "Novel Cancer Immunotherapies (Study 74)",
+    "agency_id": 1,
+    "amount": 7400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 74,
+    "title": "Renewable Energy Storage Systems (Study 75)",
+    "agency_id": 0,
+    "amount": 7500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 75,
+    "title": "Autonomous Vehicle Safety (Study 76)",
+    "agency_id": 1,
+    "amount": 7600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 76,
+    "title": "Brain-Computer Interfaces (Study 77)",
+    "agency_id": 0,
+    "amount": 7700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 77,
+    "title": "Sustainable Agriculture Practices (Study 78)",
+    "agency_id": 1,
+    "amount": 7800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 78,
+    "title": "AI for Drug Discovery (Study 79)",
+    "agency_id": 0,
+    "amount": 7900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 79,
+    "title": "Quantum Machine Learning Applications (Study 80)",
+    "agency_id": 1,
+    "amount": 8000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 80,
+    "title": "Deep Learning for Protein Structure Prediction (Study 81)",
+    "agency_id": 0,
+    "amount": 8100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 81,
+    "title": "Quantum Computing Architectures (Study 82)",
+    "agency_id": 1,
+    "amount": 8200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 82,
+    "title": "Climate Change Mitigation Strategies (Study 83)",
+    "agency_id": 0,
+    "amount": 8300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 83,
+    "title": "Novel Cancer Immunotherapies (Study 84)",
+    "agency_id": 1,
+    "amount": 8400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 84,
+    "title": "Renewable Energy Storage Systems (Study 85)",
+    "agency_id": 0,
+    "amount": 8500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 85,
+    "title": "Autonomous Vehicle Safety (Study 86)",
+    "agency_id": 1,
+    "amount": 8600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 86,
+    "title": "Brain-Computer Interfaces (Study 87)",
+    "agency_id": 0,
+    "amount": 8700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 87,
+    "title": "Sustainable Agriculture Practices (Study 88)",
+    "agency_id": 1,
+    "amount": 8800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 88,
+    "title": "AI for Drug Discovery (Study 89)",
+    "agency_id": 0,
+    "amount": 8900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 89,
+    "title": "Quantum Machine Learning Applications (Study 90)",
+    "agency_id": 1,
+    "amount": 9000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 90,
+    "title": "Deep Learning for Protein Structure Prediction (Study 91)",
+    "agency_id": 0,
+    "amount": 9100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 91,
+    "title": "Quantum Computing Architectures (Study 92)",
+    "agency_id": 1,
+    "amount": 9200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 92,
+    "title": "Climate Change Mitigation Strategies (Study 93)",
+    "agency_id": 0,
+    "amount": 9300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 93,
+    "title": "Novel Cancer Immunotherapies (Study 94)",
+    "agency_id": 1,
+    "amount": 9400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 94,
+    "title": "Renewable Energy Storage Systems (Study 95)",
+    "agency_id": 0,
+    "amount": 9500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 95,
+    "title": "Autonomous Vehicle Safety (Study 96)",
+    "agency_id": 1,
+    "amount": 9600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 96,
+    "title": "Brain-Computer Interfaces (Study 97)",
+    "agency_id": 0,
+    "amount": 9700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 97,
+    "title": "Sustainable Agriculture Practices (Study 98)",
+    "agency_id": 1,
+    "amount": 9800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 98,
+    "title": "AI for Drug Discovery (Study 99)",
+    "agency_id": 0,
+    "amount": 9900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 99,
+    "title": "Quantum Machine Learning Applications (Study 100)",
+    "agency_id": 1,
+    "amount": 10000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 100,
+    "title": "Deep Learning for Protein Structure Prediction (Study 1)",
+    "agency_id": 1,
+    "amount": 100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 101,
+    "title": "Quantum Computing Architectures (Study 2)",
+    "agency_id": 1,
+    "amount": 200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 102,
+    "title": "Climate Change Mitigation Strategies (Study 3)",
+    "agency_id": 1,
+    "amount": 300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 103,
+    "title": "Novel Cancer Immunotherapies (Study 4)",
+    "agency_id": 1,
+    "amount": 400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 104,
+    "title": "Renewable Energy Storage Systems (Study 5)",
+    "agency_id": 1,
+    "amount": 500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 105,
+    "title": "Autonomous Vehicle Safety (Study 6)",
+    "agency_id": 1,
+    "amount": 600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 106,
+    "title": "Brain-Computer Interfaces (Study 7)",
+    "agency_id": 1,
+    "amount": 700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 107,
+    "title": "Sustainable Agriculture Practices (Study 8)",
+    "agency_id": 1,
+    "amount": 800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 108,
+    "title": "AI for Drug Discovery (Study 9)",
+    "agency_id": 1,
+    "amount": 900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 109,
+    "title": "Quantum Machine Learning Applications (Study 10)",
+    "agency_id": 1,
+    "amount": 1000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 110,
+    "title": "Deep Learning for Protein Structure Prediction (Study 11)",
+    "agency_id": 1,
+    "amount": 1100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 111,
+    "title": "Quantum Computing Architectures (Study 12)",
+    "agency_id": 1,
+    "amount": 1200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 112,
+    "title": "Climate Change Mitigation Strategies (Study 13)",
+    "agency_id": 1,
+    "amount": 1300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 113,
+    "title": "Novel Cancer Immunotherapies (Study 14)",
+    "agency_id": 1,
+    "amount": 1400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 114,
+    "title": "Renewable Energy Storage Systems (Study 15)",
+    "agency_id": 1,
+    "amount": 1500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 115,
+    "title": "Autonomous Vehicle Safety (Study 16)",
+    "agency_id": 1,
+    "amount": 1600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 116,
+    "title": "Brain-Computer Interfaces (Study 17)",
+    "agency_id": 1,
+    "amount": 1700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 117,
+    "title": "Sustainable Agriculture Practices (Study 18)",
+    "agency_id": 1,
+    "amount": 1800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 118,
+    "title": "AI for Drug Discovery (Study 19)",
+    "agency_id": 1,
+    "amount": 1900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 119,
+    "title": "Quantum Machine Learning Applications (Study 20)",
+    "agency_id": 1,
+    "amount": 2000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 120,
+    "title": "Deep Learning for Protein Structure Prediction (Study 21)",
+    "agency_id": 1,
+    "amount": 2100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 121,
+    "title": "Quantum Computing Architectures (Study 22)",
+    "agency_id": 1,
+    "amount": 2200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 122,
+    "title": "Climate Change Mitigation Strategies (Study 23)",
+    "agency_id": 1,
+    "amount": 2300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 123,
+    "title": "Novel Cancer Immunotherapies (Study 24)",
+    "agency_id": 1,
+    "amount": 2400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 124,
+    "title": "Renewable Energy Storage Systems (Study 25)",
+    "agency_id": 1,
+    "amount": 2500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 125,
+    "title": "Autonomous Vehicle Safety (Study 26)",
+    "agency_id": 1,
+    "amount": 2600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 126,
+    "title": "Brain-Computer Interfaces (Study 27)",
+    "agency_id": 1,
+    "amount": 2700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 127,
+    "title": "Sustainable Agriculture Practices (Study 28)",
+    "agency_id": 1,
+    "amount": 2800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 128,
+    "title": "AI for Drug Discovery (Study 29)",
+    "agency_id": 1,
+    "amount": 2900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 129,
+    "title": "Quantum Machine Learning Applications (Study 30)",
+    "agency_id": 1,
+    "amount": 3000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 130,
+    "title": "Deep Learning for Protein Structure Prediction (Study 31)",
+    "agency_id": 1,
+    "amount": 3100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 131,
+    "title": "Quantum Computing Architectures (Study 32)",
+    "agency_id": 1,
+    "amount": 3200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 132,
+    "title": "Climate Change Mitigation Strategies (Study 33)",
+    "agency_id": 1,
+    "amount": 3300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 133,
+    "title": "Novel Cancer Immunotherapies (Study 34)",
+    "agency_id": 1,
+    "amount": 3400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 134,
+    "title": "Renewable Energy Storage Systems (Study 35)",
+    "agency_id": 1,
+    "amount": 3500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 135,
+    "title": "Autonomous Vehicle Safety (Study 36)",
+    "agency_id": 1,
+    "amount": 3600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 136,
+    "title": "Brain-Computer Interfaces (Study 37)",
+    "agency_id": 1,
+    "amount": 3700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 137,
+    "title": "Sustainable Agriculture Practices (Study 38)",
+    "agency_id": 1,
+    "amount": 3800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 138,
+    "title": "AI for Drug Discovery (Study 39)",
+    "agency_id": 1,
+    "amount": 3900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 139,
+    "title": "Quantum Machine Learning Applications (Study 40)",
+    "agency_id": 1,
+    "amount": 4000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 140,
+    "title": "Deep Learning for Protein Structure Prediction (Study 41)",
+    "agency_id": 1,
+    "amount": 4100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 141,
+    "title": "Quantum Computing Architectures (Study 42)",
+    "agency_id": 1,
+    "amount": 4200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 142,
+    "title": "Climate Change Mitigation Strategies (Study 43)",
+    "agency_id": 1,
+    "amount": 4300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 143,
+    "title": "Novel Cancer Immunotherapies (Study 44)",
+    "agency_id": 1,
+    "amount": 4400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 144,
+    "title": "Renewable Energy Storage Systems (Study 45)",
+    "agency_id": 1,
+    "amount": 4500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 145,
+    "title": "Autonomous Vehicle Safety (Study 46)",
+    "agency_id": 1,
+    "amount": 4600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 146,
+    "title": "Brain-Computer Interfaces (Study 47)",
+    "agency_id": 1,
+    "amount": 4700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 147,
+    "title": "Sustainable Agriculture Practices (Study 48)",
+    "agency_id": 1,
+    "amount": 4800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 148,
+    "title": "AI for Drug Discovery (Study 49)",
+    "agency_id": 1,
+    "amount": 4900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 149,
+    "title": "Quantum Machine Learning Applications (Study 50)",
+    "agency_id": 1,
+    "amount": 5000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 150,
+    "title": "Deep Learning for Protein Structure Prediction (Study 51)",
+    "agency_id": 1,
+    "amount": 5100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 151,
+    "title": "Quantum Computing Architectures (Study 52)",
+    "agency_id": 1,
+    "amount": 5200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 152,
+    "title": "Climate Change Mitigation Strategies (Study 53)",
+    "agency_id": 1,
+    "amount": 5300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 153,
+    "title": "Novel Cancer Immunotherapies (Study 54)",
+    "agency_id": 1,
+    "amount": 5400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 154,
+    "title": "Renewable Energy Storage Systems (Study 55)",
+    "agency_id": 1,
+    "amount": 5500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 155,
+    "title": "Autonomous Vehicle Safety (Study 56)",
+    "agency_id": 1,
+    "amount": 5600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 156,
+    "title": "Brain-Computer Interfaces (Study 57)",
+    "agency_id": 1,
+    "amount": 5700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 157,
+    "title": "Sustainable Agriculture Practices (Study 58)",
+    "agency_id": 1,
+    "amount": 5800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 158,
+    "title": "AI for Drug Discovery (Study 59)",
+    "agency_id": 1,
+    "amount": 5900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 159,
+    "title": "Quantum Machine Learning Applications (Study 60)",
+    "agency_id": 1,
+    "amount": 6000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 160,
+    "title": "Deep Learning for Protein Structure Prediction (Study 61)",
+    "agency_id": 1,
+    "amount": 6100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 161,
+    "title": "Quantum Computing Architectures (Study 62)",
+    "agency_id": 1,
+    "amount": 6200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 162,
+    "title": "Climate Change Mitigation Strategies (Study 63)",
+    "agency_id": 1,
+    "amount": 6300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 163,
+    "title": "Novel Cancer Immunotherapies (Study 64)",
+    "agency_id": 1,
+    "amount": 6400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 164,
+    "title": "Renewable Energy Storage Systems (Study 65)",
+    "agency_id": 1,
+    "amount": 6500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 165,
+    "title": "Autonomous Vehicle Safety (Study 66)",
+    "agency_id": 1,
+    "amount": 6600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 166,
+    "title": "Brain-Computer Interfaces (Study 67)",
+    "agency_id": 1,
+    "amount": 6700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 167,
+    "title": "Sustainable Agriculture Practices (Study 68)",
+    "agency_id": 1,
+    "amount": 6800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 168,
+    "title": "AI for Drug Discovery (Study 69)",
+    "agency_id": 1,
+    "amount": 6900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 169,
+    "title": "Quantum Machine Learning Applications (Study 70)",
+    "agency_id": 1,
+    "amount": 7000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 170,
+    "title": "Deep Learning for Protein Structure Prediction (Study 71)",
+    "agency_id": 1,
+    "amount": 7100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 171,
+    "title": "Quantum Computing Architectures (Study 72)",
+    "agency_id": 1,
+    "amount": 7200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 172,
+    "title": "Climate Change Mitigation Strategies (Study 73)",
+    "agency_id": 1,
+    "amount": 7300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 173,
+    "title": "Novel Cancer Immunotherapies (Study 74)",
+    "agency_id": 1,
+    "amount": 7400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 174,
+    "title": "Renewable Energy Storage Systems (Study 75)",
+    "agency_id": 1,
+    "amount": 7500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 175,
+    "title": "Autonomous Vehicle Safety (Study 76)",
+    "agency_id": 1,
+    "amount": 7600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 176,
+    "title": "Brain-Computer Interfaces (Study 77)",
+    "agency_id": 1,
+    "amount": 7700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 177,
+    "title": "Sustainable Agriculture Practices (Study 78)",
+    "agency_id": 1,
+    "amount": 7800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 178,
+    "title": "AI for Drug Discovery (Study 79)",
+    "agency_id": 1,
+    "amount": 7900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 179,
+    "title": "Quantum Machine Learning Applications (Study 80)",
+    "agency_id": 1,
+    "amount": 8000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 180,
+    "title": "Deep Learning for Protein Structure Prediction (Study 81)",
+    "agency_id": 1,
+    "amount": 8100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 181,
+    "title": "Quantum Computing Architectures (Study 82)",
+    "agency_id": 1,
+    "amount": 8200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 182,
+    "title": "Climate Change Mitigation Strategies (Study 83)",
+    "agency_id": 1,
+    "amount": 8300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 183,
+    "title": "Novel Cancer Immunotherapies (Study 84)",
+    "agency_id": 1,
+    "amount": 8400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 184,
+    "title": "Renewable Energy Storage Systems (Study 85)",
+    "agency_id": 1,
+    "amount": 8500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 185,
+    "title": "Autonomous Vehicle Safety (Study 86)",
+    "agency_id": 1,
+    "amount": 8600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 186,
+    "title": "Brain-Computer Interfaces (Study 87)",
+    "agency_id": 1,
+    "amount": 8700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 187,
+    "title": "Sustainable Agriculture Practices (Study 88)",
+    "agency_id": 1,
+    "amount": 8800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 188,
+    "title": "AI for Drug Discovery (Study 89)",
+    "agency_id": 1,
+    "amount": 8900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 189,
+    "title": "Quantum Machine Learning Applications (Study 90)",
+    "agency_id": 1,
+    "amount": 9000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 190,
+    "title": "Deep Learning for Protein Structure Prediction (Study 91)",
+    "agency_id": 1,
+    "amount": 9100000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 191,
+    "title": "Quantum Computing Architectures (Study 92)",
+    "agency_id": 1,
+    "amount": 9200000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 192,
+    "title": "Climate Change Mitigation Strategies (Study 93)",
+    "agency_id": 1,
+    "amount": 9300000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 193,
+    "title": "Novel Cancer Immunotherapies (Study 94)",
+    "agency_id": 1,
+    "amount": 9400000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 194,
+    "title": "Renewable Energy Storage Systems (Study 95)",
+    "agency_id": 1,
+    "amount": 9500000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 195,
+    "title": "Autonomous Vehicle Safety (Study 96)",
+    "agency_id": 1,
+    "amount": 9600000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 196,
+    "title": "Brain-Computer Interfaces (Study 97)",
+    "agency_id": 1,
+    "amount": 9700000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 197,
+    "title": "Sustainable Agriculture Practices (Study 98)",
+    "agency_id": 1,
+    "amount": 9800000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 198,
+    "title": "AI for Drug Discovery (Study 99)",
+    "agency_id": 1,
+    "amount": 9900000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "id": 199,
+    "title": "Quantum Machine Learning Applications (Study 100)",
+    "agency_id": 1,
+    "amount": 10000000,
+    "start_date": "2023-01-01",
+    "end_date": "2026-12-31"
+  }
+]
