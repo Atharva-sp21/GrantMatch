@@ -33,12 +33,12 @@ python build_edges.py            # ~1 min (builds edge CSVs)
 ### 3. `build_files.py`
 - Transforms raw data into final JSON format
 - **Critical**: Ensures integer IDs match array indices
-- Generates topics (derived from grant keywords)
+- Derives topics deterministically from OpenAlex concepts and grant text
 - Outputs: `researchers.json`, `institutions.json`, `agencies.json`, `grants.json`, `topics.json`
 
 ### 4. `build_edges.py`
 - Creates all 5 edge relationship types
-- Generates CSV files with source/target integer IDs
+- Generates CSV files with source/target integer IDs using API-derived name/topic matches
 - Outputs: `affiliated.csv`, `researches.csv`, `received_past.csv`, `funds_topic.csv`, `provides.csv`
 
 ## Data Files
@@ -83,5 +83,5 @@ The graph loads directly from these integer IDs as array indices.
 
 - All APIs are free - no authentication required
 - Rate limiting is built in (0.1s between API calls)
-- Synthetic data generation for topics and edges (use your own extraction if available)
-- Remove the symlink in the fetch scripts if you only want JSON (no research notebooks)
+- The pipeline is strict: if an API returns no data, it fails instead of fabricating sample records
+- Topics and edges are derived deterministically from API fields, not random sampling

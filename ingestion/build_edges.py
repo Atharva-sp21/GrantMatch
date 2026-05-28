@@ -1,159 +1,189 @@
-import json
 import csv
-import random
+import difflib
+import html
+import json
+import os
+import re
+from collections import defaultdict
 from pathlib import Path
+from typing import Any, Dict, Iterable, List, Sequence, Set, Tuple
+
+
+def normalize_text(text: Any) -> str:
+    cleaned = html.unescape(str(text or "")).lower()
+    cleaned = re.sub(r"<[^>]+>", " ", cleaned)
+    cleaned = re.sub(r"[^a-z0-9]+", " ", cleaned)
+    return re.sub(r"\s+", " ", cleaned).strip()
+
+
+def token_terms(text: Any) -> Set[str]:
+    words = [word for word in re.findall(r"[a-z0-9]+", normalize_text(text)) if len(word) > 2]
+    terms = set(words)
+    for index in range(len(words) - 1):
+        terms.add(f"{words[index]} {words[index + 1]}")
+    return terms
+
 
 def load_json_files():
-    """Load the built JSON files."""
-    data_dir = Path('../data/raw/')
+    data_dir = Path(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "raw")))
 
-    with open(data_dir / 'researchers.json', 'r') as f:
-        researchers = json.load(f)
+    def _read(name: str):
+        with open(data_dir / name, "r", encoding="utf-8") as handle:
+            return json.load(handle)
 
-    with open(data_dir / 'institutions.json', 'r') as f:
-        institutions = json.load(f)
+    return _read("researchers.json"), _read("institutions.json"), _read("agencies.json"), _read("grants.json"), _read("topics.json")
 
-    with open(data_dir / 'agencies.json', 'r') as f:
-        agencies = json.load(f)
 
-    with open(data_dir / 'grants.json', 'r') as f:
-        grants = json.load(f)
+def _name_variants(name: str) -> Set[str]:
+    normalized = normalize_text(name)
+    variants = {normalized}
+    if "," in name:
+        parts = [part.strip() for part in name.split(",") if part.strip()]
+        if len(parts) >= 2:
+            variants.add(normalize_text(" ".join(parts[1:] + parts[:1])))
+    tokens = normalized.split()
+    if len(tokens) >= 2:
+        variants.add(f"{tokens[0]} {tokens[-1]}")
+        variants.add(" ".join(tokens[:2]))
+        variants.add(" ".join(tokens[-2:]))
+        variants.add(tokens[-1])
+        variants.add(f"{tokens[0][0]} {tokens[-1]}")
+    return {variant for variant in variants if variant}
 
-    with open(data_dir / 'topics.json', 'r') as f:
-        topics = json.load(f)
 
-    return researchers, institutions, agencies, grants, topics
+def _build_researcher_name_index(researchers: Sequence[Dict[str, Any]]) -> Dict[str, Set[int]]:
+    index: Dict[str, Set[int]] = defaultdict(set)
+    for researcher in researchers:
+        names = [researcher.get("name", ""), *researcher.get("aliases", [])]
+        for name in names:
+            for variant in _name_variants(name):
+                index[variant].add(researcher["id"])
+    return index
+
+
+def _match_researcher_ids(name: str, name_index: Dict[str, Set[int]]) -> Set[int]:
+    variants = list(_name_variants(name))
+    matches: Set[int] = set()
+    for variant in variants:
+        if variant in name_index:
+            matches.update(name_index[variant])
+
+    if matches:
+        return matches
+
+    candidate_names = list(name_index.keys())
+    for variant in variants:
+        close_matches = difflib.get_close_matches(variant, candidate_names, n=5, cutoff=0.78)
+        for close_match in close_matches:
+            matches.update(name_index[close_match])
+    return matches
 
 
 def build_affiliated_edges(researchers):
-    """
-    Build AFFILIATED_WITH edges (researcher -> institution).
-    Each researcher has one affiliation.
-    """
     edges = []
+    for researcher in researchers:
+        institution_id = researcher.get("institution_id")
+        if institution_id is not None:
+            edges.append({"source_id": researcher["id"], "target_id": institution_id})
 
-    for r in researchers:
-        if r['institution_id'] is not None:
-            edges.append({
-                'source_id': r['id'],
-                'target_id': r['institution_id'],
-            })
-
-    print(f"✓ Built {len(edges)} AFFILIATED_WITH edges")
+    print(f"[OK] Built {len(edges)} AFFILIATED_WITH edges")
     return edges
 
 
 def build_researches_edges(researchers, topics):
-    """
-    Build RESEARCHES edges (researcher -> topic).
-    Each researcher researches 1-3 topics.
-    """
     edges = []
-    topic_ids = [t['id'] for t in topics]
+    topic_lookup = {normalize_text(topic["name"]): topic["id"] for topic in topics}
 
-    for r in researchers:
-        # Probabilistic assignment: researchers typically focus on 1-3 areas
-        num_topics = random.randint(1, min(3, len(topic_ids)))
-        assigned_topics = random.sample(topic_ids, num_topics)
+    for researcher in researchers:
+        matched_topic_ids = set()
+        for concept in researcher.get("concepts", []):
+            if isinstance(concept, dict):
+                concept_name = concept.get("name") or concept.get("display_name") or ""
+            else:
+                concept_name = str(concept)
+            for term in token_terms(concept_name):
+                topic_id = topic_lookup.get(normalize_text(term))
+                if topic_id is not None:
+                    matched_topic_ids.add(topic_id)
 
-        for topic_id in assigned_topics:
-            edges.append({
-                'source_id': r['id'],
-                'target_id': topic_id,
-            })
+        for topic_id in sorted(matched_topic_ids):
+            edges.append({"source_id": researcher["id"], "target_id": topic_id})
 
-    print(f"✓ Built {len(edges)} RESEARCHES edges")
+    print(f"[OK] Built {len(edges)} RESEARCHES edges")
     return edges
 
 
 def build_received_past_edges(researchers, grants):
-    """
-    Build RECEIVED_PAST edges (researcher -> grant).
-    Critical: Only researchers with h_index >= 5 receive grants.
-    """
     edges = []
+    researcher_index = _build_researcher_name_index(researchers)
+    seen_pairs = set()
 
-    for r in researchers:
-        if r['h_index'] >= 5:
-            # More prolific researchers get more grants
-            num_grants = min(random.randint(0, r['h_index'] // 3), len(grants))
-            assigned_grants = random.sample(range(len(grants)), num_grants)
+    for grant in grants:
+        matched_ids = set()
+        for investigator in grant.get("investigators", []):
+            matched_ids.update(_match_researcher_ids(investigator, researcher_index))
 
-            for grant_id in assigned_grants:
-                edges.append({
-                    'source_id': r['id'],
-                    'target_id': grant_id,
-                })
+        for researcher_id in sorted(matched_ids):
+            pair = (researcher_id, grant["id"])
+            if pair in seen_pairs:
+                continue
+            seen_pairs.add(pair)
+            edges.append({"source_id": researcher_id, "target_id": grant["id"]})
 
-    print(f"✓ Built {len(edges)} RECEIVED_PAST edges")
+    print(f"[OK] Built {len(edges)} RECEIVED_PAST edges")
     return edges
 
 
 def build_funds_topic_edges(grants, topics):
-    """
-    Build FUNDS_TOPIC edges (grant -> topic).
-    Each grant funds 1-2 topics.
-    """
     edges = []
-    topic_ids = [t['id'] for t in topics]
+    topic_lookup = {normalize_text(topic["name"]): topic["id"] for topic in topics}
 
-    for g in grants:
-        num_topics = random.randint(1, min(2, len(topic_ids)))
-        assigned_topics = random.sample(topic_ids, num_topics)
+    for grant in grants:
+        grant_text = " ".join(filter(None, [grant.get("title", ""), grant.get("abstract", "")]))
+        matched_topic_ids = set()
+        for term in token_terms(grant_text):
+            topic_id = topic_lookup.get(normalize_text(term))
+            if topic_id is not None:
+                matched_topic_ids.add(topic_id)
 
-        for topic_id in assigned_topics:
-            edges.append({
-                'source_id': g['id'],
-                'target_id': topic_id,
-            })
+        for topic_id in sorted(matched_topic_ids):
+            edges.append({"source_id": grant["id"], "target_id": topic_id})
 
-    print(f"✓ Built {len(edges)} FUNDS_TOPIC edges")
+    print(f"[OK] Built {len(edges)} FUNDS_TOPIC edges")
     return edges
 
 
 def build_provides_edges(agencies, grants):
-    """
-    Build PROVIDES edges (agency -> grant).
-    Each grant is provided by exactly one agency.
-    """
     edges = []
+    for grant in grants:
+        edges.append({"source_id": grant["agency_id"], "target_id": grant["id"]})
 
-    for g in grants:
-        edges.append({
-            'source_id': g['agency_id'],
-            'target_id': g['id'],
-        })
-
-    print(f"✓ Built {len(edges)} PROVIDES edges")
+    print(f"[OK] Built {len(edges)} PROVIDES edges")
     return edges
 
 
 def save_edge_csvs(affiliated, researches, received, funds, provides):
-    """
-    Save all edge files as CSVs to data/raw/.
-    Format: source_id,target_id
-    """
-    output_dir = Path('../data/raw/')
+    output_dir = Path(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "raw")))
 
     edge_files = {
-        'affiliated.csv': affiliated,
-        'researches.csv': researches,
-        'received_past.csv': received,
-        'funds_topic.csv': funds,
-        'provides.csv': provides,
+        "affiliated.csv": affiliated,
+        "researches.csv": researches,
+        "received_past.csv": received,
+        "funds_topic.csv": funds,
+        "provides.csv": provides,
     }
 
     for filename, edges in edge_files.items():
         filepath = output_dir / filename
-        with open(filepath, 'w', newline='') as f:
-            writer = csv.DictWriter(f, fieldnames=['source_id', 'target_id'])
+        with open(filepath, "w", newline="", encoding="utf-8") as handle:
+            writer = csv.DictWriter(handle, fieldnames=["source_id", "target_id"])
             writer.writeheader()
             writer.writerows(edges)
-        print(f"✓ Saved {filepath} ({len(edges)} edges)")
+        print(f"[OK] Saved {filepath} ({len(edges)} edges)")
 
 
 if __name__ == "__main__":
-    print("🔄 Building edge CSV files...")
+    print("[INFO] Building edge CSV files...")
 
     researchers, institutions, agencies, grants, topics = load_json_files()
 
@@ -165,11 +195,10 @@ if __name__ == "__main__":
 
     save_edge_csvs(affiliated, researches, received, funds, provides)
 
-    print("\n✓ All edge CSVs created successfully!")
-    print("\n📊 Edge Summary:")
-    print(f"  AFFILIATED_WITH (researcher -> institution): {len(affiliated)}")
-    print(f"  RESEARCHES (researcher -> topic): {len(researches)}")
-    print(f"  RECEIVED_PAST (researcher -> grant): {len(received)}")
-    print(f"  FUNDS_TOPIC (grant -> topic): {len(funds)}")
-    print(f"  PROVIDES (agency -> grant): {len(provides)}")
-    print(f"  Total edges: {sum([len(affiliated), len(researches), len(received), len(funds), len(provides)])}")
+    print("\n[OK] All edge CSVs created successfully")
+    print(f"  AFFILIATED_WITH: {len(affiliated)}")
+    print(f"  RESEARCHES: {len(researches)}")
+    print(f"  RECEIVED_PAST: {len(received)}")
+    print(f"  FUNDS_TOPIC: {len(funds)}")
+    print(f"  PROVIDES: {len(provides)}")
+    print(f"  Total edges: {sum(len(group) for group in [affiliated, researches, received, funds, provides])}")

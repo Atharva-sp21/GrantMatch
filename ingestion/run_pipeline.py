@@ -1,29 +1,21 @@
 #!/usr/bin/env python3
-"""
-Simple script to run the entire ingestion pipeline in order.
-Works on Windows, macOS, and Linux.
-"""
+"""Run the ingestion pipeline in order."""
 
+import os
 import subprocess
 import sys
-import os
 
-def run_command(cmd, description):
-    """Run a shell command and report status."""
-    print(f"\n{'='*60}")
+
+def run_command(command: str, description: str) -> bool:
+    print(f"\n{'=' * 60}")
     print(f">> {description}")
-    print(f"{'='*60}")
-
+    print(f"{'=' * 60}")
     try:
-        result = subprocess.run(cmd, shell=True, check=True)
-        if result.returncode != 0:
-            print(f"[ERROR] {description} failed with code {result.returncode}")
-            return False
-    except subprocess.CalledProcessError as e:
-        print(f"[ERROR] {description} failed: {e}")
+        subprocess.run(command, shell=True, check=True)
+        return True
+    except subprocess.CalledProcessError as exc:
+        print(f"[ERROR] {description} failed: {exc}")
         return False
-
-    return True
 
 
 def main():
@@ -31,45 +23,25 @@ def main():
     print("GrantMatch Data Ingestion Pipeline")
     print("=" * 60)
 
-    # Change to script directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
     os.chdir(script_dir)
 
     steps = [
-        ("pip install -q -r requirements.txt", "Installing dependencies"),
-        ("python fetch_researchers.py", "Fetching researchers from OpenAlex"),
-        ("python fetch_grants.py", "Fetching grants from NIH & NSF"),
-        ("python build_files.py", "Building JSON files with integer IDs"),
-        ("python build_edges.py", "Building edge CSV files"),
+        ("python fetch_researchers.py", "Fetching OpenAlex researchers"),
+        ("python fetch_grants.py", "Fetching NIH grants"),
+        ("python build_files.py", "Building normalized node files"),
+        ("python build_edges.py", "Building graph edge files"),
     ]
 
-    completed = 0
-    for cmd, description in steps:
-        if run_command(cmd, description):
-            completed += 1
-        else:
-            print(f"\n[ERROR] Pipeline stopped at step {completed + 1}")
+    for index, (command, description) in enumerate(steps, start=1):
+        if not run_command(command, description):
+            print(f"\n[ERROR] Pipeline stopped at step {index}")
             sys.exit(1)
 
-    print(f"\n{'='*60}")
-    print("[DONE] Pipeline complete!")
-    print(f"{'='*60}")
-    print("Data files ready in ../data/raw/")
-    print("\nGenerated files:")
-    print("  - researchers.json")
-    print("  - institutions.json")
-    print("  - agencies.json")
-    print("  - grants.json")
-    print("  - topics.json")
-    print("  - affiliated.csv")
-    print("  - researches.csv")
-    print("  - received_past.csv")
-    print("  - funds_topic.csv")
-    print("  - provides.csv")
-    print("\nNext steps:")
-    print("  1. Review the data files")
-    print("  2. Load them in your graph builder")
-    print("  3. Train your model!")
+    print(f"\n{'=' * 60}")
+    print("[DONE] Ingestion pipeline complete")
+    print(f"{'=' * 60}")
+    print("Data files are ready in data/raw/")
 
 
 if __name__ == "__main__":

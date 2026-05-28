@@ -2,13 +2,8 @@
   {
     "id": 0,
     "name": "NIH",
-    "grant_count": 50,
-    "total_funding": 250000000
-  },
-  {
-    "id": 1,
-    "name": "NSF",
-    "grant_count": 150,
-    "total_funding": 760000000
+    "grant_count": 2000,
+    "total_funding": 1405160462.0,
+    "average_grant_size": 702580.231
   }
 ]

@@ -1,43 +1,33 @@
 import torch
 from torch_geometric.data import HeteroData
 
+
 def build_graph(researchers, institutions, topics, grants, agencies):
     data = HeteroData()
-
-    # ── Node features (only add non-empty node types) ──────────────────
-    if len(researchers) > 0:
-        data['researcher'].x = researchers   # [N_r, 9]
-    if len(institutions) > 0:
-        data['institution'].x = institutions  # [N_i, 5]
-    if len(topics) > 0:
-        data['topic'].x = topics        # [N_t, 5]
-    if len(grants) > 0:
-        data['grant'].x = grants        # [N_g, 7]
-    if len(agencies) > 0:
-        data['agency'].x = agencies      # [N_a, 4]
-
+    data["researcher"].x = researchers
+    data["institution"].x = institutions
+    data["topic"].x = topics
+    data["grant"].x = grants
+    data["agency"].x = agencies
     return data
 
+
+def _empty_edge_index():
+    return torch.zeros(2, 0, dtype=torch.long)
+
+
+def _set_edge_pair(data, src_type, relation, dst_type, edge_index):
+    if edge_index is None:
+        edge_index = _empty_edge_index()
+    data[(src_type, relation, dst_type)].edge_index = edge_index
+    reverse_relation = f"REV_{relation}"
+    data[(dst_type, reverse_relation, src_type)].edge_index = edge_index.flip(0) if edge_index.numel() else _empty_edge_index()
+
+
 def add_edges(data, affiliated, researches, received, funds, provides):
-    # Only add edges if both node types exist
-    if 'researcher' in data.node_types and 'institution' in data.node_types:
-        if affiliated.shape[1] > 0:
-            data['researcher', 'AFFILIATED_WITH', 'institution'].edge_index = affiliated
-
-    if 'researcher' in data.node_types and 'topic' in data.node_types:
-        if researches.shape[1] > 0:
-            data['researcher', 'RESEARCHES', 'topic'].edge_index = researches
-
-    if 'researcher' in data.node_types and 'grant' in data.node_types:
-        if received.shape[1] > 0:
-            data['researcher', 'RECEIVED_PAST', 'grant'].edge_index = received
-
-    if 'grant' in data.node_types and 'topic' in data.node_types:
-        if funds.shape[1] > 0:
-            data['grant', 'FUNDS_TOPIC', 'topic'].edge_index = funds
-
-    if 'agency' in data.node_types and 'grant' in data.node_types:
-        if provides.shape[1] > 0:
-            data['agency', 'PROVIDES', 'grant'].edge_index = provides
-
+    _set_edge_pair(data, "researcher", "AFFILIATED_WITH", "institution", affiliated)
+    _set_edge_pair(data, "researcher", "RESEARCHES", "topic", researches)
+    _set_edge_pair(data, "researcher", "RECEIVED_PAST", "grant", received)
+    _set_edge_pair(data, "grant", "FUNDS_TOPIC", "topic", funds)
+    _set_edge_pair(data, "agency", "PROVIDES", "grant", provides)
     return data

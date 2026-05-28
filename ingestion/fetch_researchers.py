@@ -1,84 +1,219 @@
-import requests
+import html
 import json
+import os
+import re
 import time
-from collections import defaultdict
+from typing import Any, Dict, Iterable, List, Optional, Tuple
 
-def fetch_researchers(limit=1000):
-    """
-    Fetch researchers from OpenAlex API.
-    Returns list of researchers with institution affiliations.
-    No API key required - all requests free.
-    """
-    researchers = []
-    institution_ids = {}  # Map external IDs to our internal IDs
-    institution_counter = 0
+import requests
 
-    url = "https://api.openalex.org/authors"
+OPENALEX_URL = "https://api.openalex.org/authors"
+PAGE_SIZE = 200
+REQUEST_TIMEOUT = 30
+DEFAULT_LIMIT = 3000
+
+
+def _clean_text(value: Any) -> str:
+    if value is None:
+        return ""
+    text = html.unescape(str(value))
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def _name_variants(name: str) -> List[str]:
+    normalized = _clean_text(name)
+    if not normalized:
+        return []
+
+    variants = {normalized}
+    if "," in normalized:
+        parts = [part.strip() for part in normalized.split(",") if part.strip()]
+        if len(parts) >= 2:
+            variants.add(_clean_text(" ".join(parts[1:] + parts[:1])))
+
+    tokens = normalized.split()
+    if len(tokens) >= 2:
+        variants.add(" ".join(tokens[:2]))
+        variants.add(" ".join(tokens[-2:]))
+        variants.add(tokens[-1])
+        variants.add(f"{tokens[0][0]} {tokens[-1]}")
+
+    return sorted(variant for variant in variants if variant)
+
+
+def _extract_aliases(result: Dict[str, Any]) -> List[str]:
+    aliases: List[str] = []
+    raw_aliases = result.get("display_name_alternatives") or []
+    if isinstance(raw_aliases, str):
+        raw_aliases = [raw_aliases]
+
+    for alias in [result.get("display_name") or "", *raw_aliases]:
+        aliases.extend(_name_variants(alias))
+
+    unique_aliases: List[str] = []
+    seen = set()
+    for alias in aliases:
+        normalized = alias.strip()
+        if normalized and normalized not in seen:
+            seen.add(normalized)
+            unique_aliases.append(normalized)
+    return unique_aliases
+
+
+def _extract_concepts(result: Dict[str, Any], limit: int = 12) -> List[Dict[str, Any]]:
+    concepts: List[Dict[str, Any]] = []
+    for concept in result.get("x_concepts", [])[:limit]:
+        if not isinstance(concept, dict):
+            continue
+        name = concept.get("display_name") or concept.get("name")
+        if not name:
+            continue
+        concepts.append(
+            {
+                "name": _clean_text(name),
+                "score": float(concept.get("score", 0.0) or 0.0),
+            }
+        )
+    return concepts
+
+
+def _iter_institution_candidates(result: Dict[str, Any]) -> List[Dict[str, Any]]:
+    candidates: List[Dict[str, Any]] = []
+
+    def _append(value: Any) -> None:
+        if isinstance(value, list):
+            for item in value:
+                _append(item)
+            return
+        if not isinstance(value, dict):
+            return
+        nested = value.get("institution") if isinstance(value.get("institution"), dict) else None
+        candidate = nested or value
+        if isinstance(candidate, dict):
+            candidates.append(candidate)
+
+    _append(result.get("affiliations"))
+    _append(result.get("last_known_institution"))
+    _append(result.get("last_known_institutions"))
+    _append(result.get("institutions"))
+
+    unique: List[Dict[str, Any]] = []
+    seen = set()
+    for candidate in candidates:
+        candidate_id = candidate.get("id") or candidate.get("ror") or candidate.get("display_name")
+        if not candidate_id or candidate_id in seen:
+            continue
+        seen.add(candidate_id)
+        unique.append(candidate)
+    return unique
+
+
+def _register_institution(mapping: Dict[str, Dict[str, Any]], candidate: Dict[str, Any]) -> Optional[int]:
+    institution_id = candidate.get("id") or candidate.get("openalex_id") or candidate.get("ror")
+    if not institution_id:
+        return None
+
+    if institution_id not in mapping:
+        mapping[institution_id] = {
+            "id": len(mapping),
+            "openalex_id": candidate.get("id") or "",
+            "ror": candidate.get("ror") or "",
+            "name": _clean_text(candidate.get("display_name") or candidate.get("name") or ""),
+            "country_code": candidate.get("country_code") or "",
+            "type": candidate.get("type") or "",
+        }
+
+    return mapping[institution_id]["id"]
+
+
+def _choose_primary_institution(result: Dict[str, Any], institution_mapping: Dict[str, Dict[str, Any]]) -> Tuple[Optional[int], Optional[str], Optional[str]]:
+    for candidate in _iter_institution_candidates(result):
+        internal_id = _register_institution(institution_mapping, candidate)
+        if internal_id is not None:
+            return internal_id, candidate.get("id") or candidate.get("ror"), _clean_text(candidate.get("display_name") or candidate.get("name") or "")
+    return None, None, None
+
+
+def fetch_researchers(limit: int = 1000):
+    """Fetch real researcher profiles from OpenAlex."""
+    researchers: List[Dict[str, Any]] = []
+    institution_mapping: Dict[str, Dict[str, Any]] = {}
+
+    session = requests.Session()
     params = {
-        "per_page": 100,
-        "page": 1,
-        "sort": "works_count:desc"  # Get most prolific researchers first
+        "per-page": PAGE_SIZE,
+        "cursor": "*",
+        "sort": "cited_by_count:desc",
     }
 
     print("[INFO] Fetching researchers from OpenAlex...")
 
     while len(researchers) < limit:
-        try:
-            response = requests.get(url, params=params, timeout=10)
-            response.raise_for_status()
-            data = response.json()
-
-            if not data.get('results'):
-                print(f"[OK] Fetched {len(researchers)} researchers total")
-                break
-
-            for result in data['results']:
-                if len(researchers) >= limit:
-                    break
-
-                # Get primary affiliation
-                affiliation_id = None
-                if result.get('last_known_institution'):
-                    ext_id = result['last_known_institution']['id']
-                    if ext_id not in institution_ids:
-                        institution_ids[ext_id] = institution_counter
-                        institution_counter += 1
-                    affiliation_id = institution_ids[ext_id]
-
-                researcher = {
-                    'id': len(researchers),  # Must match array index
-                    'openalex_id': result['id'],
-                    'name': result['display_name'],
-                    'institution_id': affiliation_id,
-                    'works_count': result['works_count'],
-                    'cited_by_count': result['cited_by_count'],
-                    'h_index': result.get('summary_stats', {}).get('h_index', 0),
-                    'i10_index': result.get('summary_stats', {}).get('i10_index', 0),
-                    'last_known_institution': result.get('last_known_institution', {}).get('display_name')
-                }
-                researchers.append(researcher)
-
-            params['page'] += 1
-            time.sleep(0.1)  # Respectful rate limiting
-
-        except requests.exceptions.RequestException as e:
-            print(f"[ERROR] Error fetching page {params['page']}: {e}")
+        response = session.get(OPENALEX_URL, params=params, timeout=REQUEST_TIMEOUT)
+        if response.status_code >= 400:
+            raise RuntimeError(
+                f"OpenAlex request failed with {response.status_code}: {response.text[:500]}"
+            )
+        response.raise_for_status()
+        data = response.json()
+        results = data.get("results", [])
+        if not results:
             break
 
-    print(f"[OK] Fetched {len(researchers)} researchers")
-    print(f"[OK] Found {len(institution_ids)} institutions")
+        for result in results:
+            if len(researchers) >= limit:
+                break
 
-    return researchers, institution_ids
+            institution_id, institution_external_id, institution_name = _choose_primary_institution(result, institution_mapping)
+            summary_stats = result.get("summary_stats") or {}
+            aliases = _extract_aliases(result)
+
+            researcher = {
+                "id": len(researchers),
+                "openalex_id": result.get("id") or "",
+                "name": _clean_text(result.get("display_name") or ""),
+                "aliases": aliases,
+                "institution_id": institution_id,
+                "institution_openalex_id": institution_external_id or "",
+                "institution_name": institution_name or "",
+                "works_count": int(result.get("works_count", 0) or 0),
+                "cited_by_count": int(result.get("cited_by_count", 0) or 0),
+                "h_index": int(summary_stats.get("h_index", 0) or 0),
+                "i10_index": int(summary_stats.get("i10_index", 0) or 0),
+                "concepts": _extract_concepts(result),
+            }
+            researchers.append(researcher)
+
+        next_cursor = (data.get("meta") or {}).get("next_cursor")
+        if not next_cursor:
+            break
+        params["cursor"] = next_cursor
+        time.sleep(0.05)
+
+    if not researchers:
+        raise RuntimeError("OpenAlex returned no researcher records.")
+
+    print(f"[OK] Fetched {len(researchers)} researchers")
+    print(f"[OK] Found {len(institution_mapping)} institutions")
+    return researchers, institution_mapping
 
 
 if __name__ == "__main__":
-    researchers, institutions = fetch_researchers(limit=1000)
+    output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "raw"))
+    os.makedirs(output_dir, exist_ok=True)
 
-    # Save for next step
-    with open('../data/raw/researchers_raw.json', 'w') as f:
-        json.dump(researchers, f, indent=2)
+    researchers, institution_mapping = fetch_researchers(limit=DEFAULT_LIMIT)
 
-    with open('../data/raw/institution_mapping.json', 'w') as f:
-        json.dump(institutions, f, indent=2)
+    researchers_path = os.path.join(output_dir, "researchers_raw.json")
+    institutions_path = os.path.join(output_dir, "institution_mapping.json")
 
-    print("[OK] Saved researchers_raw.json and institution_mapping.json")
+    with open(researchers_path, "w", encoding="utf-8") as handle:
+        json.dump(researchers, handle, indent=2)
+
+    with open(institutions_path, "w", encoding="utf-8") as handle:
+        json.dump(institution_mapping, handle, indent=2)
+
+    print(f"[OK] Saved {researchers_path}")
+    print(f"[OK] Saved {institutions_path}")

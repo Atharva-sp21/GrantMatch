@@ -1,173 +1,200 @@
-import requests
+import html
 import json
-import time
-from datetime import datetime
+import os
+import re
+from typing import Any, Dict, Iterable, List
 
-def generate_sample_grants(limit=100):
-    """Generate sample grants for testing when APIs are unavailable."""
-    sample_titles = [
-        "Deep Learning for Protein Structure Prediction",
-        "Quantum Computing Architectures",
-        "Climate Change Mitigation Strategies",
-        "Novel Cancer Immunotherapies",
-        "Renewable Energy Storage Systems",
-        "Autonomous Vehicle Safety",
-        "Brain-Computer Interfaces",
-        "Sustainable Agriculture Practices",
-        "AI for Drug Discovery",
-        "Quantum Machine Learning Applications"
-    ]
+import requests
 
-    grants = []
-    for i in range(min(limit, 100)):
-        grant = {
-            'id': i,
-            'title': sample_titles[i % len(sample_titles)] + f" (Study {i+1})",
-            'agency_id': i % 2,  # NIH or NSF
-            'amount': (i + 1) * 100000,
-            'start_date': '2023-01-01',
-            'end_date': '2026-12-31',
-        }
-        grants.append(grant)
-
-    return grants
+NIH_URL = "https://api.reporter.nih.gov/v2/projects/search"
+NIH_PAGE_SIZE = 100
+REQUEST_TIMEOUT = 30
+DEFAULT_LIMIT = 2000
 
 
-def fetch_nih_grants(limit=500):
-    """
-    Fetch grants from NIH Reporter API.
-    Falls back to sample data if API fails.
-    """
-    grants = []
-    agency_ids = {}
-    agency_counter = 0
+def _ensure_agency(agencies_dict: Dict[str, int], agency_name: str) -> int:
+    if agency_name not in agencies_dict:
+        agencies_dict[agency_name] = len(agencies_dict)
+    return agencies_dict[agency_name]
 
-    base_url = "https://reporter.nih.gov/api/v2/research_projects/search"
 
-    print("🔍 Fetching NIH grants...")
+def _clean_text(value: Any) -> str:
+    if value is None:
+        return ""
+    text = html.unescape(str(value))
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
 
+
+def _to_float(value: Any) -> float:
+    if value in (None, ""):
+        return 0.0
+    if isinstance(value, (int, float)):
+        return float(value)
+    cleaned = re.sub(r"[^0-9.\-]", "", str(value))
     try:
+        return float(cleaned) if cleaned else 0.0
+    except ValueError:
+        return 0.0
+
+
+def _collect_names(value: Any) -> List[str]:
+    names: List[str] = []
+    if not value:
+        return names
+
+    if isinstance(value, str):
+        pieces = [piece.strip() for piece in re.split(r"[;|]", value)]
+        return [piece for piece in pieces if piece]
+
+    if isinstance(value, dict):
+        for key in (
+            "full_name",
+            "name",
+            "display_name",
+            "pi_name",
+            "principal_investigator_name",
+            "contact_pi_name",
+        ):
+            if value.get(key):
+                return _collect_names(value.get(key))
+        first_name = value.get("first_name")
+        last_name = value.get("last_name")
+        combined = " ".join(part for part in [first_name, last_name] if part)
+        return [combined] if combined else []
+
+    if isinstance(value, list):
+        for item in value:
+            names.extend(_collect_names(item))
+
+    return names
+
+
+def _extract_investigators(record: Dict[str, Any], keys: Iterable[str]) -> List[str]:
+    investigators: List[str] = []
+    seen = set()
+    for key in keys:
+        for name in _collect_names(record.get(key)):
+            normalized = " ".join(name.split())
+            if normalized and normalized not in seen:
+                seen.add(normalized)
+                investigators.append(normalized)
+    return investigators
+
+
+def _extract_text(record: Dict[str, Any], keys: Iterable[str]) -> str:
+    for key in keys:
+        value = record.get(key)
+        if isinstance(value, str) and value.strip():
+            return _clean_text(value)
+    return ""
+
+
+def _request_json(session: requests.Session, payload: Dict[str, Any]) -> Dict[str, Any]:
+    response = session.post(NIH_URL, json=payload, timeout=REQUEST_TIMEOUT)
+    if response.status_code >= 400:
+        raise RuntimeError(
+            f"NIH Reporter request failed with {response.status_code}: {response.text[:1000]}"
+        )
+    response.raise_for_status()
+    return response.json()
+
+
+def fetch_nih_grants(limit: int = 500):
+    """Fetch real grant records from NIH Reporter."""
+    grants: List[Dict[str, Any]] = []
+    agency_ids: Dict[str, int] = {}
+    agency_id = _ensure_agency(agency_ids, "NIH")
+
+    print("[INFO] Fetching NIH grants from Reporter...")
+
+    offset = 0
+    session = requests.Session()
+    while len(grants) < limit:
+        page_size = min(NIH_PAGE_SIZE, limit - len(grants))
         payload = {
-            "search_text": "*",
-            "offset": 0,
-            "limit": min(limit, 500),
+            "criteria": {
+                "include_active_projects": True,
+                "fiscal_years": [],
+                "use_relevance": False,
+            },
+            "offset": offset,
+            "limit": page_size,
             "sort_field": "project_end_date",
-            "sort_order": "desc"
+            "sort_order": "desc",
         }
 
-        response = requests.post(base_url, json=payload, timeout=15)
-        response.raise_for_status()
-        data = response.json()
+        data = _request_json(session, payload)
+        results = data.get("results", [])
+        if not results:
+            break
 
-        for result in data.get('results', [])[:limit]:
-            grant_id = len(grants)
+        for result in results:
+            if len(grants) >= limit:
+                break
 
-            if 'NIH' not in agency_ids:
-                agency_ids['NIH'] = agency_counter
-                agency_counter += 1
+            amount = _to_float(
+                result.get("total_cost")
+                or result.get("award_amount")
+                or result.get("project_total_cost")
+                or result.get("direct_cost")
+            )
+
+            title = _clean_text(result.get("project_title") or result.get("title") or "")
+            abstract = _extract_text(
+                result,
+                ("abstract_text", "project_abstract", "project_abstract_text", "abstract"),
+            )
 
             grant = {
-                'id': grant_id,
-                'nih_project_number': result.get('project_num', ''),
-                'title': result.get('project_title', ''),
-                'agency_id': agency_ids['NIH'],
-                'amount': result.get('total_cost', 0),
-                'start_date': result.get('project_start_date', ''),
-                'end_date': result.get('project_end_date', ''),
+                "id": len(grants),
+                "source": "NIH Reporter",
+                "nih_project_number": _clean_text(result.get("project_num") or result.get("project_number") or ""),
+                "title": title,
+                "agency_id": agency_id,
+                "amount": amount,
+                "start_date": _clean_text(result.get("project_start_date") or result.get("start_date") or ""),
+                "end_date": _clean_text(result.get("project_end_date") or result.get("end_date") or ""),
+                "investigators": _extract_investigators(
+                    result,
+                    (
+                        "principal_investigators",
+                        "project_investigators",
+                        "pi_names",
+                        "contact_pi_name",
+                        "investigator",
+                    ),
+                ),
+                "abstract": abstract,
             }
             grants.append(grant)
 
-        print(f"✓ Fetched {len(grants)} NIH grants")
+        offset += len(results)
+        if len(results) < page_size:
+            break
 
-    except requests.exceptions.RequestException as e:
-        print(f"⚠️  NIH API unavailable ({str(e)[:50]}...), using sample data")
-        if 'NIH' not in agency_ids:
-            agency_ids['NIH'] = 0
-        grants = generate_sample_grants(limit // 2)
+    if not grants:
+        raise RuntimeError("NIH Reporter returned no grant records.")
 
+    print(f"[OK] Fetched {len(grants)} NIH grant records")
     return grants, agency_ids
 
 
-def fetch_nsf_grants(limit=500, agencies_dict=None):
-    """
-    Fetch grants from NSF public data API.
-    Falls back to sample data if API fails.
-    """
-    if agencies_dict is None:
-        agencies_dict = {}
-
-    grants = []
-    agency_counter = len(agencies_dict)
-
-    base_url = "https://api.nsf.gov/services/v2/awards"
-
-    print("🔍 Fetching NSF grants...")
-
-    try:
-        if 'NSF' not in agencies_dict:
-            agencies_dict['NSF'] = agency_counter
-            agency_counter += 1
-
-        params = {
-            "filter": "fundProgramName:CISE",
-            "limit": min(limit, 25),
-            "offset": 0
-        }
-
-        response = requests.get(base_url, params=params, timeout=15)
-        response.raise_for_status()
-        data = response.json()
-
-        grant_id_offset = len(grants)
-        for i, result in enumerate(data.get('response', {}).get('award', [])[:limit]):
-            grant = {
-                'id': grant_id_offset + i,
-                'nsf_award_number': result.get('id', ''),
-                'title': result.get('title', ''),
-                'agency_id': agencies_dict['NSF'],
-                'amount': result.get('fundsObligatedAmt', 0),
-                'start_date': result.get('startDate', ''),
-                'end_date': result.get('expDate', ''),
-            }
-            grants.append(grant)
-
-        print(f"✓ Fetched {len(grants)} NSF grants")
-
-    except requests.exceptions.RequestException as e:
-        print(f"⚠️  NSF API unavailable ({str(e)[:50]}...), using sample data")
-        if 'NSF' not in agencies_dict:
-            agencies_dict['NSF'] = 1
-        sample = generate_sample_grants(limit // 2)
-        for g in sample:
-            g['agency_id'] = 1
-            g['id'] = len(grants)
-            grants.append(g)
-
-    return grants, agencies_dict
-
-
 if __name__ == "__main__":
-    nih_grants, agencies = fetch_nih_grants(limit=500)
-    nsf_grants, agencies = fetch_nsf_grants(limit=500, agencies_dict=agencies)
+    output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "raw"))
+    os.makedirs(output_dir, exist_ok=True)
 
-    # Combine and reassign IDs to ensure consistency
-    all_grants = nih_grants + nsf_grants
+    grants, agencies = fetch_nih_grants(limit=DEFAULT_LIMIT)
 
-    # If no grants fetched, use sample data
-    if len(all_grants) == 0:
-        print("⚠️  No grants from APIs, generating sample data...")
-        all_grants = generate_sample_grants(100)
-        agencies = {'NIH': 0, 'NSF': 1}
+    grants_path = os.path.join(output_dir, "grants_raw.json")
+    agencies_path = os.path.join(output_dir, "agency_mapping.json")
 
-    # Reassign IDs to match array indices
-    for i, grant in enumerate(all_grants):
-        grant['id'] = i
+    with open(grants_path, "w", encoding="utf-8") as handle:
+        json.dump(grants, handle, indent=2)
 
-    with open('../data/raw/grants_raw.json', 'w') as f:
-        json.dump(all_grants, f, indent=2)
+    with open(agencies_path, "w", encoding="utf-8") as handle:
+        json.dump(agencies, handle, indent=2)
 
-    with open('../data/raw/agency_mapping.json', 'w') as f:
-        json.dump(agencies, f, indent=2)
-
-    print(f"✓ Saved {len(all_grants)} total grants")
-    print(f"✓ Agencies: {list(agencies.keys())}")
+    print(f"[OK] Saved {grants_path}")
+    print(f"[OK] Saved {agencies_path}")

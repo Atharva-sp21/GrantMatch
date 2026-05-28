@@ -1,190 +1,264 @@
+import html
 import json
-import numpy as np
+import os
+import re
+from collections import Counter, defaultdict
 from pathlib import Path
+from typing import Any, Dict, Iterable, List, Tuple
+
+STOPWORDS = {
+    "a", "an", "and", "are", "as", "at", "be", "by", "for", "from",
+    "in", "into", "is", "it", "its", "of", "on", "or", "our", "the",
+    "to", "with", "using", "via", "new", "study", "project", "research",
+    "method", "methods", "approach", "approaches", "based", "toward", "towards",
+    "analysis", "data", "model", "models", "system", "systems", "article",
+    "paper", "papers", "jats", "xml", "title", "abstract", "introduction",
+    "results", "discussion", "conclusion", "conclusions", "that", "this",
+    "these", "those", "were", "was", "been", "have", "has", "had", "may",
+    "can", "could", "will", "would", "should", "among", "between", "within",
+}
+
+
+def normalize_text(text: Any) -> str:
+    cleaned = html.unescape(str(text or "")).lower()
+    cleaned = re.sub(r"<[^>]+>", " ", cleaned)
+    cleaned = re.sub(r"[^a-z0-9]+", " ", cleaned)
+    return re.sub(r"\s+", " ", cleaned).strip()
+
+
+def clean_text(text: Any) -> str:
+    return normalize_text(text)
+
+
+def token_terms(text: Any) -> List[str]:
+    words = [
+        word
+        for word in re.findall(r"[a-z0-9]+", normalize_text(text))
+        if len(word) > 2 and word not in STOPWORDS and not word.isdigit()
+    ]
+    terms = set(words)
+    for index in range(len(words) - 1):
+        bigram = f"{words[index]} {words[index + 1]}"
+        if words[index] not in STOPWORDS and words[index + 1] not in STOPWORDS:
+            terms.add(bigram)
+    return sorted(terms)
+
+
+def concept_names(researcher: Dict[str, Any]) -> List[str]:
+    concepts: List[str] = []
+    for concept in researcher.get("concepts", []):
+        if isinstance(concept, dict):
+            name = concept.get("name") or concept.get("display_name")
+        else:
+            name = str(concept)
+        normalized = normalize_text(name)
+        if normalized:
+            concepts.append(normalized)
+    return concepts
+
 
 def load_raw_data():
     """Load intermediate data from fetch scripts."""
-    with open('../data/raw/researchers_raw.json', 'r') as f:
-        researchers_raw = json.load(f)
+    base_raw = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "raw"))
 
-    with open('../data/raw/grants_raw.json', 'r') as f:
-        grants_raw = json.load(f)
+    def _read_optional(path: str):
+        try:
+            with open(path, "r", encoding="utf-8") as handle:
+                return json.load(handle)
+        except FileNotFoundError:
+            return None
 
-    with open('../data/raw/institution_mapping.json', 'r') as f:
-        institution_mapping = json.load(f)
-
-    with open('../data/raw/agency_mapping.json', 'r') as f:
-        agency_mapping = json.load(f)
+    researchers_raw = _read_optional(os.path.join(base_raw, "researchers_raw.json")) or []
+    grants_raw = _read_optional(os.path.join(base_raw, "grants_raw.json")) or []
+    institution_mapping = _read_optional(os.path.join(base_raw, "institution_mapping.json")) or {}
+    agency_mapping = _read_optional(os.path.join(base_raw, "agency_mapping.json")) or {}
 
     return researchers_raw, grants_raw, institution_mapping, agency_mapping
 
 
-def build_researchers_json(researchers_raw):
-    """
-    Convert raw researchers to final format.
-    Must have integer IDs matching array indices.
-    """
-    researchers = []
-    for i, r in enumerate(researchers_raw):
-        researcher = {
-            'id': i,  # CRITICAL: must match array index
-            'name': r['name'],
-            'institution_id': r['institution_id'],
-            'h_index': r['h_index'],
-            'i10_index': r['i10_index'],
-            'works_count': r['works_count'],
-            'cited_by_count': r['cited_by_count'],
-            'last_known_institution': r['last_known_institution'],
-        }
-        researchers.append(researcher)
+def _clean_abstract(text: Any) -> str:
+    cleaned = html.unescape(str(text or ""))
+    cleaned = re.sub(r"<[^>]+>", " ", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    return cleaned.strip()
 
-    print(f"✓ Built {len(researchers)} researcher records")
+
+def build_researchers_json(researchers_raw: List[Dict[str, Any]]):
+    researchers = []
+    for index, researcher_raw in enumerate(researchers_raw):
+        researchers.append(
+            {
+                "id": index,
+                "name": researcher_raw.get("name", ""),
+                "aliases": researcher_raw.get("aliases", []),
+                "openalex_id": researcher_raw.get("openalex_id", ""),
+                "institution_id": researcher_raw.get("institution_id"),
+                "institution_openalex_id": researcher_raw.get("institution_openalex_id", ""),
+                "institution_name": researcher_raw.get("institution_name", ""),
+                "h_index": int(researcher_raw.get("h_index", 0) or 0),
+                "i10_index": int(researcher_raw.get("i10_index", 0) or 0),
+                "works_count": int(researcher_raw.get("works_count", 0) or 0),
+                "cited_by_count": int(researcher_raw.get("cited_by_count", 0) or 0),
+                "concepts": concept_names(researcher_raw),
+                "concept_count": len(researcher_raw.get("concepts", [])),
+            }
+        )
+
+    print(f"[OK] Built {len(researchers)} researcher records")
     return researchers
 
 
-def build_institutions_json(institution_mapping, researchers_raw):
-    """
-    Build institutions from unique affiliations in researcher data.
-    """
-    institutions = {}
+def build_institutions_json(institution_mapping: Dict[str, Dict[str, Any]], researchers_raw: List[Dict[str, Any]]):
+    institutions: Dict[int, Dict[str, Any]] = {}
+    metadata_by_id = {value["id"]: value for value in institution_mapping.values() if isinstance(value, dict) and "id" in value}
 
-    # Reverse mapping: internal ID -> external ID
-    ext_to_int = {int(v): k for k, v in institution_mapping.items()}
+    for researcher in researchers_raw:
+        institution_id = researcher.get("institution_id")
+        if institution_id is None:
+            continue
+        if institution_id not in institutions:
+            meta = metadata_by_id.get(institution_id, {})
+            institutions[institution_id] = {
+                "id": institution_id,
+                "name": meta.get("name") or researcher.get("institution_name", ""),
+                "openalex_id": meta.get("openalex_id") or researcher.get("institution_openalex_id", ""),
+                "ror": meta.get("ror") or "",
+                "country_code": meta.get("country_code") or "",
+                "type": meta.get("type") or "",
+                "researcher_count": 0,
+                "total_works": 0,
+                "total_citations": 0,
+            }
+        institutions[institution_id]["researcher_count"] += 1
+        institutions[institution_id]["total_works"] += int(researcher.get("works_count", 0) or 0)
+        institutions[institution_id]["total_citations"] += int(researcher.get("cited_by_count", 0) or 0)
 
-    # Collect unique institution info
-    for r in researchers_raw:
-        if r['institution_id'] is not None:
-            int_id = r['institution_id']
-            if int_id not in institutions:
-                institutions[int_id] = {
-                    'id': int_id,
-                    'name': r['last_known_institution'],
-                    'openalex_id': ext_to_int.get(int_id),
-                    'researcher_count': 0,
-                    'total_works': 0,
-                }
-            institutions[int_id]['researcher_count'] += 1
-            institutions[int_id]['total_works'] += r['works_count']
-
-    # Convert to list sorted by ID
-    institutions_list = sorted(institutions.values(), key=lambda x: x['id'])
-
-    print(f"✓ Built {len(institutions_list)} institution records")
+    institutions_list = sorted(institutions.values(), key=lambda item: item["id"])
+    print(f"[OK] Built {len(institutions_list)} institution records")
     return institutions_list
 
 
-def build_agencies_json(agency_mapping):
-    """
-    Build agencies from mapping.
-    """
+def build_agencies_json(agency_mapping: Dict[str, Any]):
     agencies = []
-    for agency_name, agency_id in sorted(agency_mapping.items(), key=lambda x: x[1]):
-        agency = {
-            'id': agency_id,
-            'name': agency_name,
-            'grant_count': 0,
-            'total_funding': 0,
-        }
-        agencies.append(agency)
+    for agency_name, agency_value in sorted(agency_mapping.items(), key=lambda item: item[1] if isinstance(item[1], int) else item[1].get("id", 0)):
+        agency_id = agency_value if isinstance(agency_value, int) else int(agency_value.get("id", 0))
+        agencies.append(
+            {
+                "id": agency_id,
+                "name": agency_name,
+                "grant_count": 0,
+                "total_funding": 0.0,
+                "average_grant_size": 0.0,
+            }
+        )
 
-    print(f"✓ Built {len(agencies)} agency records")
+    print(f"[OK] Built {len(agencies)} agency records")
     return agencies
 
 
-def build_grants_json(grants_raw, agencies):
-    """
-    Convert raw grants to final format with proper IDs.
-    """
+def build_grants_json(grants_raw: List[Dict[str, Any]], agencies: List[Dict[str, Any]]):
     grants = []
-    agency_grant_counts = {a['id']: 0 for a in agencies}
-    agency_funding = {a['id']: 0 for a in agencies}
+    agency_lookup = {agency["id"]: agency for agency in agencies}
 
-    for i, g in enumerate(grants_raw):
-        grant = {
-            'id': i,  # CRITICAL: must match array index
-            'title': g['title'],
-            'agency_id': g['agency_id'],
-            'amount': g['amount'],
-            'start_date': g['start_date'],
-            'end_date': g['end_date'],
-        }
-        grants.append(grant)
+    for index, grant_raw in enumerate(grants_raw):
+        amount = float(grant_raw.get("amount", 0) or 0)
+        start_date = grant_raw.get("start_date", "")
+        end_date = grant_raw.get("end_date", "")
+        title = _clean_abstract(grant_raw.get("title", ""))
+        abstract = _clean_abstract(grant_raw.get("abstract", ""))
+        investigators = [name for name in grant_raw.get("investigators", []) if normalize_text(name)]
 
-        # Update agency stats
-        agency_grant_counts[g['agency_id']] += 1
-        agency_funding[g['agency_id']] += g['amount']
+        grants.append(
+            {
+                "id": index,
+                "source": grant_raw.get("source", ""),
+                "nih_project_number": grant_raw.get("nih_project_number", ""),
+                "title": title,
+                "agency_id": int(grant_raw.get("agency_id", 0) or 0),
+                "amount": amount,
+                "start_date": start_date,
+                "end_date": end_date,
+                "investigators": investigators,
+                "abstract": abstract,
+                "abstract_length": len(abstract.split()),
+                "title_length": len(title.split()),
+                "investigator_count": len(investigators),
+            }
+        )
 
-    # Update agencies with counts
-    for a in agencies:
-        a['grant_count'] = agency_grant_counts[a['id']]
-        a['total_funding'] = agency_funding[a['id']]
+        agency_id = int(grant_raw.get("agency_id", 0) or 0)
+        if agency_id in agency_lookup:
+            agency_lookup[agency_id]["grant_count"] += 1
+            agency_lookup[agency_id]["total_funding"] += amount
 
-    print(f"✓ Built {len(grants)} grant records")
+    for agency in agencies:
+        count = max(int(agency.get("grant_count", 0) or 0), 1)
+        agency["average_grant_size"] = agency.get("total_funding", 0.0) / count if agency.get("grant_count", 0) else 0.0
+
+    print(f"[OK] Built {len(grants)} grant records")
     return grants
 
 
-def build_topics_json(researchers_raw, grants_raw):
-    """
-    Derive topics from researcher and grant keywords.
-    In practice, you'd extract from abstracts using NLP.
-    For now, creating synthetic topics.
-    """
-    topics_set = set()
+def build_topics_json(researchers_raw: List[Dict[str, Any]], grants_raw: List[Dict[str, Any]]):
+    topic_counts = Counter()
 
-    # Extract broad topics from grant titles
-    keywords = ['AI', 'Machine Learning', 'Biology', 'Chemistry',
-                'Physics', 'Engineering', 'Medicine', 'Climate',
-                'Energy', 'Quantum']
+    for researcher in researchers_raw:
+        for concept in concept_names(researcher):
+            topic_counts.update(token_terms(concept))
 
-    for g in grants_raw:
-        title_upper = g['title'].upper()
-        for kw in keywords:
-            if kw.upper() in title_upper:
-                topics_set.add(kw)
+    for grant in grants_raw:
+        grant_text = " ".join(filter(None, [grant.get("title", ""), grant.get("abstract", "")]))
+        topic_counts.update(token_terms(grant_text))
 
-    # If we got few topics, add default ones
-    if len(topics_set) < 5:
-        topics_set.update(keywords[:5])
+    if not topic_counts:
+        raise RuntimeError("Could not derive any topics from API data.")
+
+    ranked_topics = [
+        term
+        for term, _ in sorted(topic_counts.items(), key=lambda item: (-item[1], item[0]))
+        if len(term) > 2 and term not in STOPWORDS
+    ]
 
     topics = [
         {
-            'id': i,
-            'name': name,
-            'researcher_count': 0,
-            'grant_count': 0,
+            "id": index,
+            "name": name,
+            "researcher_count": 0,
+            "grant_count": 0,
         }
-        for i, name in enumerate(sorted(topics_set))
+        for index, name in enumerate(ranked_topics[:75])
     ]
 
-    print(f"✓ Built {len(topics)} topic records")
+    print(f"[OK] Built {len(topics)} topic records")
     return topics
 
 
 def save_json_files(researchers, institutions, agencies, grants, topics):
-    """
-    Save all JSON files to data/raw/ with proper integer IDs.
-    """
-    output_dir = Path('../data/raw/')
+    output_dir = Path(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "raw")))
 
     files = {
-        'researchers.json': researchers,
-        'institutions.json': institutions,
-        'agencies.json': agencies,
-        'grants.json': grants,
-        'topics.json': topics,
+        "researchers.json": researchers,
+        "institutions.json": institutions,
+        "agencies.json": agencies,
+        "grants.json": grants,
+        "topics.json": topics,
     }
 
     for filename, data in files.items():
         filepath = output_dir / filename
-        with open(filepath, 'w') as f:
-            json.dump(data, f, indent=2)
-        print(f"✓ Saved {filepath}")
+        with open(filepath, "w", encoding="utf-8") as handle:
+            json.dump(data, handle, indent=2)
+        print(f"[OK] Saved {filepath}")
 
 
 if __name__ == "__main__":
-    print("🔄 Building JSON files with integer IDs...")
+    print("[INFO] Building normalized JSON files...")
 
     researchers_raw, grants_raw, institution_mapping, agency_mapping = load_raw_data()
+    if not researchers_raw:
+        raise RuntimeError("researchers_raw.json is missing or empty. Run ingestion/fetch_researchers.py first.")
+    if not grants_raw:
+        raise RuntimeError("grants_raw.json is missing or empty. Run ingestion/fetch_grants.py first.")
 
     researchers = build_researchers_json(researchers_raw)
     institutions = build_institutions_json(institution_mapping, researchers_raw)
@@ -194,9 +268,9 @@ if __name__ == "__main__":
 
     save_json_files(researchers, institutions, agencies, grants, topics)
 
-    print("\n✓ All JSON files created successfully!")
-    print(f"  - Researchers: {len(researchers)}")
-    print(f"  - Institutions: {len(institutions)}")
-    print(f"  - Agencies: {len(agencies)}")
-    print(f"  - Grants: {len(grants)}")
-    print(f"  - Topics: {len(topics)}")
+    print("\n[OK] Normalized JSON files created successfully")
+    print(f"  Researchers: {len(researchers)}")
+    print(f"  Institutions: {len(institutions)}")
+    print(f"  Agencies: {len(agencies)}")
+    print(f"  Grants: {len(grants)}")
+    print(f"  Topics: {len(topics)}")
