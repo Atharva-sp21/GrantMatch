@@ -8,7 +8,7 @@ grants_index = []
 def build_tfidf_index(grants_list):
     global tfidf, tfidf_matrix, grants_index
     grants_index = grants_list
-    texts        = [g['title'] + ' ' + g.get('guidelines', '')
+    texts        = [g['title'] + ' ' + g.get('guidelines_text', g.get('guidelines', ''))
                     for g in grants_list]
     tfidf        = TfidfVectorizer(max_features=5000, stop_words='english')
     tfidf_matrix = tfidf.fit_transform(texts)

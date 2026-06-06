@@ -1,0 +1,1050 @@
+[
+  {
+    "id": 0,
+    "name": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 1,
+    "name": "National Institute of Allergy and Infectious Diseases",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 2,
+    "name": "Food and Drug Administration",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 3,
+    "name": "National Institute of Environmental Health Sciences",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 4,
+    "name": "National Eye Institute",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 5,
+    "name": "Veterans Affairs",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 6,
+    "name": "National Institute of Dental and Craniofacial Research",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 7,
+    "name": "National Institute on Drug Abuse",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 8,
+    "name": "National Institute on Aging",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 9,
+    "name": "National Institute on Deafness and Other Communication Disorders",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 10,
+    "name": "Agency for Healthcare Research and Quality",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 11,
+    "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 12,
+    "name": "National Cancer Institute",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 13,
+    "name": "National Institute of Mental Health",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 14,
+    "name": "John E. Fogarty International Center for Advanced Study in the Health Sciences",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 15,
+    "name": "National Institute for Occupational Safety and Health",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 16,
+    "name": "National Institute of Biomedical Imaging and Bioengineering",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 17,
+    "name": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 18,
+    "name": "National Heart Lung and Blood Institute",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 19,
+    "name": "National Institute of General Medical Sciences",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 20,
+    "name": "National Institute of Neurological Disorders and Stroke",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 21,
+    "name": "National Institute on Alcohol Abuse and Alcoholism",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 22,
+    "name": "NIH Office of the Director",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 23,
+    "name": "National Institute on Minority Health and Health Disparities",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 24,
+    "name": "National Institute of Nursing Research",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 25,
+    "name": "National Human Genome Research Institute",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 26,
+    "name": "National Center for HIVAIDS, Viral Hepatitis, STD, and TB Prevention",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 27,
+    "name": "National Center for Complementary and Integrative Health",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 28,
+    "name": "NSF \u2014 Evo Patterns & Processes",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 29,
+    "name": "NSF \u2014 RSCH EXPER FOR UNDERGRAD SITES",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 30,
+    "name": "NSF \u2014 Software & Hardware Foundation",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 31,
+    "name": "NSF \u2014 Workforce (MSPRF) MathSciPDFel",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 32,
+    "name": "NSF \u2014 NSF ASTRON & ASTROPHY PSTDC FE",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 33,
+    "name": "NSF \u2014 Secure &Trustworthy Cyberspace",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 34,
+    "name": "NSF \u2014 APPLIED MATHEMATICS",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 35,
+    "name": "NSF \u2014 Info Integration & Informatics",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 36,
+    "name": "NSF \u2014 Algorithmic Foundations",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 37,
+    "name": "NSF \u2014 RES EXP FOR TEACHERS(RET)-SITE",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 38,
+    "name": "NSF \u2014 Robert Noyce Scholarship Pgm",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 39,
+    "name": "NSF \u2014 EWFD-Eng Workforce Development",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 40,
+    "name": "NSF \u2014 CAREER: FACULTY EARLY CAR DEV, AM-Advanced Manufacturing",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 41,
+    "name": "NSF \u2014 Software Institutes",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 42,
+    "name": "NSF \u2014 WaLCZ-Water, Land, & Crit Zone",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 43,
+    "name": "NSF \u2014 FET-Fndtns of Emerging Tech",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 44,
+    "name": "NSF \u2014 EnvE-Environmental Engineering",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 45,
+    "name": "NSF \u2014 Robust Intelligence",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 46,
+    "name": "NSF \u2014 Translation to Practice",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 47,
+    "name": "NSF \u2014 STATISTICS",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 48,
+    "name": "NSF \u2014 Physical & Dynamic Meteorology",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 49,
+    "name": "NSF \u2014 NSF ASTRON & ASTROPHY PSTDC FE, Simonyi-NSF Scholars",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 50,
+    "name": "NSF \u2014 BMMB-Biomech & Mechanobiology, CAREER: FACULTY EARLY CAR DEV",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 51,
+    "name": "NSF \u2014 ECI-Engineering for Civil Infr",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 52,
+    "name": "NSF \u2014 EDSE-Engineering Design and Sy, CAREER: FACULTY EARLY CAR DEV",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 53,
+    "name": "NSF \u2014 Special Initiatives",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 54,
+    "name": "NSF \u2014 Mechanics of Materials and Str",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 55,
+    "name": "NSF \u2014 CSCS: Circuits and Systems for",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 56,
+    "name": "NSF \u2014 LET-Life & Enviro Through Time",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 57,
+    "name": "NSF \u2014 Cross-BIO Activities",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 58,
+    "name": "NSF \u2014 UNDERGRADUATE PROGRAMS IN CHEM",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 59,
+    "name": "NSF \u2014 AM-Advanced Manufacturing",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 60,
+    "name": "NSF \u2014 CFS-Combustion & Fire Systems",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 61,
+    "name": "NSF \u2014 Dynamics, Control and System D",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 62,
+    "name": "NSF \u2014 ALGEBRA,NUMBER THEORY,AND COM",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 63,
+    "name": "NSF \u2014 FOUNDATIONS",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 64,
+    "name": "NSF \u2014 Cellular & Biochem Engineering",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 65,
+    "name": "NSF \u2014 POLYMERS",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 66,
+    "name": "NSF \u2014 Simonyi-NSF Scholars, NSF ASTRON & ASTROPHY PSTDC FE",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 67,
+    "name": "NSF \u2014 COMPUTATIONAL MATHEMATICS",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 68,
+    "name": "NSF \u2014 Cell, Dev, & Physio",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 69,
+    "name": "NSF \u2014 ISP-Infrastructre Systms & Ppl",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 70,
+    "name": "NSF \u2014 ANALYSIS PROGRAM",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 71,
+    "name": "NSF \u2014 Org Interaction & Ecology",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 72,
+    "name": "NSF \u2014 STATISTICS, APPLIED MATHEMATICS, WORKFORCE IN THE MATHEMAT SCI",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 73,
+    "name": "NSF \u2014 FARE-Facil for Atmos Res & Ed",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 74,
+    "name": "NSF \u2014 HCC-Human-Centered Computing",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 75,
+    "name": "NSF \u2014 EDSE-Engineering Design and Sy",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 76,
+    "name": "NSF \u2014 Proc Sys, Reac Eng & Mol Therm",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 77,
+    "name": "NSF \u2014 EngEd-Engineering Education",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 78,
+    "name": "NSF \u2014 Biology Postdoctoral Research",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 79,
+    "name": "NSF \u2014 Engineering of Biomed Systems",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 80,
+    "name": "NSF \u2014 EnvS-Environmtl Sustainability",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 81,
+    "name": "NSF \u2014 Climate & Large-Scale Dynamics",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 82,
+    "name": "NSF \u2014 EPCL: Energy, Power, Control,",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 83,
+    "name": "NSF \u2014 Interfacial Engineering Progra",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 84,
+    "name": "NSF \u2014 MATHEMATICAL BIOLOGY",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 85,
+    "name": "NSF \u2014 AM-Advanced Manufacturing, CAREER: FACULTY EARLY CAR DEV",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 86,
+    "name": "NSF \u2014 CESEV-Chem Evo of Earth & Volc",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 87,
+    "name": "NSF \u2014 MSI-Manufacturing Systms Integ",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 88,
+    "name": "NSF \u2014 CONDENSED MATTER & MAT THEORY",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 89,
+    "name": "NSF \u2014 ELECTRONIC/PHOTONIC MATERIALS",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 90,
+    "name": "NSF \u2014 GEOMETRIC ANALYSIS",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 91,
+    "name": "NSF \u2014 Nanoscale Interactions Program",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 92,
+    "name": "NSF \u2014 Molecular Biosciences",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 93,
+    "name": "NSF \u2014 ECI-Engineering for Civil Infr, CAREER: FACULTY EARLY CAR DEV",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 94,
+    "name": "NSF \u2014 BMMB-Biomech & Mechanobiology",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 95,
+    "name": "NSF \u2014 EchemS-Electrochemical Systems",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 96,
+    "name": "NSF \u2014 CAREER: FACULTY EARLY CAR DEV, SPECIAL PROGRAMS IN ASTRONOMY",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 97,
+    "name": "NSF \u2014 Networking Technology and Syst",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 98,
+    "name": "NSF \u2014 NIGMS",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 99,
+    "name": "NSF \u2014 Cross-Directorate  Activities",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 100,
+    "name": "NSF \u2014 GEOMETRIC ANALYSIS, ALGEBRA,NUMBER THEORY,AND COM",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 101,
+    "name": "NSF \u2014 CyberAICorps SFS",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 102,
+    "name": "NSF \u2014 PHYSICS-BROADEN PARTICIPATION, Elem. Particle Physics/Theory",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 103,
+    "name": "NSF \u2014 CAREER: FACULTY EARLY CAR DEV",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 104,
+    "name": "NSF \u2014 OE Operations Engineering",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 105,
+    "name": "NSF \u2014 CMFP-Chem Mech Funct, and Prop",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 106,
+    "name": "NSF \u2014 Disability & Rehab Engineering",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 107,
+    "name": "NSF \u2014 Simonyi-NSF Scholars, CAREER: FACULTY EARLY CAR DEV",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 108,
+    "name": "NSF \u2014 EPMQD: Electronic, Photonic, M",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 109,
+    "name": "NSF \u2014 Combinatorics",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 110,
+    "name": "NSF \u2014 Particle Astrophysics/Cosmic P, PHYSICS AT THE INFO FRONTIER, NUCLEAR THEORY",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 111,
+    "name": "NSF \u2014 S-STEM-Schlr Sci Tech Eng&Math",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 112,
+    "name": "NSF \u2014 Chemical Synthesis",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 113,
+    "name": "NSF \u2014 Chemical Oceanography",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 114,
+    "name": "NSF \u2014 TOPOLOGY",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 115,
+    "name": "NSF \u2014 Marine Geology and Geophysics",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 116,
+    "name": "NSF \u2014 Postdoctoral Fellowships",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 117,
+    "name": "NSF \u2014 Chemical Catalysis",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 118,
+    "name": "NSF \u2014 CPS-Cyber-Physical Systems",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 119,
+    "name": "NSF \u2014 Earth System Through Time",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 120,
+    "name": "NSF \u2014 BMMB-Biomech & Mechanobiology, Engineering of Biomed Systems",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 121,
+    "name": "NSF \u2014 Engineering of Biomed Systems, BMMB-Biomech & Mechanobiology",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 122,
+    "name": "NSF \u2014 BIOSENS-Biosensing",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 123,
+    "name": "NSF \u2014 Tribal College & Univers Prog",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 124,
+    "name": "NSF \u2014 PLASMA PHYSICS",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 125,
+    "name": "NSF \u2014 ERI-Eng. Research Initiation",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 126,
+    "name": "NSF \u2014 DMREF",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 127,
+    "name": "NSF \u2014 Particle Astrophysics/Cosmic P, NUCLEAR PRECISION MEASUREMENTS, HEP-High Energy Physics",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 128,
+    "name": "NSF \u2014 POSE",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 129,
+    "name": "NSF \u2014 Capacity: Bio Collections",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  },
+  {
+    "id": 130,
+    "name": "NSF \u2014 BioP-Biophotonics",
+    "agency_type": "government",
+    "total_annual_budget": 0,
+    "avg_grant_size": 0,
+    "primary_focus_areas": []
+  }
+]

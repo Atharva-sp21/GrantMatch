@@ -1,0 +1,9 @@
+{
+    "sampled_edges": 500,
+    "total_similarity_edges": 16496,
+    "average_topic_overlap_jaccard": 0.3335101974238644,
+    "average_institution_overlap_jaccard": 0.02685468458744321,
+    "average_embedding_cosine_similarity": 0.9261347614526748,
+    "zero_topic_overlap_count": 1,
+    "zero_inst_overlap_count": 436
+}

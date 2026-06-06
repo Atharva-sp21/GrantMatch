@@ -1,0 +1,93 @@
+{
+  "dataset": {
+    "researcher": 1031,
+    "grant": 1000,
+    "agency": 131,
+    "topic": 100,
+    "institution": 1003
+  },
+  "raw_edges": {
+    "AFFILIATED_WITH": 1443,
+    "RESEARCHES": 7896,
+    "RECEIVED_PAST": 1186,
+    "FUNDS_TOPIC": 1793,
+    "PROVIDES": 1000
+  },
+  "splits": {
+    "train": 858,
+    "val": 157,
+    "test": 171
+  },
+  "cold_start": {
+    "researchers_no_received": 394,
+    "researchers_no_received_pct": 38.21532492725509,
+    "grants_no_received": 0,
+    "grants_no_received_pct": 0.0,
+    "researchers_with_abstracts": 997,
+    "abstract_coverage_pct": 96.70223084384094
+  },
+  "baseline": {
+    "val": {
+      "hit@1": 0.0,
+      "ndcg@1": 0.0,
+      "precision@1": 0.0,
+      "recall@1": 0.0,
+      "hit@5": 0.01910828025477707,
+      "ndcg@5": 0.010388087602365972,
+      "precision@5": 0.0038216560509554145,
+      "recall@5": 0.01910828025477707,
+      "hit@10": 0.03184713375796178,
+      "ndcg@10": 0.014780065439572056,
+      "precision@10": 0.0031847133757961785,
+      "recall@10": 0.03184713375796178,
+      "mrr": 0.013669253071733518
+    },
+    "test": {
+      "hit@1": 0.005847953216374269,
+      "ndcg@1": 0.005847953216374269,
+      "precision@1": 0.005847953216374269,
+      "recall@1": 0.005847953216374269,
+      "hit@5": 0.005847953216374269,
+      "ndcg@5": 0.005847953216374269,
+      "precision@5": 0.0011695906432748538,
+      "recall@5": 0.005847953216374269,
+      "hit@10": 0.017543859649122806,
+      "ndcg@10": 0.009746588693957114,
+      "precision@10": 0.001754385964912281,
+      "recall@10": 0.017543859649122806,
+      "mrr": 0.012118773721759372
+    }
+  },
+  "gnn_test": {
+    "hit@1": 0.0,
+    "ndcg@1": 0.0,
+    "precision@1": 0.0,
+    "recall@1": 0.0,
+    "hit@5": 0.0,
+    "ndcg@5": 0.0,
+    "precision@5": 0.0,
+    "recall@5": 0.0,
+    "hit@10": 0.0,
+    "ndcg@10": 0.0,
+    "precision@10": 0.0,
+    "recall@10": 0.0,
+    "mrr": 0.00505688687714933
+  },
+  "gnn_val": {
+    "hit@1": 0.0,
+    "ndcg@1": 0.0,
+    "precision@1": 0.0,
+    "recall@1": 0.0,
+    "hit@5": 0.0,
+    "ndcg@5": 0.0,
+    "precision@5": 0.0,
+    "recall@5": 0.0,
+    "hit@10": 0.025477707006369428,
+    "ndcg@10": 0.008318696770006786,
+    "precision@10": 0.002547770700636943,
+    "recall@10": 0.025477707006369428,
+    "mrr": 0.0074390097081136015
+  },
+  "final_train_loss": 0.5810396075248718,
+  "final_val_loss": 0.6845872402191162
+}

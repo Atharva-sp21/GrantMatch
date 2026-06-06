@@ -1,0 +1,335 @@
+{
+  "researcher_level_hit_rate": 0.0,
+  "cold_start": {
+    "researchers": 97,
+    "hit_rate": 0.0
+  },
+  "warm_labeled": {
+    "researchers": 0,
+    "hit_rate": 0.0
+  },
+  "by_career_stage": {
+    "unknown": {
+      "hit_rate": 0.0
+    }
+  },
+  "by_topic_top": {
+    "artificial intelligence": {
+      "hit_rate": 0.0,
+      "count": 55
+    },
+    "health": {
+      "hit_rate": 0.0,
+      "count": 35
+    },
+    "cancer": {
+      "hit_rate": 0.0,
+      "count": 32
+    },
+    "biology": {
+      "hit_rate": 0.0,
+      "count": 29
+    },
+    "engineering": {
+      "hit_rate": 0.0,
+      "count": 20
+    },
+    "biomedical": {
+      "hit_rate": 0.0,
+      "count": 15
+    },
+    "machine learning": {
+      "hit_rate": 0.0,
+      "count": 14
+    },
+    "cardiovascular": {
+      "hit_rate": 0.0,
+      "count": 12
+    },
+    "materials": {
+      "hit_rate": 0.0,
+      "count": 9
+    },
+    "computer": {
+      "hit_rate": 0.0,
+      "count": 8
+    },
+    "physics": {
+      "hit_rate": 0.0,
+      "count": 8
+    },
+    "chemistry": {
+      "hit_rate": 0.0,
+      "count": 8
+    }
+  },
+  "by_institution_top": {
+    "Regeneron (United States)": {
+      "hit_rate": 0.0,
+      "count": 1
+    }
+  },
+  "top_successes": [],
+  "top_failures": [
+    {
+      "researcher_id": 517,
+      "name": "Vaughan McDonald",
+      "cold_start": true,
+      "num_true_grants": 1,
+      "hit": false,
+      "top3_titles": [
+        "Project 4: Post-Exposure Biomarkers and Remediation of Radionuclide Co",
+        "Time-Discounted Ergodic Control for Decentralized Multi-Agent Explorat",
+        "NLI: Design and Development: Cross disciplinary co-teaching sustainabi"
+      ],
+      "true_titles": [
+        "Postdoctoral Fellowship: MSPRF: P-adic Automorphic Forms and Automorph"
+      ]
+    },
+    {
+      "researcher_id": 6,
+      "name": "Paul Kievit",
+      "cold_start": true,
+      "num_true_grants": 2,
+      "hit": false,
+      "top3_titles": [
+        "The Administrators of the Tulane Educational Fund dba TUHSC Site Conso",
+        "The Administrators of the Tulane Educational Fund dba TUHSC Site Conso",
+        "The Administrators of the Tulane Educational Fund dba TUHSC Site Conso"
+      ],
+      "true_titles": [
+        "Metformin in Pregnancy: Fetal Consequences & Long-term Offspring Outco",
+        "Metformin in Pregnancy: Fetal Consequences & Long-term Offspring Outco"
+      ]
+    },
+    {
+      "researcher_id": 25,
+      "name": "Ehsan Abadi",
+      "cold_start": true,
+      "num_true_grants": 3,
+      "hit": false,
+      "top3_titles": [
+        "Collaborative Research: RI: Building Knowledgeable, Reliable, and Proa",
+        "Collaborative Research: RI: Building Knowledgeable, Reliable, and Proa",
+        "CAREER: Integrated Digital Thread for Self-Evolving Cooperative Roboti"
+      ],
+      "true_titles": [
+        "Accuracy and Precision in CT Quantification of COPD Through Virtual Im",
+        "Accuracy and Precision in CT Quantification of COPD Through Virtual Im",
+        "Accuracy and Precision in CT Quantification of COPD Through Virtual Im"
+      ]
+    },
+    {
+      "researcher_id": 27,
+      "name": "Peter Abadir",
+      "cold_start": true,
+      "num_true_grants": 8,
+      "hit": false,
+      "top3_titles": [
+        "CAREER: Advancing the Printability of Aluminum Alloys via In-situ Allo",
+        "CAREER: Generative Design of Additively Manufacturable Structured Mate",
+        "Image-Guided Surgical Robotic System for Femur Fracture Reduction"
+      ],
+      "true_titles": [
+        "AI-Driven Frailty Assessment and Molecular Correlation: A Multimodal M",
+        "Biological Mechanisms Core - RC2",
+        "Geriatrics Research: From Bench-to-Bedside",
+        "Translational Aging Research Training Program",
+        "Geriatrics Research: From Bench-to-Bedside",
+        "Geriatrics Research: From Bench-to-Bedside",
+        "Biological Mechanisms Core - RC2",
+        "Biological Mechanisms Core-RC-2"
+      ]
+    },
+    {
+      "researcher_id": 30,
+      "name": "Justine M. Abais\u2010Battad",
+      "cold_start": true,
+      "num_true_grants": 1,
+      "hit": false,
+      "top3_titles": [
+        "CAREER: Designing Domain Knowledge-Guided Learning Architectures towar",
+        "Sub-cellular Targeting of Endothelial ROS in Myocardial Ischemia",
+        "Sex/estrogen-dependent vulnerability to alcohol-evoked cardiotoxicity:"
+      ],
+      "true_titles": [
+        "Sex Differences in Gut Metabolite-Immune Interplay in Hypertension and"
+      ]
+    },
+    {
+      "researcher_id": 32,
+      "name": "Timothy J. Aballo",
+      "cold_start": true,
+      "num_true_grants": 1,
+      "hit": false,
+      "top3_titles": [
+        "Sex/estrogen-dependent vulnerability to alcohol-evoked cardiotoxicity:",
+        "Sub-cellular Targeting of Endothelial ROS in Myocardial Ischemia",
+        "Spectrum of clinical phenotype of the BAP1-tumor predisposition syndro"
+      ],
+      "true_titles": [
+        "A Novel Multiomics-based Systems Biology Approach to Understanding Car"
+      ]
+    },
+    {
+      "researcher_id": 546,
+      "name": "Jingbo Li",
+      "cold_start": true,
+      "num_true_grants": 1,
+      "hit": false,
+      "top3_titles": [
+        "Collaborative Research: Elements: HUGAI: Human-Geo-AI Coalition Infras",
+        "Collaborative Research: Elements: HUGAI: Human-Geo-AI Coalition Infras",
+        "PS24-039 - Understanding Integrative Care and Support Pathways to Heal"
+      ],
+      "true_titles": [
+        "Travel: NSF Student Travel Grant for the 2026 ACM SIGPLAN Conference o"
+      ]
+    },
+    {
+      "researcher_id": 549,
+      "name": "Xueqing Liu",
+      "cold_start": true,
+      "num_true_grants": 1,
+      "hit": false,
+      "top3_titles": [
+        "1/2 GeoHealth Hub for Climate Change and Health in the Middle East and",
+        "1/2 GeoHealth Hub for Climate Change and Health in the Middle East and",
+        "1/2 GeoHealth Hub for Climate Change and Health in the Middle East and"
+      ],
+      "true_titles": [
+        "CAREER: Towards Automated Vulnerability Management: Vulnerability Disc"
+      ]
+    },
+    {
+      "researcher_id": 44,
+      "name": "Po\u2010Yuan Chiu",
+      "cold_start": true,
+      "num_true_grants": 1,
+      "hit": false,
+      "top3_titles": [
+        "Spectrum of clinical phenotype of the BAP1-tumor predisposition syndro",
+        "Spectrum of clinical phenotype of the BAP1-tumor predisposition syndro",
+        "Spectrum of clinical phenotype of the BAP1-tumor predisposition syndro"
+      ],
+      "true_titles": [
+        "Gigapixel digital PCR in Giant Unilamellar Vesicles"
+      ]
+    },
+    {
+      "researcher_id": 46,
+      "name": "Cory Abate\u2010Shen",
+      "cold_start": true,
+      "num_true_grants": 16,
+      "hit": false,
+      "top3_titles": [
+        "Time-Discounted Ergodic Control for Decentralized Multi-Agent Explorat",
+        "NLI: Design and Development: Cross disciplinary co-teaching sustainabi",
+        "Statewide System and Organizational Strategy for Evidence-Based Practi"
+      ],
+      "true_titles": [
+        "Modeling bladder cancer pathogenesis and tumor evolution",
+        "Mitochondrial and nuclear functions of NKX3.1 in regulating oxidative ",
+        "Molecular mechanisms of prostate cancer metastasis",
+        "Project 2: Investigating cell intrinsic and extrinsic drivers of prost",
+        "Molecular mechanisms of prostate cancer metastasis",
+        "Preclinical analyses of advanced prostate cancer in genetically-engine",
+        "Investigating mechanisms of bladder cancer metastasis",
+        "Project 2: Functions of ARID1A in muscle invasive bladder cancer",
+        "Preclinical analyses of advanced prostate cancer in genetically-engine",
+        "Mitochondrial and nuclear functions of NKX3.1 in regulating oxidative ",
+        "Preclinical analyses of advanced prostate cancer in genetically-engine",
+        "Project 2: Investigating cell intrinsic and extrinsic drivers of prost",
+        "Investigating mechanisms of bladder cancer metastasis",
+        "Molecular mechanisms of prostate cancer metastasis",
+        "Project 2: Investigating cell intrinsic and extrinsic drivers of prost",
+        "Core C: Administrative Core"
+      ]
+    },
+    {
+      "researcher_id": 558,
+      "name": "James Doss\u2010Gollin",
+      "cold_start": true,
+      "num_true_grants": 1,
+      "hit": false,
+      "top3_titles": [
+        "PS24-039 - Understanding Integrative Care and Support Pathways to Heal",
+        "CAREER: Evaluating the relationship between functional diversity and i",
+        "CAREER: Towards Semantic-Centric Wireless Foundations for Swarm AI"
+      ],
+      "true_titles": [
+        "CAREER: Drain or Retain? Strategic Assessment of Integrated Flood Infr"
+      ]
+    },
+    {
+      "researcher_id": 565,
+      "name": "Ziyuan Guo",
+      "cold_start": true,
+      "num_true_grants": 1,
+      "hit": false,
+      "top3_titles": [
+        "Project 4: Post-Exposure Biomarkers and Remediation of Radionuclide Co",
+        "Project 4: Post-Exposure Biomarkers and Remediation of Radionuclide Co",
+        "Time-Discounted Ergodic Control for Decentralized Multi-Agent Explorat"
+      ],
+      "true_titles": [
+        "CAREER: Bioengineering of a Human Blood-Spinal Cord Barrier-on-a-Chip"
+      ]
+    },
+    {
+      "researcher_id": 57,
+      "name": "Sheng Dai",
+      "cold_start": true,
+      "num_true_grants": 6,
+      "hit": false,
+      "top3_titles": [
+        "ACCESS: Accelerating Cervical Cancer Elimination through the integrati",
+        "Collaborative Research: RUI: Evaluating the Impacts of Toxic Dust from",
+        "Collaborative Research: RUI: Evaluating the Impacts of Toxic Dust from"
+      ],
+      "true_titles": [
+        "A dual-layer flat panel x-ray detector based on an engineered amorphou",
+        "A dual-layer flat panel x-ray detector based on an engineered amorphou",
+        "A dual-layer flat panel x-ray detector based on an engineered amorphou",
+        "Empowering Diversity in X-ray Imaging: Training, Graduate Research, an",
+        "A dual-layer flat panel x-ray detector based on an engineered amorphou",
+        "A dual-layer flat panel x-ray detector based on an engineered amorphou"
+      ]
+    },
+    {
+      "researcher_id": 574,
+      "name": "Erica M. Hartmann",
+      "cold_start": true,
+      "num_true_grants": 1,
+      "hit": false,
+      "top3_titles": [
+        "Collaborative Research: RI: Building Knowledgeable, Reliable, and Proa",
+        "Collaborative Research: RI: Building Knowledgeable, Reliable, and Proa",
+        "CAREER: Generative Design of Additively Manufacturable Structured Mate"
+      ],
+      "true_titles": [
+        "Harnessing Phage Therapy to Promote Sustainable Water Reclamation"
+      ]
+    },
+    {
+      "researcher_id": 67,
+      "name": "Allison Lynn Abbott",
+      "cold_start": true,
+      "num_true_grants": 2,
+      "hit": false,
+      "top3_titles": [
+        "PS24-039 - Understanding Integrative Care and Support Pathways to Heal",
+        "Statewide System and Organizational Strategy for Evidence-Based Practi",
+        "Statewide System and Organizational Strategy for Evidence-Based Practi"
+      ],
+      "true_titles": [
+        "Illumination system for Nikon Eclipse 80i for fluorescence microscopy ",
+        "Functional Analysis of microRNAs in C. elegans spermatogenesis"
+      ]
+    }
+  ],
+  "largest_error_sources": [
+    "Even warm researchers show near-random ranking \u2014 label noise or weak features.",
+    "Poor performance on topics: ['artificial intelligence', 'quantum', 'biology', 'computer', 'engineering']"
+  ]
+}

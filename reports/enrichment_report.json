@@ -1,0 +1,20 @@
+{
+  "before": {
+    "researchers_with_abstracts": 396,
+    "total_topic_edges": 1356,
+    "average_topics_per_researcher": 1.315227934044617,
+    "researchers_with_zero_topics": 394
+  },
+  "after": {
+    "researchers_with_abstracts": 997,
+    "total_topic_edges": 7896,
+    "average_topics_per_researcher": 7.658583899127061,
+    "researchers_with_zero_topics": 0
+  },
+  "delta": {
+    "abstract_coverage": 601,
+    "topic_edges": 6540,
+    "zero_topic_researchers": 394
+  },
+  "time_elapsed_seconds": 2809.0
+}

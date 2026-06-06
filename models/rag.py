@@ -18,7 +18,7 @@ def setup_collection():
 def embed_grants(grants_list):
     points = []
     for i, grant in enumerate(grants_list):
-        text   = grant['title'] + ' ' + grant.get('guidelines', '')
+        text   = grant['title'] + ' ' + grant.get('guidelines_text', grant.get('guidelines', ''))
         vector = embedder.encode(text).tolist()
         points.append(PointStruct(
             id=i,

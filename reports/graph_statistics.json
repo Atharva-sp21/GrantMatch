@@ -1,0 +1,50 @@
+{
+  "nodes": {
+    "researcher": {
+      "count": 1031,
+      "feature_dim": 782
+    },
+    "institution": {
+      "count": 1003,
+      "feature_dim": 5
+    },
+    "topic": {
+      "count": 27,
+      "feature_dim": 4
+    },
+    "grant": {
+      "count": 1000,
+      "feature_dim": 796
+    },
+    "agency": {
+      "count": 131,
+      "feature_dim": 4
+    }
+  },
+  "edges": {
+    "researcher_AFFILIATED_WITH_institution": {
+      "count": 1443,
+      "has_edge_attr": false
+    },
+    "researcher_RESEARCHES_topic": {
+      "count": 1356,
+      "has_edge_attr": false
+    },
+    "researcher_RECEIVED_PAST_grant": {
+      "count": 1186,
+      "has_edge_attr": false
+    },
+    "grant_FUNDS_TOPIC_topic": {
+      "count": 1793,
+      "has_edge_attr": false
+    },
+    "agency_PROVIDES_grant": {
+      "count": 1000,
+      "has_edge_attr": false
+    },
+    "researcher_SIMILAR_researcher": {
+      "count": 16486,
+      "has_edge_attr": true
+    }
+  }
+}

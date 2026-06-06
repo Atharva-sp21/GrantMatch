@@ -1,0 +1,39 @@
+{
+    "pre_enrichment_baseline": {
+        "Hit@10": 0.0175,
+        "NDCG@10": 0.0094,
+        "MRR": 0.0120
+    },
+    "post_enrichment_results": {
+        "Baseline_Cosine": {
+            "Hit@1": 0.0058,
+            "Hit@5": 0.0058,
+            "Hit@10": 0.0175,
+            "NDCG@10": 0.0097,
+            "MRR": 0.0121,
+            "Precision@10": 0.0018,
+            "Recall@10": 0.0175
+        },
+        "GNN_HGT": {
+            "Hit@1": 0.0000,
+            "Hit@5": 0.0000,
+            "Hit@10": 0.0000,
+            "NDCG@10": 0.0000,
+            "MRR": 0.0051,
+            "Precision@10": 0.0000,
+            "Recall@10": 0.0000
+        }
+    },
+    "percentage_improvements": {
+        "GNN_Hit@10": -100.0,
+        "GNN_MRR": -57.5,
+        "Baseline_Hit@10": 0.0
+    },
+    "analysis": {
+        "primary_limitations": [
+            "label_noise",
+            "training_methodology"
+        ],
+        "explanation": "Despite massive improvements to feature quality and graph density (abstracts from 38% to 96%, topics from 1.3 to 7.6 per researcher), the GNN performance collapsed to 0.00% Hit@10, while the Embedding Cosine Baseline maintained 1.75% Hit@10. This indicates severe OVERFITTING. The training loss dropped from 0.72 to 0.59 while validation loss stagnated, meaning the newly dense graph (7,896 topic edges, 16,496 similarity edges) gave the GNN too much capacity, allowing it to perfectly memorize the NOISY training labels (received_past) rather than learning semantic generalization. The embedding baseline didn't improve because SPECTER2 embeddings have not been re-generated on the new text corpus yet. Phase 3 (Label Cleaning) and Phase 4 (Retrieval Re-ranking) are absolutely necessary to fix this."
+    }
+}

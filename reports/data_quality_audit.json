@@ -1,0 +1,79 @@
+{
+    "label_audit": {
+        "total_received_past_edges": 1186,
+        "duplicate_edges": 0,
+        "suspicious_edges": 0,
+        "researchers_with_only_one_grant": 442,
+        "grants_with_only_one_recipient": 868,
+        "disconnected_researchers": 29,
+        "disconnected_grants": 0
+    },
+    "researcher_audit": {
+        "researchers_with_abstracts": 396,
+        "researchers_without_abstracts": 635,
+        "researchers_with_topics": 637,
+        "researchers_without_topics": 394,
+        "researchers_with_grant_history": 637,
+        "researchers_without_grant_history": 394
+    },
+    "topic_audit": {
+        "average_topics_per_researcher": 1.315227934044617,
+        "median_topics_per_researcher": 1.0,
+        "researchers_with_fewer_than_3_topics": 769,
+        "researchers_with_more_than_10_topics": 0,
+        "topic_frequency_distribution": {
+            "0": 262,
+            "1": 10,
+            "2": 97,
+            "3": 40,
+            "4": 61,
+            "5": 23,
+            "6": 49,
+            "7": 13,
+            "8": 65,
+            "9": 13,
+            "10": 14,
+            "11": 15,
+            "12": 81,
+            "13": 116,
+            "14": 23,
+            "15": 175,
+            "16": 7,
+            "17": 85,
+            "18": 69,
+            "19": 3,
+            "20": 5,
+            "21": 8,
+            "22": 40,
+            "23": 29,
+            "24": 33,
+            "25": 12,
+            "26": 8
+        }
+    },
+    "graph_audit": {
+        "node_counts": {
+            "researchers": 1031,
+            "grants": 1000,
+            "topics": 27,
+            "institutions": 1003,
+            "agencies": 131,
+            "total": 3192
+        },
+        "edge_counts": {
+            "received_past": 1186,
+            "researches": 1356,
+            "affiliated": 1443,
+            "funds_topic": 1793,
+            "provides": 1000
+        },
+        "degree_distributions": {
+            "researcher_grant_history_mean": 1.1503394762366634,
+            "researcher_grant_history_median": 1.0,
+            "grant_recipient_mean": 1.186,
+            "grant_recipient_median": 1.0
+        },
+        "isolated_nodes": 29,
+        "connected_components": 136
+    }
+}
