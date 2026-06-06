@@ -1,0 +1,4026 @@
+{
+  "https://openalex.org/I100532134": {
+    "id": 0,
+    "openalex_id": "https://openalex.org/I100532134",
+    "ror": "https://ror.org/029brtt94",
+    "name": "Universit\u00e9 Claude Bernard Lyon 1",
+    "country_code": "FR",
+    "type": "education"
+  },
+  "https://openalex.org/I121748325": {
+    "id": 1,
+    "openalex_id": "https://openalex.org/I121748325",
+    "ror": "https://ror.org/02p0gd045",
+    "name": "Universidad Complutense de Madrid",
+    "country_code": "ES",
+    "type": "education"
+  },
+  "https://openalex.org/I111236770": {
+    "id": 2,
+    "openalex_id": "https://openalex.org/I111236770",
+    "ror": "https://ror.org/0155zta11",
+    "name": "University of Vermont",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1288198617": {
+    "id": 3,
+    "openalex_id": "https://openalex.org/I1288198617",
+    "ror": "https://ror.org/02e463172",
+    "name": "American Cancer Society",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I107656453": {
+    "id": 4,
+    "openalex_id": "https://openalex.org/I107656453",
+    "ror": "https://ror.org/01kvtm035",
+    "name": "South Australia Pathology",
+    "country_code": "AU",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I110440473": {
+    "id": 5,
+    "openalex_id": "https://openalex.org/I110440473",
+    "ror": "https://ror.org/046fkpt18",
+    "name": "Xi'an University of Science and Technology",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I124357947": {
+    "id": 6,
+    "openalex_id": "https://openalex.org/I124357947",
+    "ror": "https://ror.org/04cw6st05",
+    "name": "University of London",
+    "country_code": "GB",
+    "type": "education"
+  },
+  "https://openalex.org/I107606265": {
+    "id": 7,
+    "openalex_id": "https://openalex.org/I107606265",
+    "ror": "https://ror.org/05a0ya142",
+    "name": "Broad Institute",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I102398690": {
+    "id": 8,
+    "openalex_id": "https://openalex.org/I102398690",
+    "ror": "https://ror.org/01h0zpd94",
+    "name": "National Natural Science Foundation of China",
+    "country_code": "CN",
+    "type": "funder"
+  },
+  "https://openalex.org/I145311948": {
+    "id": 9,
+    "openalex_id": "https://openalex.org/I145311948",
+    "ror": "https://ror.org/00za53h95",
+    "name": "Johns Hopkins University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I102322142": {
+    "id": 10,
+    "openalex_id": "https://openalex.org/I102322142",
+    "ror": "https://ror.org/05vt9qd57",
+    "name": "Rutgers, The State University of New Jersey",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I105140100": {
+    "id": 11,
+    "openalex_id": "https://openalex.org/I105140100",
+    "ror": "https://ror.org/027pk6j83",
+    "name": "Madrid Institute for Advanced Studies",
+    "country_code": "ES",
+    "type": "education"
+  },
+  "https://openalex.org/I108192572": {
+    "id": 12,
+    "openalex_id": "https://openalex.org/I108192572",
+    "ror": "https://ror.org/05ww3wq27",
+    "name": "HEC Montr\u00e9al",
+    "country_code": "CA",
+    "type": "education"
+  },
+  "https://openalex.org/I106938459": {
+    "id": 13,
+    "openalex_id": "https://openalex.org/I106938459",
+    "ror": "https://ror.org/05nkf0n29",
+    "name": "University of New Brunswick",
+    "country_code": "CA",
+    "type": "education"
+  },
+  "https://openalex.org/I101202996": {
+    "id": 14,
+    "openalex_id": "https://openalex.org/I101202996",
+    "ror": "https://ror.org/01g9ty582",
+    "name": "Semmelweis University",
+    "country_code": "HU",
+    "type": "education"
+  },
+  "https://openalex.org/I110079840": {
+    "id": 15,
+    "openalex_id": "https://openalex.org/I110079840",
+    "ror": "https://ror.org/00b1c9541",
+    "name": "University of Hohenheim",
+    "country_code": "DE",
+    "type": "education"
+  },
+  "https://openalex.org/I100930933": {
+    "id": 16,
+    "openalex_id": "https://openalex.org/I100930933",
+    "ror": "https://ror.org/05m7pjf47",
+    "name": "University College Dublin",
+    "country_code": "IE",
+    "type": "education"
+  },
+  "https://openalex.org/I108785884": {
+    "id": 17,
+    "openalex_id": "https://openalex.org/I108785884",
+    "ror": "https://ror.org/04mvr1r74",
+    "name": "Intermountain Healthcare",
+    "country_code": "US",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I101527212": {
+    "id": 18,
+    "openalex_id": "https://openalex.org/I101527212",
+    "ror": "https://ror.org/0417ye583",
+    "name": "Statens Serum Institut",
+    "country_code": "DK",
+    "type": "facility"
+  },
+  "https://openalex.org/I114982161": {
+    "id": 19,
+    "openalex_id": "https://openalex.org/I114982161",
+    "ror": "https://ror.org/04waqzz56",
+    "name": "Isfahan University of Medical Sciences",
+    "country_code": "IR",
+    "type": "education"
+  },
+  "https://openalex.org/I100135526": {
+    "id": 20,
+    "openalex_id": "https://openalex.org/I100135526",
+    "ror": "https://ror.org/045pn2j94",
+    "name": "BGI Group (China)",
+    "country_code": "CN",
+    "type": "company"
+  },
+  "https://openalex.org/I103635307": {
+    "id": 21,
+    "openalex_id": "https://openalex.org/I103635307",
+    "ror": "https://ror.org/03nawhv43",
+    "name": "University of California, Riverside",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I111979921": {
+    "id": 22,
+    "openalex_id": "https://openalex.org/I111979921",
+    "ror": "https://ror.org/000e0be47",
+    "name": "Northwestern University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I102197404": {
+    "id": 23,
+    "openalex_id": "https://openalex.org/I102197404",
+    "ror": "https://ror.org/028rypz17",
+    "name": "Universit\u00e9 Paris-Sud",
+    "country_code": "FR",
+    "type": "education"
+  },
+  "https://openalex.org/I1343052199": {
+    "id": 24,
+    "openalex_id": "https://openalex.org/I1343052199",
+    "ror": "https://ror.org/00t60zh31",
+    "name": "Kaiser Permanente",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I100538780": {
+    "id": 25,
+    "openalex_id": "https://openalex.org/I100538780",
+    "ror": "https://ror.org/05h7xva58",
+    "name": "Wesleyan University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1118541": {
+    "id": 26,
+    "openalex_id": "https://openalex.org/I1118541",
+    "ror": "https://ror.org/026k5mg93",
+    "name": "University of East Anglia",
+    "country_code": "GB",
+    "type": "education"
+  },
+  "https://openalex.org/I126520041": {
+    "id": 27,
+    "openalex_id": "https://openalex.org/I126520041",
+    "ror": "https://ror.org/04c4dkn09",
+    "name": "University of Science and Technology of China",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I103531236": {
+    "id": 28,
+    "openalex_id": "https://openalex.org/I103531236",
+    "ror": "https://ror.org/02n2fzt79",
+    "name": "Boston College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I107139324": {
+    "id": 29,
+    "openalex_id": "https://openalex.org/I107139324",
+    "ror": "https://ror.org/03ss88z23",
+    "name": "Kagoshima University",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I102520234": {
+    "id": 30,
+    "openalex_id": "https://openalex.org/I102520234",
+    "ror": "https://ror.org/014nnvj65",
+    "name": "TH K\u00f6ln - University of Applied Sciences",
+    "country_code": "DE",
+    "type": "education"
+  },
+  "https://openalex.org/I100063501": {
+    "id": 31,
+    "openalex_id": "https://openalex.org/I100063501",
+    "ror": "https://ror.org/01qz7fr76",
+    "name": "Brighton and Sussex Medical School",
+    "country_code": "GB",
+    "type": "education"
+  },
+  "https://openalex.org/I103320735": {
+    "id": 32,
+    "openalex_id": "https://openalex.org/I103320735",
+    "ror": "https://ror.org/03h7r5v07",
+    "name": "Universit\u00e0 Cattolica del Sacro Cuore",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I121297525": {
+    "id": 33,
+    "openalex_id": "https://openalex.org/I121297525",
+    "ror": "https://ror.org/05y3p3k12",
+    "name": "Hebrew College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I10363089": {
+    "id": 34,
+    "openalex_id": "https://openalex.org/I10363089",
+    "ror": "https://ror.org/054xjq184",
+    "name": "A. N. Kosygin Moscow State Textile University",
+    "country_code": "RU",
+    "type": "education"
+  },
+  "https://openalex.org/I1290603121": {
+    "id": 35,
+    "openalex_id": "https://openalex.org/I1290603121",
+    "ror": "https://ror.org/047bn1w15",
+    "name": "World Health Organization - Pakistan",
+    "country_code": "PK",
+    "type": "government"
+  },
+  "https://openalex.org/I204465549": {
+    "id": 36,
+    "openalex_id": "https://openalex.org/I204465549",
+    "ror": "https://ror.org/01yc7t268",
+    "name": "Washington University in St. Louis",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I11039511": {
+    "id": 37,
+    "openalex_id": "https://openalex.org/I11039511",
+    "ror": "https://ror.org/02mbd5571",
+    "name": "University of Bergamo",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I101479585": {
+    "id": 38,
+    "openalex_id": "https://openalex.org/I101479585",
+    "ror": "https://ror.org/05v9jqt67",
+    "name": "South China Agricultural University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I1284584826": {
+    "id": 39,
+    "openalex_id": "https://openalex.org/I1284584826",
+    "ror": "https://ror.org/006cvnv84",
+    "name": "Social Science Research Council",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I111088046": {
+    "id": 40,
+    "openalex_id": "https://openalex.org/I111088046",
+    "ror": "https://ror.org/05qwgg493",
+    "name": "Boston University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I102335020": {
+    "id": 41,
+    "openalex_id": "https://openalex.org/I102335020",
+    "ror": "https://ror.org/04t3en479",
+    "name": "Karlsruhe Institute of Technology",
+    "country_code": "DE",
+    "type": "education"
+  },
+  "https://openalex.org/I106965489": {
+    "id": 42,
+    "openalex_id": "https://openalex.org/I106965489",
+    "ror": "https://ror.org/04vrzee53",
+    "name": "United States Army Medical Command",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I105696783": {
+    "id": 43,
+    "openalex_id": "https://openalex.org/I105696783",
+    "ror": "https://ror.org/02vf3h353",
+    "name": "Medical Council of Canada",
+    "country_code": "CA",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I123044942": {
+    "id": 44,
+    "openalex_id": "https://openalex.org/I123044942",
+    "ror": "https://ror.org/052g8jq94",
+    "name": "Universitat Aut\u00f2noma de Barcelona",
+    "country_code": "ES",
+    "type": "education"
+  },
+  "https://openalex.org/I109736498": {
+    "id": 45,
+    "openalex_id": "https://openalex.org/I109736498",
+    "ror": "https://ror.org/01sdtdd95",
+    "name": "Canadian Institute for Advanced Research",
+    "country_code": "CA",
+    "type": "facility"
+  },
+  "https://openalex.org/I102134673": {
+    "id": 46,
+    "openalex_id": "https://openalex.org/I102134673",
+    "ror": "https://ror.org/05ynxx418",
+    "name": "Link\u00f6ping University",
+    "country_code": "SE",
+    "type": "education"
+  },
+  "https://openalex.org/I114027177": {
+    "id": 47,
+    "openalex_id": "https://openalex.org/I114027177",
+    "ror": "https://ror.org/0130frc33",
+    "name": "University of North Carolina at Chapel Hill",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I105094715": {
+    "id": 48,
+    "openalex_id": "https://openalex.org/I105094715",
+    "ror": "https://ror.org/04909p852",
+    "name": "National Institute of Technology Kurukshetra",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I116631150": {
+    "id": 49,
+    "openalex_id": "https://openalex.org/I116631150",
+    "ror": "https://ror.org/02tec3785",
+    "name": "Ulsan College",
+    "country_code": "KR",
+    "type": "education"
+  },
+  "https://openalex.org/I114457229": {
+    "id": 50,
+    "openalex_id": "https://openalex.org/I114457229",
+    "ror": "https://ror.org/01swzsf04",
+    "name": "University of Geneva",
+    "country_code": "CH",
+    "type": "education"
+  },
+  "https://openalex.org/I104946051": {
+    "id": 51,
+    "openalex_id": "https://openalex.org/I104946051",
+    "ror": "https://ror.org/05jk51a88",
+    "name": "Nihon University",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I116431938": {
+    "id": 52,
+    "openalex_id": "https://openalex.org/I116431938",
+    "ror": "https://ror.org/04hvmsy06",
+    "name": "Cochlear (Australia)",
+    "country_code": "AU",
+    "type": "company"
+  },
+  "https://openalex.org/I118564535": {
+    "id": 53,
+    "openalex_id": "https://openalex.org/I118564535",
+    "ror": "https://ror.org/02k7v4d05",
+    "name": "University of Bern",
+    "country_code": "CH",
+    "type": "education"
+  },
+  "https://openalex.org/I102322052": {
+    "id": 54,
+    "openalex_id": "https://openalex.org/I102322052",
+    "ror": "https://ror.org/04wncat98",
+    "name": "The Wistar Institute",
+    "country_code": "US",
+    "type": "facility"
+  },
+  "https://openalex.org/I103163165": {
+    "id": 55,
+    "openalex_id": "https://openalex.org/I103163165",
+    "ror": "https://ror.org/05g3dte14",
+    "name": "Florida State University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I106663880": {
+    "id": 56,
+    "openalex_id": "https://openalex.org/I106663880",
+    "ror": "https://ror.org/0317ekv86",
+    "name": "University of Bahrain",
+    "country_code": "BH",
+    "type": "education"
+  },
+  "https://openalex.org/I116036724": {
+    "id": 57,
+    "openalex_id": "https://openalex.org/I116036724",
+    "ror": "https://ror.org/03m20nr07",
+    "name": "Shenyang Ligong University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I112260969": {
+    "id": 58,
+    "openalex_id": "https://openalex.org/I112260969",
+    "ror": "https://ror.org/043q8yx54",
+    "name": "Ontario Institute for Cancer Research",
+    "country_code": "CA",
+    "type": "funder"
+  },
+  "https://openalex.org/I107920810": {
+    "id": 59,
+    "openalex_id": "https://openalex.org/I107920810",
+    "ror": "https://ror.org/00znvbk37",
+    "name": "National Health Laboratory Service",
+    "country_code": "ZA",
+    "type": "government"
+  },
+  "https://openalex.org/I10824318": {
+    "id": 60,
+    "openalex_id": "https://openalex.org/I10824318",
+    "ror": "https://ror.org/056s65p46",
+    "name": "Universidade Federal de Ouro Preto",
+    "country_code": "BR",
+    "type": "education"
+  },
+  "https://openalex.org/I124055696": {
+    "id": 61,
+    "openalex_id": "https://openalex.org/I124055696",
+    "ror": "https://ror.org/035b05819",
+    "name": "University of Copenhagen",
+    "country_code": "DK",
+    "type": "education"
+  },
+  "https://openalex.org/I130769515": {
+    "id": 62,
+    "openalex_id": "https://openalex.org/I130769515",
+    "ror": "https://ror.org/04p491231",
+    "name": "Pennsylvania State University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I109556086": {
+    "id": 63,
+    "openalex_id": "https://openalex.org/I109556086",
+    "ror": "https://ror.org/01jy49h31",
+    "name": "Autoliv (Sweden)",
+    "country_code": "SE",
+    "type": "company"
+  },
+  "https://openalex.org/I102149020": {
+    "id": 64,
+    "openalex_id": "https://openalex.org/I102149020",
+    "ror": "https://ror.org/04dawnj30",
+    "name": "University of North Carolina at Charlotte",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1305444813": {
+    "id": 65,
+    "openalex_id": "https://openalex.org/I1305444813",
+    "ror": "https://ror.org/00svp7168",
+    "name": "Capital One (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I1324925910": {
+    "id": 66,
+    "openalex_id": "https://openalex.org/I1324925910",
+    "ror": "https://ror.org/054gk2851",
+    "name": "St Thomas' Hospital",
+    "country_code": "GB",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I100005738": {
+    "id": 67,
+    "openalex_id": "https://openalex.org/I100005738",
+    "ror": "https://ror.org/047rhhm47",
+    "name": "Brigham Young University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I103990859": {
+    "id": 68,
+    "openalex_id": "https://openalex.org/I103990859",
+    "ror": "https://ror.org/040cnym54",
+    "name": "Pennington Biomedical Research Center",
+    "country_code": "US",
+    "type": "facility"
+  },
+  "https://openalex.org/I1279696364": {
+    "id": 69,
+    "openalex_id": "https://openalex.org/I1279696364",
+    "ror": "https://ror.org/045qrr805",
+    "name": "Ministry of Economy and Finance",
+    "country_code": "ML",
+    "type": "government"
+  },
+  "https://openalex.org/I100288624": {
+    "id": 70,
+    "openalex_id": "https://openalex.org/I100288624",
+    "ror": "https://ror.org/055zmrh94",
+    "name": "John Innes Centre",
+    "country_code": "GB",
+    "type": "facility"
+  },
+  "https://openalex.org/I103497121": {
+    "id": 71,
+    "openalex_id": "https://openalex.org/I103497121",
+    "ror": "https://ror.org/057trrr89",
+    "name": "Purchase College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I113979032": {
+    "id": 72,
+    "openalex_id": "https://openalex.org/I113979032",
+    "ror": "https://ror.org/04wt43v05",
+    "name": "Twitter (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I10052268": {
+    "id": 73,
+    "openalex_id": "https://openalex.org/I10052268",
+    "ror": "https://ror.org/00hpz7z43",
+    "name": "New Mexico State University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I106165777": {
+    "id": 74,
+    "openalex_id": "https://openalex.org/I106165777",
+    "ror": "https://ror.org/036nfer12",
+    "name": "University of Central Florida",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I105126617": {
+    "id": 75,
+    "openalex_id": "https://openalex.org/I105126617",
+    "ror": "https://ror.org/01vwvvq12",
+    "name": "Zhejiang International Studies University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I118019719": {
+    "id": 76,
+    "openalex_id": "https://openalex.org/I118019719",
+    "ror": "https://ror.org/00by1q217",
+    "name": "Roche (Switzerland)",
+    "country_code": "CH",
+    "type": "company"
+  },
+  "https://openalex.org/I109358023": {
+    "id": 77,
+    "openalex_id": "https://openalex.org/I109358023",
+    "ror": "https://ror.org/00sfnf466",
+    "name": "Franciscan University of Steubenville",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I106118109": {
+    "id": 78,
+    "openalex_id": "https://openalex.org/I106118109",
+    "ror": "https://ror.org/01jsq2704",
+    "name": "E\u00f6tv\u00f6s Lor\u00e1nd University",
+    "country_code": "HU",
+    "type": "education"
+  },
+  "https://openalex.org/I10232997": {
+    "id": 79,
+    "openalex_id": "https://openalex.org/I10232997",
+    "ror": "https://ror.org/0242cby63",
+    "name": "L. N. Gumilyov Eurasian National University",
+    "country_code": "KZ",
+    "type": "education"
+  },
+  "https://openalex.org/I101100930": {
+    "id": 80,
+    "openalex_id": "https://openalex.org/I101100930",
+    "ror": "https://ror.org/04yqw9c44",
+    "name": "Universidade Federal de Juiz de Fora",
+    "country_code": "BR",
+    "type": "education"
+  },
+  "https://openalex.org/I126744593": {
+    "id": 81,
+    "openalex_id": "https://openalex.org/I126744593",
+    "ror": "https://ror.org/04rq5mt64",
+    "name": "University of Maryland, Baltimore",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I102475099": {
+    "id": 82,
+    "openalex_id": "https://openalex.org/I102475099",
+    "ror": "https://ror.org/00n7gwn90",
+    "name": "Sup\u00e9lec",
+    "country_code": "FR",
+    "type": "education"
+  },
+  "https://openalex.org/I102179633": {
+    "id": 83,
+    "openalex_id": "https://openalex.org/I102179633",
+    "ror": "https://ror.org/02tvcev59",
+    "name": "New School",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I100162341": {
+    "id": 84,
+    "openalex_id": "https://openalex.org/I100162341",
+    "ror": "https://ror.org/03fef0h61",
+    "name": "Luminex (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I11932220": {
+    "id": 85,
+    "openalex_id": "https://openalex.org/I11932220",
+    "ror": "https://ror.org/0371hy230",
+    "name": "Instituci\u00f3 Catalana de Recerca i Estudis Avan\u00e7ats",
+    "country_code": "ES",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I102962589": {
+    "id": 86,
+    "openalex_id": "https://openalex.org/I102962589",
+    "ror": "https://ror.org/04feqxb79",
+    "name": "Atomic Energy Organization of Iran",
+    "country_code": "IR",
+    "type": "government"
+  },
+  "https://openalex.org/I12411659": {
+    "id": 87,
+    "openalex_id": "https://openalex.org/I12411659",
+    "ror": "https://ror.org/05dfcz246",
+    "name": "Tianjin University of Traditional Chinese Medicine",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I1174212": {
+    "id": 88,
+    "openalex_id": "https://openalex.org/I1174212",
+    "ror": "https://ror.org/03taz7m60",
+    "name": "University of Southern California",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I102507086": {
+    "id": 89,
+    "openalex_id": "https://openalex.org/I102507086",
+    "ror": "https://ror.org/05fcfqq67",
+    "name": "Oregon National Primate Research Center",
+    "country_code": "US",
+    "type": "facility"
+  },
+  "https://openalex.org/I108688024": {
+    "id": 90,
+    "openalex_id": "https://openalex.org/I108688024",
+    "ror": "https://ror.org/021cj6z65",
+    "name": "Qingdao University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I101407740": {
+    "id": 91,
+    "openalex_id": "https://openalex.org/I101407740",
+    "ror": "https://ror.org/05t4pvx35",
+    "name": "Chandigarh University",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I129975664": {
+    "id": 92,
+    "openalex_id": "https://openalex.org/I129975664",
+    "ror": "https://ror.org/05cf8a891",
+    "name": "Albert Einstein College of Medicine",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I110120368": {
+    "id": 93,
+    "openalex_id": "https://openalex.org/I110120368",
+    "ror": "https://ror.org/02an8es95",
+    "name": "National Agency for New Technologies, Energy and Sustainable Economic Development",
+    "country_code": "IT",
+    "type": "funder"
+  },
+  "https://openalex.org/I1282700336": {
+    "id": 94,
+    "openalex_id": "https://openalex.org/I1282700336",
+    "ror": "https://ror.org/04e72vw61",
+    "name": "Debre Berhan University",
+    "country_code": "ET",
+    "type": "education"
+  },
+  "https://openalex.org/I1334060403": {
+    "id": 95,
+    "openalex_id": "https://openalex.org/I1334060403",
+    "ror": "https://ror.org/042dp4138",
+    "name": "Technology Service Corporation (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I122411786": {
+    "id": 96,
+    "openalex_id": "https://openalex.org/I122411786",
+    "ror": "https://ror.org/05dxps055",
+    "name": "California Institute of Technology",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I100633361": {
+    "id": 97,
+    "openalex_id": "https://openalex.org/I100633361",
+    "ror": "https://ror.org/00fzmm222",
+    "name": "University of Massachusetts Dartmouth",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I110736937": {
+    "id": 98,
+    "openalex_id": "https://openalex.org/I110736937",
+    "ror": "https://ror.org/02e0y6e06",
+    "name": "D\u00e9l\u00e9gation Paris 5",
+    "country_code": "FR",
+    "type": "government"
+  },
+  "https://openalex.org/I103084370": {
+    "id": 99,
+    "openalex_id": "https://openalex.org/I103084370",
+    "ror": "https://ror.org/04sk34n56",
+    "name": "Total (France)",
+    "country_code": "FR",
+    "type": "company"
+  },
+  "https://openalex.org/I106329310": {
+    "id": 100,
+    "openalex_id": "https://openalex.org/I106329310",
+    "ror": "https://ror.org/01yxrjg25",
+    "name": "National Center for Disease Control and Public Health",
+    "country_code": "GE",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I110678235": {
+    "id": 101,
+    "openalex_id": "https://openalex.org/I110678235",
+    "ror": "https://ror.org/05gq3a412",
+    "name": "Butler University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I121100312": {
+    "id": 102,
+    "openalex_id": "https://openalex.org/I121100312",
+    "ror": "https://ror.org/019ev8b82",
+    "name": "Instituto Conmemorativo Gorgas de Estudios de la Salud",
+    "country_code": "PA",
+    "type": "facility"
+  },
+  "https://openalex.org/I113428412": {
+    "id": 103,
+    "openalex_id": "https://openalex.org/I113428412",
+    "ror": "https://ror.org/04zmssz18",
+    "name": "\u00c9cole Normale Sup\u00e9rieure de Lyon",
+    "country_code": "FR",
+    "type": "education"
+  },
+  "https://openalex.org/I112281704": {
+    "id": 104,
+    "openalex_id": "https://openalex.org/I112281704",
+    "ror": "https://ror.org/05k73zm37",
+    "name": "Research Council of Finland",
+    "country_code": "FI",
+    "type": "government"
+  },
+  "https://openalex.org/I111199411": {
+    "id": 105,
+    "openalex_id": "https://openalex.org/I111199411",
+    "ror": "https://ror.org/025h79t26",
+    "name": "University of Peradeniya",
+    "country_code": "LK",
+    "type": "education"
+  },
+  "https://openalex.org/I117222138": {
+    "id": 106,
+    "openalex_id": "https://openalex.org/I117222138",
+    "ror": "https://ror.org/01r3kjq03",
+    "name": "Abu Dhabi University",
+    "country_code": "AE",
+    "type": "education"
+  },
+  "https://openalex.org/I100098275": {
+    "id": 107,
+    "openalex_id": "https://openalex.org/I100098275",
+    "ror": "https://ror.org/027hwkg23",
+    "name": "Engelhardt Institute of Molecular Biology",
+    "country_code": "RU",
+    "type": "facility"
+  },
+  "https://openalex.org/I129604602": {
+    "id": 108,
+    "openalex_id": "https://openalex.org/I129604602",
+    "ror": "https://ror.org/0384j8v12",
+    "name": "The University of Sydney",
+    "country_code": "AU",
+    "type": "education"
+  },
+  "https://openalex.org/I100188998": {
+    "id": 109,
+    "openalex_id": "https://openalex.org/I100188998",
+    "ror": "https://ror.org/04e6y1282",
+    "name": "Harbin University of Science and Technology",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I129902397": {
+    "id": 110,
+    "openalex_id": "https://openalex.org/I129902397",
+    "ror": "https://ror.org/01e6qks80",
+    "name": "Dalhousie University",
+    "country_code": "CA",
+    "type": "education"
+  },
+  "https://openalex.org/I100066346": {
+    "id": 111,
+    "openalex_id": "https://openalex.org/I100066346",
+    "ror": "https://ror.org/04vnq7t77",
+    "name": "University of Stuttgart",
+    "country_code": "DE",
+    "type": "education"
+  },
+  "https://openalex.org/I102298084": {
+    "id": 112,
+    "openalex_id": "https://openalex.org/I102298084",
+    "ror": "https://ror.org/04aaa2n62",
+    "name": "Andrews University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I11701301": {
+    "id": 113,
+    "openalex_id": "https://openalex.org/I11701301",
+    "ror": "https://ror.org/02sc3r913",
+    "name": "Griffith University",
+    "country_code": "AU",
+    "type": "education"
+  },
+  "https://openalex.org/I10947320": {
+    "id": 114,
+    "openalex_id": "https://openalex.org/I10947320",
+    "ror": "https://ror.org/05q60vz69",
+    "name": "South African Medical Research Council",
+    "country_code": "ZA",
+    "type": "other"
+  },
+  "https://openalex.org/I109072018": {
+    "id": 115,
+    "openalex_id": "https://openalex.org/I109072018",
+    "ror": "https://ror.org/00aj75s74",
+    "name": "Belmont Abbey College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I104026149": {
+    "id": 116,
+    "openalex_id": "https://openalex.org/I104026149",
+    "ror": "https://ror.org/01efzmh71",
+    "name": "Manhattan Institute for Policy Research",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I108290504": {
+    "id": 117,
+    "openalex_id": "https://openalex.org/I108290504",
+    "ror": "https://ror.org/03ad39j10",
+    "name": "University of Pisa",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I117532281": {
+    "id": 118,
+    "openalex_id": "https://openalex.org/I117532281",
+    "ror": "https://ror.org/03qb7bg95",
+    "name": "Guangzhou University of Chinese Medicine",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I1297288678": {
+    "id": 119,
+    "openalex_id": "https://openalex.org/I1297288678",
+    "ror": "https://ror.org/036266993",
+    "name": "National Renewable Energy Laboratory",
+    "country_code": "US",
+    "type": "facility"
+  },
+  "https://openalex.org/I165733156": {
+    "id": 120,
+    "openalex_id": "https://openalex.org/I165733156",
+    "ror": "https://ror.org/00te3t702",
+    "name": "University of Georgia",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I131528713": {
+    "id": 121,
+    "openalex_id": "https://openalex.org/I131528713",
+    "ror": "https://ror.org/00qx4he92",
+    "name": "Ministerio de Transportes, Movilidad y Agenda Urbana",
+    "country_code": "ES",
+    "type": "government"
+  },
+  "https://openalex.org/I102064193": {
+    "id": 122,
+    "openalex_id": "https://openalex.org/I102064193",
+    "ror": "https://ror.org/01tevnk56",
+    "name": "University of Siena",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I105036370": {
+    "id": 123,
+    "openalex_id": "https://openalex.org/I105036370",
+    "ror": "https://ror.org/04r9x1a08",
+    "name": "AstraZeneca (United Kingdom)",
+    "country_code": "GB",
+    "type": "company"
+  },
+  "https://openalex.org/I118091203": {
+    "id": 124,
+    "openalex_id": "https://openalex.org/I118091203",
+    "ror": "https://ror.org/00tvate34",
+    "name": "Universidad San Pablo CEU",
+    "country_code": "ES",
+    "type": "education"
+  },
+  "https://openalex.org/I102882674": {
+    "id": 125,
+    "openalex_id": "https://openalex.org/I102882674",
+    "ror": "https://ror.org/03hgxtg28",
+    "name": "Beijing Institute of Fashion Technology",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I1281256770": {
+    "id": 126,
+    "openalex_id": "https://openalex.org/I1281256770",
+    "ror": "https://ror.org/02dzjmc73",
+    "name": "\u00dcsk\u00fcdar University",
+    "country_code": "TR",
+    "type": "education"
+  },
+  "https://openalex.org/I102373834": {
+    "id": 127,
+    "openalex_id": "https://openalex.org/I102373834",
+    "ror": "https://ror.org/05sjwtp51",
+    "name": "Bryn Mawr College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1311269955": {
+    "id": 128,
+    "openalex_id": "https://openalex.org/I1311269955",
+    "ror": "https://ror.org/04ehjr030",
+    "name": "Apple (Israel)",
+    "country_code": "IL",
+    "type": "company"
+  },
+  "https://openalex.org/I122544976": {
+    "id": 129,
+    "openalex_id": "https://openalex.org/I122544976",
+    "ror": "https://ror.org/04wwgp209",
+    "name": "Hebron University",
+    "country_code": "PS",
+    "type": "education"
+  },
+  "https://openalex.org/I114090438": {
+    "id": 130,
+    "openalex_id": "https://openalex.org/I114090438",
+    "ror": "https://ror.org/04cvxnb49",
+    "name": "Goethe University Frankfurt",
+    "country_code": "DE",
+    "type": "education"
+  },
+  "https://openalex.org/I111149068": {
+    "id": 131,
+    "openalex_id": "https://openalex.org/I111149068",
+    "ror": "https://ror.org/01nqk4x38",
+    "name": "National Defense University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I107639228": {
+    "id": 132,
+    "openalex_id": "https://openalex.org/I107639228",
+    "ror": "https://ror.org/00mkhxb43",
+    "name": "University of Notre Dame",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I103187081": {
+    "id": 133,
+    "openalex_id": "https://openalex.org/I103187081",
+    "ror": "https://ror.org/01pp8nd67",
+    "name": "Smithsonian Institution",
+    "country_code": "US",
+    "type": "funder"
+  },
+  "https://openalex.org/I126820664": {
+    "id": 134,
+    "openalex_id": "https://openalex.org/I126820664",
+    "ror": "https://ror.org/022x6qg61",
+    "name": "Vassar College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I118501908": {
+    "id": 135,
+    "openalex_id": "https://openalex.org/I118501908",
+    "ror": "https://ror.org/055f7t516",
+    "name": "National Research University Higher School of Economics",
+    "country_code": "RU",
+    "type": "education"
+  },
+  "https://openalex.org/I102252114": {
+    "id": 136,
+    "openalex_id": "https://openalex.org/I102252114",
+    "ror": "https://ror.org/042few790",
+    "name": "New Jersey Department of Environmental Protection",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I102516824": {
+    "id": 137,
+    "openalex_id": "https://openalex.org/I102516824",
+    "ror": "https://ror.org/04y5kwa70",
+    "name": "Universit\u00e9 de Technologie de Compi\u00e8gne",
+    "country_code": "FR",
+    "type": "education"
+  },
+  "https://openalex.org/I1299303238": {
+    "id": 138,
+    "openalex_id": "https://openalex.org/I1299303238",
+    "ror": "https://ror.org/01cwqze88",
+    "name": "National Institutes of Health",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I185163786": {
+    "id": 139,
+    "openalex_id": "https://openalex.org/I185163786",
+    "ror": "https://ror.org/02ma4wv74",
+    "name": "King Abdulaziz University",
+    "country_code": "SA",
+    "type": "education"
+  },
+  "https://openalex.org/I116419501": {
+    "id": 140,
+    "openalex_id": "https://openalex.org/I116419501",
+    "ror": "https://ror.org/00pn44t17",
+    "name": "Universidad Mayor",
+    "country_code": "CL",
+    "type": "education"
+  },
+  "https://openalex.org/I10660446": {
+    "id": 141,
+    "openalex_id": "https://openalex.org/I10660446",
+    "ror": "https://ror.org/00xyeez13",
+    "name": "Kunming University of Science and Technology",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I114017466": {
+    "id": 142,
+    "openalex_id": "https://openalex.org/I114017466",
+    "ror": "https://ror.org/03f0f6041",
+    "name": "University of Technology Sydney",
+    "country_code": "AU",
+    "type": "education"
+  },
+  "https://openalex.org/I119273862": {
+    "id": 143,
+    "openalex_id": "https://openalex.org/I119273862",
+    "ror": "https://ror.org/02czw2k81",
+    "name": "Central South University of Forestry and Technology",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I12093191": {
+    "id": 144,
+    "openalex_id": "https://openalex.org/I12093191",
+    "ror": "https://ror.org/045wgfr59",
+    "name": "University of Stirling",
+    "country_code": "GB",
+    "type": "education"
+  },
+  "https://openalex.org/I104941359": {
+    "id": 145,
+    "openalex_id": "https://openalex.org/I104941359",
+    "ror": "https://ror.org/00xddhq60",
+    "name": "Al-Ahliyya Amman University",
+    "country_code": "JO",
+    "type": "education"
+  },
+  "https://openalex.org/I12240146": {
+    "id": 146,
+    "openalex_id": "https://openalex.org/I12240146",
+    "ror": "https://ror.org/01e4w2966",
+    "name": "Australian Sports Commission",
+    "country_code": "AU",
+    "type": "government"
+  },
+  "https://openalex.org/I125749732": {
+    "id": 147,
+    "openalex_id": "https://openalex.org/I125749732",
+    "ror": "https://ror.org/02grkyz14",
+    "name": "Western University",
+    "country_code": "CA",
+    "type": "education"
+  },
+  "https://openalex.org/I1297363086": {
+    "id": 148,
+    "openalex_id": "https://openalex.org/I1297363086",
+    "ror": "https://ror.org/04skqfp25",
+    "name": "St. Michael's Hospital",
+    "country_code": "CA",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I113306721": {
+    "id": 149,
+    "openalex_id": "https://openalex.org/I113306721",
+    "ror": "https://ror.org/03t78wx29",
+    "name": "Hiroshima University",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I111483173": {
+    "id": 150,
+    "openalex_id": "https://openalex.org/I111483173",
+    "ror": "https://ror.org/01evb6z23",
+    "name": "King University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I106296451": {
+    "id": 151,
+    "openalex_id": "https://openalex.org/I106296451",
+    "ror": "https://ror.org/01xtv3204",
+    "name": "University of Foggia",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I104579289": {
+    "id": 152,
+    "openalex_id": "https://openalex.org/I104579289",
+    "ror": "https://ror.org/002ygss10",
+    "name": "Utica College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I109935558": {
+    "id": 153,
+    "openalex_id": "https://openalex.org/I109935558",
+    "ror": "https://ror.org/03et85d35",
+    "name": "Ningbo University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I110200422": {
+    "id": 154,
+    "openalex_id": "https://openalex.org/I110200422",
+    "ror": "https://ror.org/0176yjw32",
+    "name": "Universidade Federal de Minas Gerais",
+    "country_code": "BR",
+    "type": "education"
+  },
+  "https://openalex.org/I102272798": {
+    "id": 155,
+    "openalex_id": "https://openalex.org/I102272798",
+    "ror": "https://ror.org/00ghzk478",
+    "name": "INSEAD",
+    "country_code": "FR",
+    "type": "education"
+  },
+  "https://openalex.org/I111112146": {
+    "id": 156,
+    "openalex_id": "https://openalex.org/I111112146",
+    "ror": "https://ror.org/0443cwa12",
+    "name": "Tallinn University of Technology",
+    "country_code": "EE",
+    "type": "education"
+  },
+  "https://openalex.org/I11892038": {
+    "id": 157,
+    "openalex_id": "https://openalex.org/I11892038",
+    "ror": "https://ror.org/01sn1yx84",
+    "name": "University of Nigeria",
+    "country_code": "NG",
+    "type": "education"
+  },
+  "https://openalex.org/I142740786": {
+    "id": 158,
+    "openalex_id": "https://openalex.org/I142740786",
+    "ror": "https://ror.org/01ckdn478",
+    "name": "University of Louisville",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I123431417": {
+    "id": 159,
+    "openalex_id": "https://openalex.org/I123431417",
+    "ror": "https://ror.org/02dxx6824",
+    "name": "Scripps Research Institute",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I107672454": {
+    "id": 160,
+    "openalex_id": "https://openalex.org/I107672454",
+    "ror": "https://ror.org/049s0rh22",
+    "name": "Dartmouth College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1291425158": {
+    "id": 161,
+    "openalex_id": "https://openalex.org/I1291425158",
+    "ror": "https://ror.org/00njsd438",
+    "name": "Google (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I102401767": {
+    "id": 162,
+    "openalex_id": "https://openalex.org/I102401767",
+    "ror": "https://ror.org/04fttyv97",
+    "name": "University of Arkansas at Little Rock",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I118185606": {
+    "id": 163,
+    "openalex_id": "https://openalex.org/I118185606",
+    "ror": "https://ror.org/03gd0dm95",
+    "name": "Aga Khan University",
+    "country_code": "PK",
+    "type": "education"
+  },
+  "https://openalex.org/I1285204247": {
+    "id": 164,
+    "openalex_id": "https://openalex.org/I1285204247",
+    "ror": "https://ror.org/01hcyya48",
+    "name": "Cincinnati Children's Hospital Medical Center",
+    "country_code": "US",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I102502594": {
+    "id": 165,
+    "openalex_id": "https://openalex.org/I102502594",
+    "ror": "https://ror.org/012wxa772",
+    "name": "Northern Illinois University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I114395901": {
+    "id": 166,
+    "openalex_id": "https://openalex.org/I114395901",
+    "ror": "https://ror.org/043mer456",
+    "name": "University of Nebraska\u2013Lincoln",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I149899117": {
+    "id": 167,
+    "openalex_id": "https://openalex.org/I149899117",
+    "ror": "https://ror.org/01hhn8329",
+    "name": "Max Planck Society",
+    "country_code": "DE",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I135310074": {
+    "id": 168,
+    "openalex_id": "https://openalex.org/I135310074",
+    "ror": "https://ror.org/01y2jtd41",
+    "name": "University of Wisconsin\u2013Madison",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I112312016": {
+    "id": 169,
+    "openalex_id": "https://openalex.org/I112312016",
+    "ror": "https://ror.org/02ekfbp48",
+    "name": "Hamedan University of Medical Sciences",
+    "country_code": "IR",
+    "type": "education"
+  },
+  "https://openalex.org/I120825670": {
+    "id": 170,
+    "openalex_id": "https://openalex.org/I120825670",
+    "ror": "https://ror.org/00sc9n023",
+    "name": "Yunnan Normal University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I1323252656": {
+    "id": 171,
+    "openalex_id": "https://openalex.org/I1323252656",
+    "ror": "https://ror.org/00ngv8j44",
+    "name": "Information Technology University",
+    "country_code": "PK",
+    "type": "education"
+  },
+  "https://openalex.org/I110995367": {
+    "id": 172,
+    "openalex_id": "https://openalex.org/I110995367",
+    "ror": "https://ror.org/04rxdpa15",
+    "name": "Sprint (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I10902133": {
+    "id": 173,
+    "openalex_id": "https://openalex.org/I10902133",
+    "ror": "https://ror.org/02ws1xc11",
+    "name": "Universitat Jaume I",
+    "country_code": "ES",
+    "type": "education"
+  },
+  "https://openalex.org/I108652713": {
+    "id": 174,
+    "openalex_id": "https://openalex.org/I108652713",
+    "ror": "https://ror.org/008zgvp64",
+    "name": "Public Library of Science",
+    "country_code": "US",
+    "type": "archive"
+  },
+  "https://openalex.org/I102913810": {
+    "id": 175,
+    "openalex_id": "https://openalex.org/I102913810",
+    "ror": "https://ror.org/01704wp68",
+    "name": "Universiti Malaysia Pahang Al-Sultan Abdullah",
+    "country_code": "MY",
+    "type": "education"
+  },
+  "https://openalex.org/I107766831": {
+    "id": 176,
+    "openalex_id": "https://openalex.org/I107766831",
+    "ror": "https://ror.org/05cvfcr44",
+    "name": "NSF National Center for Atmospheric Research",
+    "country_code": "US",
+    "type": "facility"
+  },
+  "https://openalex.org/I1321686444": {
+    "id": 177,
+    "openalex_id": "https://openalex.org/I1321686444",
+    "ror": "https://ror.org/03fcgva33",
+    "name": "Westchester Medical Center",
+    "country_code": "US",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I120125038": {
+    "id": 178,
+    "openalex_id": "https://openalex.org/I120125038",
+    "ror": "https://ror.org/006jxzx88",
+    "name": "Bond University",
+    "country_code": "AU",
+    "type": "education"
+  },
+  "https://openalex.org/I133731052": {
+    "id": 179,
+    "openalex_id": "https://openalex.org/I133731052",
+    "ror": "https://ror.org/040af2s02",
+    "name": "University of Helsinki",
+    "country_code": "FI",
+    "type": "education"
+  },
+  "https://openalex.org/I102461120": {
+    "id": 180,
+    "openalex_id": "https://openalex.org/I102461120",
+    "ror": "https://ror.org/04gr4te78",
+    "name": "Marquette University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I103261469": {
+    "id": 181,
+    "openalex_id": "https://openalex.org/I103261469",
+    "ror": "https://ror.org/03bq13516",
+    "name": "Guilford Technical Community College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I102808428": {
+    "id": 182,
+    "openalex_id": "https://openalex.org/I102808428",
+    "ror": "https://ror.org/05fd1hd85",
+    "name": "Tbilisi State University",
+    "country_code": "GE",
+    "type": "education"
+  },
+  "https://openalex.org/I1285399213": {
+    "id": 183,
+    "openalex_id": "https://openalex.org/I1285399213",
+    "ror": "https://ror.org/022283x63",
+    "name": "Oxfam",
+    "country_code": "GB",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I107229657": {
+    "id": 184,
+    "openalex_id": "https://openalex.org/I107229657",
+    "ror": "https://ror.org/01kt2cx88",
+    "name": "Zamorano Pan-American Agricultural School",
+    "country_code": "HN",
+    "type": "education"
+  },
+  "https://openalex.org/I155907036": {
+    "id": 185,
+    "openalex_id": "https://openalex.org/I155907036",
+    "ror": "https://ror.org/026tktq31",
+    "name": "Solapur University",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I103922791": {
+    "id": 186,
+    "openalex_id": "https://openalex.org/I103922791",
+    "ror": "https://ror.org/04n1n3n22",
+    "name": "QB3",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I105333472": {
+    "id": 187,
+    "openalex_id": "https://openalex.org/I105333472",
+    "ror": "https://ror.org/05nfx1325",
+    "name": "University of the Philippines Cebu",
+    "country_code": "PH",
+    "type": "education"
+  },
+  "https://openalex.org/I108403487": {
+    "id": 188,
+    "openalex_id": "https://openalex.org/I108403487",
+    "ror": "https://ror.org/00y0xnp53",
+    "name": "Warsaw University of Technology",
+    "country_code": "PL",
+    "type": "education"
+  },
+  "https://openalex.org/I107613613": {
+    "id": 189,
+    "openalex_id": "https://openalex.org/I107613613",
+    "ror": "https://ror.org/04ynw2g14",
+    "name": "Information Technology Institute",
+    "country_code": "EG",
+    "type": "facility"
+  },
+  "https://openalex.org/I12859529": {
+    "id": 190,
+    "openalex_id": "https://openalex.org/I12859529",
+    "ror": "https://ror.org/02y9nww90",
+    "name": "University of Nairobi",
+    "country_code": "KE",
+    "type": "education"
+  },
+  "https://openalex.org/I102239671": {
+    "id": 191,
+    "openalex_id": "https://openalex.org/I102239671",
+    "ror": "https://ror.org/05g48k331",
+    "name": "Hamdan Bin Mohammed Smart University",
+    "country_code": "AE",
+    "type": "education"
+  },
+  "https://openalex.org/I124261462": {
+    "id": 192,
+    "openalex_id": "https://openalex.org/I124261462",
+    "ror": "https://ror.org/04v2twj65",
+    "name": "Oxford Brookes University",
+    "country_code": "GB",
+    "type": "education"
+  },
+  "https://openalex.org/I110002522": {
+    "id": 193,
+    "openalex_id": "https://openalex.org/I110002522",
+    "ror": "https://ror.org/02nkf1q06",
+    "name": "University of Essex",
+    "country_code": "GB",
+    "type": "education"
+  },
+  "https://openalex.org/I130238516": {
+    "id": 194,
+    "openalex_id": "https://openalex.org/I130238516",
+    "ror": "https://ror.org/017zqws13",
+    "name": "University of Minnesota",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1330342723": {
+    "id": 195,
+    "openalex_id": "https://openalex.org/I1330342723",
+    "ror": "https://ror.org/02qp3tb03",
+    "name": "Mayo Clinic",
+    "country_code": "US",
+    "type": "funder"
+  },
+  "https://openalex.org/I128433138": {
+    "id": 196,
+    "openalex_id": "https://openalex.org/I128433138",
+    "ror": "https://ror.org/00xqebk56",
+    "name": "West Los Angeles College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I141472210": {
+    "id": 197,
+    "openalex_id": "https://openalex.org/I141472210",
+    "ror": "https://ror.org/01j7nq853",
+    "name": "University of Alaska Fairbanks",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I116067653": {
+    "id": 198,
+    "openalex_id": "https://openalex.org/I116067653",
+    "ror": "https://ror.org/02p77k626",
+    "name": "University of Rome Tor Vergata",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I106969075": {
+    "id": 199,
+    "openalex_id": "https://openalex.org/I106969075",
+    "ror": "https://ror.org/0162z8b04",
+    "name": "Idaho State University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I10091056": {
+    "id": 200,
+    "openalex_id": "https://openalex.org/I10091056",
+    "ror": "https://ror.org/02hwp6a56",
+    "name": "Kanazawa University",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I105292261": {
+    "id": 201,
+    "openalex_id": "https://openalex.org/I105292261",
+    "ror": "https://ror.org/05ddxe180",
+    "name": "Ministry of Health",
+    "country_code": "MY",
+    "type": "government"
+  },
+  "https://openalex.org/I102065260": {
+    "id": 202,
+    "openalex_id": "https://openalex.org/I102065260",
+    "ror": "https://ror.org/056ksgr44",
+    "name": "PTT Public Company Limited (Thailand)",
+    "country_code": "TH",
+    "type": "company"
+  },
+  "https://openalex.org/I106845459": {
+    "id": 203,
+    "openalex_id": "https://openalex.org/I106845459",
+    "ror": "https://ror.org/0070j0q91",
+    "name": "Universidad de Panam\u00e1",
+    "country_code": "PA",
+    "type": "education"
+  },
+  "https://openalex.org/I132735039": {
+    "id": 204,
+    "openalex_id": "https://openalex.org/I132735039",
+    "ror": "https://ror.org/02xf66n48",
+    "name": "University of Debrecen",
+    "country_code": "HU",
+    "type": "education"
+  },
+  "https://openalex.org/I149743910": {
+    "id": 205,
+    "openalex_id": "https://openalex.org/I149743910",
+    "ror": "https://ror.org/0440cy367",
+    "name": "University of Liberia",
+    "country_code": "LR",
+    "type": "education"
+  },
+  "https://openalex.org/I108511484": {
+    "id": 206,
+    "openalex_id": "https://openalex.org/I108511484",
+    "ror": "https://ror.org/02htdjb57",
+    "name": "Bial (Portugal)",
+    "country_code": "PT",
+    "type": "company"
+  },
+  "https://openalex.org/I108433525": {
+    "id": 207,
+    "openalex_id": "https://openalex.org/I108433525",
+    "ror": "https://ror.org/005cjg181",
+    "name": "Global Forum for Health Research",
+    "country_code": "CH",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I106718257": {
+    "id": 208,
+    "openalex_id": "https://openalex.org/I106718257",
+    "ror": "https://ror.org/04674kj97",
+    "name": "BHP (Australia)",
+    "country_code": "AU",
+    "type": "company"
+  },
+  "https://openalex.org/I165143802": {
+    "id": 209,
+    "openalex_id": "https://openalex.org/I165143802",
+    "ror": "https://ror.org/00rqy9422",
+    "name": "The University of Queensland",
+    "country_code": "AU",
+    "type": "education"
+  },
+  "https://openalex.org/I1308126019": {
+    "id": 210,
+    "openalex_id": "https://openalex.org/I1308126019",
+    "ror": "https://ror.org/02z5nhe81",
+    "name": "National Oceanic and Atmospheric Administration",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I103716689": {
+    "id": 211,
+    "openalex_id": "https://openalex.org/I103716689",
+    "ror": "https://ror.org/038pj4t13",
+    "name": "University College of the North",
+    "country_code": "CA",
+    "type": "education"
+  },
+  "https://openalex.org/I113198587": {
+    "id": 212,
+    "openalex_id": "https://openalex.org/I113198587",
+    "ror": "https://ror.org/02xg1m795",
+    "name": "National Institute of Genetics",
+    "country_code": "JP",
+    "type": "facility"
+  },
+  "https://openalex.org/I126231945": {
+    "id": 213,
+    "openalex_id": "https://openalex.org/I126231945",
+    "ror": "https://ror.org/00hswnk62",
+    "name": "Queen's University Belfast",
+    "country_code": "GB",
+    "type": "education"
+  },
+  "https://openalex.org/I103605164": {
+    "id": 214,
+    "openalex_id": "https://openalex.org/I103605164",
+    "ror": "https://ror.org/01phqre83",
+    "name": "Tohoku Institute of Technology",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I108345032": {
+    "id": 215,
+    "openalex_id": "https://openalex.org/I108345032",
+    "ror": "https://ror.org/03ahd9g67",
+    "name": "Coker College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I125671874": {
+    "id": 216,
+    "openalex_id": "https://openalex.org/I125671874",
+    "ror": "https://ror.org/02wnqcb97",
+    "name": "National Health Service",
+    "country_code": "GB",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I100357981": {
+    "id": 217,
+    "openalex_id": "https://openalex.org/I100357981",
+    "ror": "https://ror.org/037ejjy86",
+    "name": "Wannan Medical College",
+    "country_code": "CN",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I104914703": {
+    "id": 218,
+    "openalex_id": "https://openalex.org/I104914703",
+    "ror": "https://ror.org/00y3hzd62",
+    "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Chicoutimi",
+    "country_code": "CA",
+    "type": "education"
+  },
+  "https://openalex.org/I1299022934": {
+    "id": 219,
+    "openalex_id": "https://openalex.org/I1299022934",
+    "ror": "https://ror.org/033jnv181",
+    "name": "United States Department of Health and Human Services",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I1281592970": {
+    "id": 220,
+    "openalex_id": "https://openalex.org/I1281592970",
+    "ror": "https://ror.org/04c318s33",
+    "name": "Camden and Campbelltown Hospitals",
+    "country_code": "AU",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I1303153112": {
+    "id": 221,
+    "openalex_id": "https://openalex.org/I1303153112",
+    "ror": "https://ror.org/02catss52",
+    "name": "European Bioinformatics Institute",
+    "country_code": "GB",
+    "type": "facility"
+  },
+  "https://openalex.org/I136199984": {
+    "id": 222,
+    "openalex_id": "https://openalex.org/I136199984",
+    "ror": "https://ror.org/03vek6s52",
+    "name": "Harvard University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I116768543": {
+    "id": 223,
+    "openalex_id": "https://openalex.org/I116768543",
+    "ror": "https://ror.org/01xf7jb19",
+    "name": "Zanjan University of Medical Sciences",
+    "country_code": "IR",
+    "type": "education"
+  },
+  "https://openalex.org/I109954829": {
+    "id": 224,
+    "openalex_id": "https://openalex.org/I109954829",
+    "ror": "https://ror.org/03xawq568",
+    "name": "Agricultural University of Athens",
+    "country_code": "GR",
+    "type": "education"
+  },
+  "https://openalex.org/I111455621": {
+    "id": 225,
+    "openalex_id": "https://openalex.org/I111455621",
+    "ror": "https://ror.org/03v8adn41",
+    "name": "Queens College, CUNY",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I107720978": {
+    "id": 226,
+    "openalex_id": "https://openalex.org/I107720978",
+    "ror": "https://ror.org/00cb9w016",
+    "name": "Ain Shams University",
+    "country_code": "EG",
+    "type": "education"
+  },
+  "https://openalex.org/I108806672": {
+    "id": 227,
+    "openalex_id": "https://openalex.org/I108806672",
+    "ror": "https://ror.org/02xdzy536",
+    "name": "Baden-Wuerttemberg Cooperative State University",
+    "country_code": "DE",
+    "type": "education"
+  },
+  "https://openalex.org/I124227911": {
+    "id": 228,
+    "openalex_id": "https://openalex.org/I124227911",
+    "ror": "https://ror.org/05tkyf982",
+    "name": "Ben-Gurion University of the Negev",
+    "country_code": "IL",
+    "type": "education"
+  },
+  "https://openalex.org/I109654844": {
+    "id": 229,
+    "openalex_id": "https://openalex.org/I109654844",
+    "ror": "https://ror.org/03pgm1r86",
+    "name": "American College of Cardiology",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I104546213": {
+    "id": 230,
+    "openalex_id": "https://openalex.org/I104546213",
+    "ror": "https://ror.org/02qzs9336",
+    "name": "National College of Ireland",
+    "country_code": "IE",
+    "type": "education"
+  },
+  "https://openalex.org/I106826634": {
+    "id": 231,
+    "openalex_id": "https://openalex.org/I106826634",
+    "ror": "https://ror.org/01cnqpt53",
+    "name": "Jain University",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I154425047": {
+    "id": 232,
+    "openalex_id": "https://openalex.org/I154425047",
+    "ror": "https://ror.org/0160cpw27",
+    "name": "University of Alberta",
+    "country_code": "CA",
+    "type": "education"
+  },
+  "https://openalex.org/I111971639": {
+    "id": 233,
+    "openalex_id": "https://openalex.org/I111971639",
+    "ror": "https://ror.org/01khf5d59",
+    "name": "Qiqihar University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I131561025": {
+    "id": 234,
+    "openalex_id": "https://openalex.org/I131561025",
+    "ror": "https://ror.org/04ntynb59",
+    "name": "Enugu State University of Science and Technology",
+    "country_code": "NG",
+    "type": "education"
+  },
+  "https://openalex.org/I1333577951": {
+    "id": 235,
+    "openalex_id": "https://openalex.org/I1333577951",
+    "ror": "https://ror.org/02v6w2r95",
+    "name": "California Department of Fish and Wildlife",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I102345215": {
+    "id": 236,
+    "openalex_id": "https://openalex.org/I102345215",
+    "ror": "https://ror.org/04gwtvf26",
+    "name": "Xihua University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I103250015": {
+    "id": 237,
+    "openalex_id": "https://openalex.org/I103250015",
+    "ror": "https://ror.org/056206b04",
+    "name": "Human Sciences Research Council",
+    "country_code": "ZA",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I1283280774": {
+    "id": 238,
+    "openalex_id": "https://openalex.org/I1283280774",
+    "ror": "https://ror.org/04b6nzv94",
+    "name": "Brigham and Women's Hospital",
+    "country_code": "US",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I118347636": {
+    "id": 239,
+    "openalex_id": "https://openalex.org/I118347636",
+    "ror": "https://ror.org/019wvm592",
+    "name": "Australian National University",
+    "country_code": "AU",
+    "type": "education"
+  },
+  "https://openalex.org/I110359606": {
+    "id": 240,
+    "openalex_id": "https://openalex.org/I110359606",
+    "ror": "https://ror.org/00tc3hj46",
+    "name": "Canadian Nurses Association",
+    "country_code": "CA",
+    "type": "other"
+  },
+  "https://openalex.org/I100072489": {
+    "id": 241,
+    "openalex_id": "https://openalex.org/I100072489",
+    "ror": "https://ror.org/025mx2575",
+    "name": "Yeditepe University",
+    "country_code": "TR",
+    "type": "education"
+  },
+  "https://openalex.org/I119454577": {
+    "id": 242,
+    "openalex_id": "https://openalex.org/I119454577",
+    "ror": "https://ror.org/05td3s095",
+    "name": "Nanjing Agricultural University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I119561980": {
+    "id": 243,
+    "openalex_id": "https://openalex.org/I119561980",
+    "ror": "https://ror.org/00zwdnt53",
+    "name": "Umicore (Belgium)",
+    "country_code": "BE",
+    "type": "company"
+  },
+  "https://openalex.org/I107575416": {
+    "id": 244,
+    "openalex_id": "https://openalex.org/I107575416",
+    "ror": "https://ror.org/03mzvxz96",
+    "name": "University of Aleppo",
+    "country_code": "SY",
+    "type": "education"
+  },
+  "https://openalex.org/I1334627681": {
+    "id": 245,
+    "openalex_id": "https://openalex.org/I1334627681",
+    "ror": "https://ror.org/027k65916",
+    "name": "Jet Propulsion Laboratory",
+    "country_code": "US",
+    "type": "facility"
+  },
+  "https://openalex.org/I114277686": {
+    "id": 246,
+    "openalex_id": "https://openalex.org/I114277686",
+    "ror": "https://ror.org/03dy4aq19",
+    "name": "James S. McDonnell Foundation",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I127558574": {
+    "id": 247,
+    "openalex_id": "https://openalex.org/I127558574",
+    "ror": "https://ror.org/00k01kt20",
+    "name": "DSM (Netherlands)",
+    "country_code": "NL",
+    "type": "company"
+  },
+  "https://openalex.org/I100051649": {
+    "id": 248,
+    "openalex_id": "https://openalex.org/I100051649",
+    "ror": "https://ror.org/00apdsa62",
+    "name": "Privolzhsky Research Medical University",
+    "country_code": "RU",
+    "type": "education"
+  },
+  "https://openalex.org/I10496686": {
+    "id": 249,
+    "openalex_id": "https://openalex.org/I10496686",
+    "ror": "https://ror.org/024qkwh22",
+    "name": "Shangrao Normal University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I114472154": {
+    "id": 250,
+    "openalex_id": "https://openalex.org/I114472154",
+    "ror": "https://ror.org/0431sk359",
+    "name": "Marine Biological Association of the United Kingdom",
+    "country_code": "GB",
+    "type": "facility"
+  },
+  "https://openalex.org/I1289784979": {
+    "id": 251,
+    "openalex_id": "https://openalex.org/I1289784979",
+    "ror": "https://ror.org/00wrevg56",
+    "name": "University College Hospital",
+    "country_code": "GB",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I114546181": {
+    "id": 252,
+    "openalex_id": "https://openalex.org/I114546181",
+    "ror": "https://ror.org/03x8jdc94",
+    "name": "Lady Hardinge Medical College",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I120506574": {
+    "id": 253,
+    "openalex_id": "https://openalex.org/I120506574",
+    "ror": "https://ror.org/02jgzjj54",
+    "name": "Allegheny College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I142471025": {
+    "id": 254,
+    "openalex_id": "https://openalex.org/I142471025",
+    "ror": "https://ror.org/03rke0285",
+    "name": "Baker Heart and Diabetes Institute",
+    "country_code": "AU",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I119217307": {
+    "id": 255,
+    "openalex_id": "https://openalex.org/I119217307",
+    "ror": "https://ror.org/05sj5k538",
+    "name": "Opole University of Technology",
+    "country_code": "PL",
+    "type": "education"
+  },
+  "https://openalex.org/I106745318": {
+    "id": 256,
+    "openalex_id": "https://openalex.org/I106745318",
+    "ror": "https://ror.org/033mqx355",
+    "name": "NOAA National Marine Fisheries Service",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I1307098950": {
+    "id": 257,
+    "openalex_id": "https://openalex.org/I1307098950",
+    "ror": "https://ror.org/03xez1567",
+    "name": "Salk Institute for Biological Studies",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I1321649718": {
+    "id": 258,
+    "openalex_id": "https://openalex.org/I1321649718",
+    "ror": "https://ror.org/02rktxt32",
+    "name": "Royal Children's Hospital",
+    "country_code": "AU",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I123387679": {
+    "id": 259,
+    "openalex_id": "https://openalex.org/I123387679",
+    "ror": "https://ror.org/048a87296",
+    "name": "Uppsala University",
+    "country_code": "SE",
+    "type": "education"
+  },
+  "https://openalex.org/I1304256225": {
+    "id": 260,
+    "openalex_id": "https://openalex.org/I1304256225",
+    "ror": "https://ror.org/03ydkyb10",
+    "name": "University of Wisconsin System",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I120514687": {
+    "id": 261,
+    "openalex_id": "https://openalex.org/I120514687",
+    "ror": "https://ror.org/01ysgtb61",
+    "name": "Baqiyatallah University of Medical Sciences",
+    "country_code": "IR",
+    "type": "education"
+  },
+  "https://openalex.org/I201448701": {
+    "id": 262,
+    "openalex_id": "https://openalex.org/I201448701",
+    "ror": "https://ror.org/00cvxb145",
+    "name": "University of Washington",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I169381384": {
+    "id": 263,
+    "openalex_id": "https://openalex.org/I169381384",
+    "ror": "https://ror.org/012p63287",
+    "name": "University of Groningen",
+    "country_code": "NL",
+    "type": "education"
+  },
+  "https://openalex.org/I104338594": {
+    "id": 264,
+    "openalex_id": "https://openalex.org/I104338594",
+    "ror": "https://ror.org/04xqwq985",
+    "name": "Inje University",
+    "country_code": "KR",
+    "type": "education"
+  },
+  "https://openalex.org/I12315562": {
+    "id": 265,
+    "openalex_id": "https://openalex.org/I12315562",
+    "ror": "https://ror.org/0405mnx93",
+    "name": "Texas Tech University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I123338534": {
+    "id": 266,
+    "openalex_id": "https://openalex.org/I123338534",
+    "ror": "https://ror.org/04387x656",
+    "name": "Universit\u00e0 degli Studi del Piemonte Orientale \u201cAmedeo Avogadro\u201d",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I110210549": {
+    "id": 267,
+    "openalex_id": "https://openalex.org/I110210549",
+    "ror": "https://ror.org/024brep87",
+    "name": "International Centre for Integrated Mountain Development",
+    "country_code": "NP",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I125866687": {
+    "id": 268,
+    "openalex_id": "https://openalex.org/I125866687",
+    "ror": "https://ror.org/02cntrd02",
+    "name": "Wayne State College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I107257983": {
+    "id": 269,
+    "openalex_id": "https://openalex.org/I107257983",
+    "ror": "https://ror.org/047wbd030",
+    "name": "Darmstadt University of Applied Sciences",
+    "country_code": "DE",
+    "type": "education"
+  },
+  "https://openalex.org/I111966504": {
+    "id": 270,
+    "openalex_id": "https://openalex.org/I111966504",
+    "ror": "https://ror.org/00msqp585",
+    "name": "University of Fukui",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I103356709": {
+    "id": 271,
+    "openalex_id": "https://openalex.org/I103356709",
+    "ror": "https://ror.org/00ax71d21",
+    "name": "Obuda University",
+    "country_code": "HU",
+    "type": "education"
+  },
+  "https://openalex.org/I12912129": {
+    "id": 272,
+    "openalex_id": "https://openalex.org/I12912129",
+    "ror": "https://ror.org/04t5xt781",
+    "name": "Northeastern University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I113618177": {
+    "id": 273,
+    "openalex_id": "https://openalex.org/I113618177",
+    "ror": "https://ror.org/00rgv0036",
+    "name": "Cameron University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I127506496": {
+    "id": 274,
+    "openalex_id": "https://openalex.org/I127506496",
+    "ror": "https://ror.org/039neah40",
+    "name": "Practical Action",
+    "country_code": "GB",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I111878022": {
+    "id": 275,
+    "openalex_id": "https://openalex.org/I111878022",
+    "ror": "https://ror.org/05er00a75",
+    "name": "Linde (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I12003341": {
+    "id": 276,
+    "openalex_id": "https://openalex.org/I12003341",
+    "ror": "https://ror.org/019vsm959",
+    "name": "National University of Science and Technology",
+    "country_code": "RU",
+    "type": "education"
+  },
+  "https://openalex.org/I111277659": {
+    "id": 277,
+    "openalex_id": "https://openalex.org/I111277659",
+    "ror": "https://ror.org/05kzjxq56",
+    "name": "Chonnam National University",
+    "country_code": "KR",
+    "type": "education"
+  },
+  "https://openalex.org/I1282311441": {
+    "id": 278,
+    "openalex_id": "https://openalex.org/I1282311441",
+    "ror": "https://ror.org/041nk4h53",
+    "name": "Lawrence Livermore National Laboratory",
+    "country_code": "US",
+    "type": "facility"
+  },
+  "https://openalex.org/I121820613": {
+    "id": 279,
+    "openalex_id": "https://openalex.org/I121820613",
+    "ror": "https://ror.org/05ect4e57",
+    "name": "Louisiana State University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I114531698": {
+    "id": 280,
+    "openalex_id": "https://openalex.org/I114531698",
+    "ror": "https://ror.org/0112mx960",
+    "name": "Tokyo Institute of Technology",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I114131015": {
+    "id": 281,
+    "openalex_id": "https://openalex.org/I114131015",
+    "ror": "https://ror.org/04bgfm609",
+    "name": "Stowers Institute for Medical Research",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I161103922": {
+    "id": 282,
+    "openalex_id": "https://openalex.org/I161103922",
+    "ror": "https://ror.org/01rdrb571",
+    "name": "Philipps University of Marburg",
+    "country_code": "DE",
+    "type": "education"
+  },
+  "https://openalex.org/I123946342": {
+    "id": 283,
+    "openalex_id": "https://openalex.org/I123946342",
+    "ror": "https://ror.org/008rmbt77",
+    "name": "Binghamton University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I110273157": {
+    "id": 284,
+    "openalex_id": "https://openalex.org/I110273157",
+    "ror": "https://ror.org/0049erg63",
+    "name": "Kookmin University",
+    "country_code": "KR",
+    "type": "education"
+  },
+  "https://openalex.org/I102607778": {
+    "id": 285,
+    "openalex_id": "https://openalex.org/I102607778",
+    "ror": "https://ror.org/002tx1f22",
+    "name": "Cleveland State University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I153908563": {
+    "id": 286,
+    "openalex_id": "https://openalex.org/I153908563",
+    "ror": "https://ror.org/03rz4pm90",
+    "name": "Nortel (Canada)",
+    "country_code": "CA",
+    "type": "company"
+  },
+  "https://openalex.org/I110166357": {
+    "id": 287,
+    "openalex_id": "https://openalex.org/I110166357",
+    "ror": "https://ror.org/04gzb2213",
+    "name": "University of Delhi",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I102208913": {
+    "id": 288,
+    "openalex_id": "https://openalex.org/I102208913",
+    "ror": "https://ror.org/04x0kvm78",
+    "name": "Shihezi University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I108103353": {
+    "id": 289,
+    "openalex_id": "https://openalex.org/I108103353",
+    "ror": "https://ror.org/01fvbaw18",
+    "name": "Universidad de Valladolid",
+    "country_code": "ES",
+    "type": "education"
+  },
+  "https://openalex.org/I100301340": {
+    "id": 290,
+    "openalex_id": "https://openalex.org/I100301340",
+    "ror": "https://ror.org/03symbb61",
+    "name": "Quanta Technology (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I102669525": {
+    "id": 291,
+    "openalex_id": "https://openalex.org/I102669525",
+    "ror": "https://ror.org/02qhjtc16",
+    "name": "Pelita Harapan University",
+    "country_code": "ID",
+    "type": "education"
+  },
+  "https://openalex.org/I12870472": {
+    "id": 292,
+    "openalex_id": "https://openalex.org/I12870472",
+    "ror": "https://ror.org/00t67pt25",
+    "name": "Birmingham City University",
+    "country_code": "GB",
+    "type": "education"
+  },
+  "https://openalex.org/I1311060795": {
+    "id": 293,
+    "openalex_id": "https://openalex.org/I1311060795",
+    "ror": "https://ror.org/021nxhr62",
+    "name": "U.S. National Science Foundation",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I1289490764": {
+    "id": 294,
+    "openalex_id": "https://openalex.org/I1289490764",
+    "ror": "https://ror.org/042twtr12",
+    "name": "Centers for Disease Control and Prevention",
+    "country_code": "US",
+    "type": "funder"
+  },
+  "https://openalex.org/I107554421": {
+    "id": 295,
+    "openalex_id": "https://openalex.org/I107554421",
+    "ror": "https://ror.org/045jb6x14",
+    "name": "Sundaram Medical Foundation",
+    "country_code": "IN",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I102939073": {
+    "id": 296,
+    "openalex_id": "https://openalex.org/I102939073",
+    "ror": "https://ror.org/00sec1m50",
+    "name": "Universidade Estadual do Cear\u00e1",
+    "country_code": "BR",
+    "type": "education"
+  },
+  "https://openalex.org/I111702420": {
+    "id": 297,
+    "openalex_id": "https://openalex.org/I111702420",
+    "ror": "https://ror.org/04qyefj88",
+    "name": "John Paul II Catholic University of Lublin",
+    "country_code": "PL",
+    "type": "education"
+  },
+  "https://openalex.org/I123791789": {
+    "id": 298,
+    "openalex_id": "https://openalex.org/I123791789",
+    "ror": "https://ror.org/02fdb8q57",
+    "name": "Saint-Gobain (France)",
+    "country_code": "FR",
+    "type": "company"
+  },
+  "https://openalex.org/I1286438233": {
+    "id": 299,
+    "openalex_id": "https://openalex.org/I1286438233",
+    "ror": "https://ror.org/02djn2x77",
+    "name": "Fundaci\u00f3n Juan March",
+    "country_code": "ES",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I106778892": {
+    "id": 300,
+    "openalex_id": "https://openalex.org/I106778892",
+    "ror": "https://ror.org/05b0cyh02",
+    "name": "Princess Nourah bint Abdulrahman University",
+    "country_code": "SA",
+    "type": "education"
+  },
+  "https://openalex.org/I10457146": {
+    "id": 301,
+    "openalex_id": "https://openalex.org/I10457146",
+    "ror": "https://ror.org/02ma57s91",
+    "name": "Universidad de Santiago de Chile",
+    "country_code": "CL",
+    "type": "education"
+  },
+  "https://openalex.org/I110507236": {
+    "id": 302,
+    "openalex_id": "https://openalex.org/I110507236",
+    "ror": "https://ror.org/03m0mkk67",
+    "name": "Gates (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I1286959531": {
+    "id": 303,
+    "openalex_id": "https://openalex.org/I1286959531",
+    "ror": "https://ror.org/006kxhp52",
+    "name": "United Nations",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I115475287": {
+    "id": 304,
+    "openalex_id": "https://openalex.org/I115475287",
+    "ror": "https://ror.org/01g9vbr38",
+    "name": "Oklahoma State University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I125602781": {
+    "id": 305,
+    "openalex_id": "https://openalex.org/I125602781",
+    "ror": "https://ror.org/051k3eh31",
+    "name": "Tokyo Medical and Dental University",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I1294671590": {
+    "id": 306,
+    "openalex_id": "https://openalex.org/I1294671590",
+    "ror": "https://ror.org/02feahw73",
+    "name": "Centre National de la Recherche Scientifique",
+    "country_code": "FR",
+    "type": "government"
+  },
+  "https://openalex.org/I125687163": {
+    "id": 307,
+    "openalex_id": "https://openalex.org/I125687163",
+    "ror": "https://ror.org/00wmhkr98",
+    "name": "City College of New York",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I103406327": {
+    "id": 308,
+    "openalex_id": "https://openalex.org/I103406327",
+    "ror": "https://ror.org/010h78f45",
+    "name": "Western Carolina University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I2251713219": {
+    "id": 309,
+    "openalex_id": "https://openalex.org/I2251713219",
+    "ror": "https://ror.org/00berct97",
+    "name": "NTT (Japan)",
+    "country_code": "JP",
+    "type": "company"
+  },
+  "https://openalex.org/I103167339": {
+    "id": 310,
+    "openalex_id": "https://openalex.org/I103167339",
+    "ror": "https://ror.org/00v8s1x79",
+    "name": "Airbus (Italy)",
+    "country_code": "IT",
+    "type": "company"
+  },
+  "https://openalex.org/I10535382": {
+    "id": 311,
+    "openalex_id": "https://openalex.org/I10535382",
+    "ror": "https://ror.org/03dgaqz26",
+    "name": "Chongqing University of Posts and Telecommunications",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I121934306": {
+    "id": 312,
+    "openalex_id": "https://openalex.org/I121934306",
+    "ror": "https://ror.org/05wvpxv85",
+    "name": "Tufts University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I157614274": {
+    "id": 313,
+    "openalex_id": "https://openalex.org/I157614274",
+    "ror": "https://ror.org/03p74gp79",
+    "name": "University of Cape Town",
+    "country_code": "ZA",
+    "type": "education"
+  },
+  "https://openalex.org/I121797337": {
+    "id": 314,
+    "openalex_id": "https://openalex.org/I121797337",
+    "ror": "https://ror.org/027bh9e22",
+    "name": "Leiden University",
+    "country_code": "NL",
+    "type": "education"
+  },
+  "https://openalex.org/I1318003438": {
+    "id": 315,
+    "openalex_id": "https://openalex.org/I1318003438",
+    "ror": "https://ror.org/02scfj030",
+    "name": "RELX Group (Netherlands)",
+    "country_code": "NL",
+    "type": "company"
+  },
+  "https://openalex.org/I1307946715": {
+    "id": 316,
+    "openalex_id": "https://openalex.org/I1307946715",
+    "ror": "https://ror.org/0227qpa16",
+    "name": "NHS Blood and Transplant",
+    "country_code": "GB",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I1298154867": {
+    "id": 317,
+    "openalex_id": "https://openalex.org/I1298154867",
+    "ror": "https://ror.org/05q6tgt32",
+    "name": "Kennedy Krieger Institute",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I10520737": {
+    "id": 318,
+    "openalex_id": "https://openalex.org/I10520737",
+    "ror": "https://ror.org/04jvka613",
+    "name": "National Institute of Technology, Toyama College",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I106785703": {
+    "id": 319,
+    "openalex_id": "https://openalex.org/I106785703",
+    "ror": "https://ror.org/05sbt2524",
+    "name": "Institut polytechnique de Grenoble",
+    "country_code": "FR",
+    "type": "education"
+  },
+  "https://openalex.org/I4210099549": {
+    "id": 320,
+    "openalex_id": "https://openalex.org/I4210099549",
+    "ror": "https://ror.org/00wz4b049",
+    "name": "Zoological Research Museum Alexander Koenig",
+    "country_code": "DE",
+    "type": "archive"
+  },
+  "https://openalex.org/I11662577": {
+    "id": 321,
+    "openalex_id": "https://openalex.org/I11662577",
+    "ror": "https://ror.org/00yncr324",
+    "name": "Monash University Malaysia",
+    "country_code": "MY",
+    "type": "education"
+  },
+  "https://openalex.org/I108093660": {
+    "id": 322,
+    "openalex_id": "https://openalex.org/I108093660",
+    "ror": "https://ror.org/02fn4qf13",
+    "name": "Benedictine College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1323778983": {
+    "id": 323,
+    "openalex_id": "https://openalex.org/I1323778983",
+    "ror": "https://ror.org/05tszed37",
+    "name": "Yale New Haven Hospital",
+    "country_code": "US",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I1283442259": {
+    "id": 324,
+    "openalex_id": "https://openalex.org/I1283442259",
+    "ror": "https://ror.org/04zte5g15",
+    "name": "Madda Walabu University",
+    "country_code": "ET",
+    "type": "education"
+  },
+  "https://openalex.org/I109703491": {
+    "id": 325,
+    "openalex_id": "https://openalex.org/I109703491",
+    "ror": "https://ror.org/03zmfa837",
+    "name": "Rochester Institute of Technology - Dubai",
+    "country_code": "AE",
+    "type": "education"
+  },
+  "https://openalex.org/I126307644": {
+    "id": 326,
+    "openalex_id": "https://openalex.org/I126307644",
+    "ror": "https://ror.org/036jqmy94",
+    "name": "University of Iowa",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1286936699": {
+    "id": 327,
+    "openalex_id": "https://openalex.org/I1286936699",
+    "ror": "https://ror.org/03x0d4x24",
+    "name": "Pacific Northwest Diabetes Research Institute",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I124633538": {
+    "id": 328,
+    "openalex_id": "https://openalex.org/I124633538",
+    "ror": "https://ror.org/05en5nh73",
+    "name": "University of Seoul",
+    "country_code": "KR",
+    "type": "education"
+  },
+  "https://openalex.org/I1287163989": {
+    "id": 329,
+    "openalex_id": "https://openalex.org/I1287163989",
+    "ror": "https://ror.org/04g3dn724",
+    "name": "Massachusetts Eye and Ear Infirmary",
+    "country_code": "US",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I125839683": {
+    "id": 330,
+    "openalex_id": "https://openalex.org/I125839683",
+    "ror": "https://ror.org/01skt4w74",
+    "name": "Beijing Institute of Technology",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I105296287": {
+    "id": 331,
+    "openalex_id": "https://openalex.org/I105296287",
+    "ror": "https://ror.org/057xtrt18",
+    "name": "Kurume University",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I106994412": {
+    "id": 332,
+    "openalex_id": "https://openalex.org/I106994412",
+    "ror": "https://ror.org/0161q6d74",
+    "name": "Sinopec (China)",
+    "country_code": "CN",
+    "type": "company"
+  },
+  "https://openalex.org/I1281833243": {
+    "id": 333,
+    "openalex_id": "https://openalex.org/I1281833243",
+    "ror": "https://ror.org/013kjyp64",
+    "name": "American Heart Association",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I101890099": {
+    "id": 334,
+    "openalex_id": "https://openalex.org/I101890099",
+    "ror": "https://ror.org/01g63ab19",
+    "name": "Northside Hospital",
+    "country_code": "US",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I10342815": {
+    "id": 335,
+    "openalex_id": "https://openalex.org/I10342815",
+    "ror": "https://ror.org/04t6r6d34",
+    "name": "International Space University",
+    "country_code": "FR",
+    "type": "education"
+  },
+  "https://openalex.org/I1296045107": {
+    "id": 336,
+    "openalex_id": "https://openalex.org/I1296045107",
+    "ror": "https://ror.org/02je1hv25",
+    "name": "California Department of Education",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I102664891": {
+    "id": 337,
+    "openalex_id": "https://openalex.org/I102664891",
+    "ror": "https://ror.org/03jb89v85",
+    "name": "W. L. Gore & Associates (Germany)",
+    "country_code": "DE",
+    "type": "company"
+  },
+  "https://openalex.org/I124121301": {
+    "id": 338,
+    "openalex_id": "https://openalex.org/I124121301",
+    "ror": "https://ror.org/026gdz537",
+    "name": "Lucian Blaga University of Sibiu",
+    "country_code": "RO",
+    "type": "education"
+  },
+  "https://openalex.org/I110357561": {
+    "id": 339,
+    "openalex_id": "https://openalex.org/I110357561",
+    "ror": "https://ror.org/048gmay44",
+    "name": "University of the Sciences",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I110525433": {
+    "id": 340,
+    "openalex_id": "https://openalex.org/I110525433",
+    "ror": "https://ror.org/01kzn7k21",
+    "name": "Islamic Azad University, Tehran",
+    "country_code": "IR",
+    "type": "education"
+  },
+  "https://openalex.org/I106437751": {
+    "id": 341,
+    "openalex_id": "https://openalex.org/I106437751",
+    "ror": "https://ror.org/045ncxc88",
+    "name": "Centro Tecnol\u00f3xico de Telecomunicaci\u00f3ns de Galicia",
+    "country_code": "ES",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I117965899": {
+    "id": 342,
+    "openalex_id": "https://openalex.org/I117965899",
+    "ror": "https://ror.org/01wspgy28",
+    "name": "University of Hawai\u02bbi at M\u0101noa",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I11883440": {
+    "id": 343,
+    "openalex_id": "https://openalex.org/I11883440",
+    "ror": "https://ror.org/028pmsz77",
+    "name": "James Madison University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I104588304": {
+    "id": 344,
+    "openalex_id": "https://openalex.org/I104588304",
+    "ror": "https://ror.org/05vmz5070",
+    "name": "University of Szczecin",
+    "country_code": "PL",
+    "type": "education"
+  },
+  "https://openalex.org/I102101047": {
+    "id": 345,
+    "openalex_id": "https://openalex.org/I102101047",
+    "ror": "https://ror.org/020vmqv16",
+    "name": "Roosevelt University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I101343708": {
+    "id": 346,
+    "openalex_id": "https://openalex.org/I101343708",
+    "ror": "https://ror.org/04c6pgy84",
+    "name": "Mercer (Czechia)",
+    "country_code": "CZ",
+    "type": "company"
+  },
+  "https://openalex.org/I126595936": {
+    "id": 347,
+    "openalex_id": "https://openalex.org/I126595936",
+    "ror": "https://ror.org/006m4q736",
+    "name": "Azerbaijan National Academy of Sciences",
+    "country_code": "AZ",
+    "type": "government"
+  },
+  "https://openalex.org/I108865366": {
+    "id": 348,
+    "openalex_id": "https://openalex.org/I108865366",
+    "ror": "https://ror.org/05k1yyh03",
+    "name": "Human Genome Sciences (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I100445878": {
+    "id": 349,
+    "openalex_id": "https://openalex.org/I100445878",
+    "ror": "https://ror.org/03nh7d505",
+    "name": "\u00c9cole Centrale de Nantes",
+    "country_code": "FR",
+    "type": "education"
+  },
+  "https://openalex.org/I1322918889": {
+    "id": 350,
+    "openalex_id": "https://openalex.org/I1322918889",
+    "ror": "https://ror.org/05rsv9s98",
+    "name": "United States Department of Veterans Affairs",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I154130895": {
+    "id": 351,
+    "openalex_id": "https://openalex.org/I154130895",
+    "ror": "https://ror.org/03b94tp07",
+    "name": "University of Auckland",
+    "country_code": "NZ",
+    "type": "education"
+  },
+  "https://openalex.org/I116833633": {
+    "id": 352,
+    "openalex_id": "https://openalex.org/I116833633",
+    "ror": "https://ror.org/00186jw56",
+    "name": "Northwestern Health Sciences University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I114030911": {
+    "id": 353,
+    "openalex_id": "https://openalex.org/I114030911",
+    "ror": "https://ror.org/013k5y296",
+    "name": "Otsuka (Japan)",
+    "country_code": "JP",
+    "type": "company"
+  },
+  "https://openalex.org/I133903919": {
+    "id": 354,
+    "openalex_id": "https://openalex.org/I133903919",
+    "ror": "https://ror.org/056mgfb42",
+    "name": "Arak University of Medical Sciences",
+    "country_code": "IR",
+    "type": "education"
+  },
+  "https://openalex.org/I113643904": {
+    "id": 355,
+    "openalex_id": "https://openalex.org/I113643904",
+    "ror": "https://ror.org/05pn4yv70",
+    "name": "Beni-Suef University",
+    "country_code": "EG",
+    "type": "education"
+  },
+  "https://openalex.org/I11006740": {
+    "id": 356,
+    "openalex_id": "https://openalex.org/I11006740",
+    "ror": "https://ror.org/00yzwgc71",
+    "name": "Southern California Coastal Water Research Project",
+    "country_code": "US",
+    "type": "facility"
+  },
+  "https://openalex.org/I1292859797": {
+    "id": 357,
+    "openalex_id": "https://openalex.org/I1292859797",
+    "ror": "https://ror.org/05ghs6f64",
+    "name": "Montreal Neurological Institute and Hospital",
+    "country_code": "CA",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I1290206253": {
+    "id": 358,
+    "openalex_id": "https://openalex.org/I1290206253",
+    "ror": "https://ror.org/00d0nc645",
+    "name": "Microsoft (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I122266389": {
+    "id": 359,
+    "openalex_id": "https://openalex.org/I122266389",
+    "ror": "https://ror.org/04yrkc140",
+    "name": "University of Nebraska at Omaha",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I107077323": {
+    "id": 360,
+    "openalex_id": "https://openalex.org/I107077323",
+    "ror": "https://ror.org/05ejpqr48",
+    "name": "Worcester Polytechnic Institute",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1320481043": {
+    "id": 361,
+    "openalex_id": "https://openalex.org/I1320481043",
+    "ror": "https://ror.org/019w4f821",
+    "name": "European Union",
+    "country_code": "BE",
+    "type": "government"
+  },
+  "https://openalex.org/I106618798": {
+    "id": 362,
+    "openalex_id": "https://openalex.org/I106618798",
+    "ror": "https://ror.org/04aqg9s78",
+    "name": "Beiersdorf (Germany)",
+    "country_code": "DE",
+    "type": "company"
+  },
+  "https://openalex.org/I102248843": {
+    "id": 363,
+    "openalex_id": "https://openalex.org/I102248843",
+    "ror": "https://ror.org/03yn8s215",
+    "name": "Vienna University of Economics and Business",
+    "country_code": "AT",
+    "type": "education"
+  },
+  "https://openalex.org/I12649496": {
+    "id": 364,
+    "openalex_id": "https://openalex.org/I12649496",
+    "ror": "https://ror.org/03fj82m46",
+    "name": "INTI International University",
+    "country_code": "MY",
+    "type": "education"
+  },
+  "https://openalex.org/I100191712": {
+    "id": 365,
+    "openalex_id": "https://openalex.org/I100191712",
+    "ror": "https://ror.org/0529ybh43",
+    "name": "Pepperdine University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I126697797": {
+    "id": 366,
+    "openalex_id": "https://openalex.org/I126697797",
+    "ror": "https://ror.org/00qctrq52",
+    "name": "Manipal College of Medical Sciences",
+    "country_code": "NP",
+    "type": "education"
+  },
+  "https://openalex.org/I109963156": {
+    "id": 367,
+    "openalex_id": "https://openalex.org/I109963156",
+    "ror": "https://ror.org/04jpmwt24",
+    "name": "Bidhan Chandra Krishi Viswavidyalaya",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I104651037": {
+    "id": 368,
+    "openalex_id": "https://openalex.org/I104651037",
+    "ror": "https://ror.org/02x2aj034",
+    "name": "Millersville University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I19820366": {
+    "id": 369,
+    "openalex_id": "https://openalex.org/I19820366",
+    "ror": "https://ror.org/034t30j35",
+    "name": "Chinese Academy of Sciences",
+    "country_code": "CN",
+    "type": "government"
+  },
+  "https://openalex.org/I107603542": {
+    "id": 370,
+    "openalex_id": "https://openalex.org/I107603542",
+    "ror": "https://ror.org/052411t69",
+    "name": "Courtauld Institute of Art",
+    "country_code": "GB",
+    "type": "education"
+  },
+  "https://openalex.org/I103146751": {
+    "id": 371,
+    "openalex_id": "https://openalex.org/I103146751",
+    "ror": "https://ror.org/05mwmd090",
+    "name": "University of the Faroe Islands",
+    "country_code": "FO",
+    "type": "education"
+  },
+  "https://openalex.org/I123185442": {
+    "id": 372,
+    "openalex_id": "https://openalex.org/I123185442",
+    "ror": "https://ror.org/05d2kyx68",
+    "name": "Reykjav\u00edk University",
+    "country_code": "IS",
+    "type": "education"
+  },
+  "https://openalex.org/I103004294": {
+    "id": 373,
+    "openalex_id": "https://openalex.org/I103004294",
+    "ror": "https://ror.org/01ks7f963",
+    "name": "National Center for Disease Control",
+    "country_code": "IN",
+    "type": "government"
+  },
+  "https://openalex.org/I103313812": {
+    "id": 374,
+    "openalex_id": "https://openalex.org/I103313812",
+    "ror": "https://ror.org/03c6kd554",
+    "name": "Royal Australian College of General Practitioners",
+    "country_code": "AU",
+    "type": "education"
+  },
+  "https://openalex.org/I1292069884": {
+    "id": 375,
+    "openalex_id": "https://openalex.org/I1292069884",
+    "ror": "https://ror.org/0077fnc39",
+    "name": "Greater Baltimore Medical Center",
+    "country_code": "US",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I119664326": {
+    "id": 376,
+    "openalex_id": "https://openalex.org/I119664326",
+    "ror": "https://ror.org/01k2y1055",
+    "name": "University of Wolverhampton",
+    "country_code": "GB",
+    "type": "education"
+  },
+  "https://openalex.org/I111753288": {
+    "id": 377,
+    "openalex_id": "https://openalex.org/I111753288",
+    "ror": "https://ror.org/020azk594",
+    "name": "Fujian Normal University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I1285887220": {
+    "id": 378,
+    "openalex_id": "https://openalex.org/I1285887220",
+    "ror": "https://ror.org/0353q6p88",
+    "name": "Sydney South West Area Health Service",
+    "country_code": "AU",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I126824641": {
+    "id": 379,
+    "openalex_id": "https://openalex.org/I126824641",
+    "ror": "https://ror.org/013x70191",
+    "name": "JSS Academy of Higher Education and Research",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I108169390": {
+    "id": 380,
+    "openalex_id": "https://openalex.org/I108169390",
+    "ror": "https://ror.org/056d9c052",
+    "name": "Hyogo University of Health Sciences",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I105818395": {
+    "id": 381,
+    "openalex_id": "https://openalex.org/I105818395",
+    "ror": "https://ror.org/015zmr509",
+    "name": "University of Kashan",
+    "country_code": "IR",
+    "type": "education"
+  },
+  "https://openalex.org/I118292597": {
+    "id": 382,
+    "openalex_id": "https://openalex.org/I118292597",
+    "ror": "https://ror.org/00cn92c09",
+    "name": "National Taipei University of Technology",
+    "country_code": "TW",
+    "type": "education"
+  },
+  "https://openalex.org/I119439378": {
+    "id": 383,
+    "openalex_id": "https://openalex.org/I119439378",
+    "ror": "https://ror.org/039bp8j42",
+    "name": "University of Verona",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I102782458": {
+    "id": 384,
+    "openalex_id": "https://openalex.org/I102782458",
+    "ror": "https://ror.org/052qsay17",
+    "name": "Chittagong University of Engineering & Technology",
+    "country_code": "BD",
+    "type": "education"
+  },
+  "https://openalex.org/I130555825": {
+    "id": 385,
+    "openalex_id": "https://openalex.org/I130555825",
+    "ror": "https://ror.org/048kc5t54",
+    "name": "Faulkner University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I117197279": {
+    "id": 386,
+    "openalex_id": "https://openalex.org/I117197279",
+    "ror": "https://ror.org/05nf86y53",
+    "name": "Japan Atomic Energy Agency",
+    "country_code": "JP",
+    "type": "funder"
+  },
+  "https://openalex.org/I118118575": {
+    "id": 387,
+    "openalex_id": "https://openalex.org/I118118575",
+    "ror": "https://ror.org/05e74xb87",
+    "name": "New Jersey Institute of Technology",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I116530498": {
+    "id": 388,
+    "openalex_id": "https://openalex.org/I116530498",
+    "ror": "https://ror.org/04mrb6c22",
+    "name": "Inova Health System",
+    "country_code": "US",
+    "type": "funder"
+  },
+  "https://openalex.org/I142617266": {
+    "id": 389,
+    "openalex_id": "https://openalex.org/I142617266",
+    "ror": "https://ror.org/00dr28g20",
+    "name": "University of Crete",
+    "country_code": "GR",
+    "type": "education"
+  },
+  "https://openalex.org/I106079672": {
+    "id": 390,
+    "openalex_id": "https://openalex.org/I106079672",
+    "ror": "https://ror.org/036h65h05",
+    "name": "Hebei University of Engineering",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I12789410": {
+    "id": 391,
+    "openalex_id": "https://openalex.org/I12789410",
+    "ror": "https://ror.org/019apvn83",
+    "name": "Ahmadu Bello University",
+    "country_code": "NG",
+    "type": "education"
+  },
+  "https://openalex.org/I116680314": {
+    "id": 392,
+    "openalex_id": "https://openalex.org/I116680314",
+    "ror": "https://ror.org/037xccs34",
+    "name": "Chitose Institute of Science and Technology",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I100406981": {
+    "id": 393,
+    "openalex_id": "https://openalex.org/I100406981",
+    "ror": "https://ror.org/047rtk203",
+    "name": "Swiss German University",
+    "country_code": "ID",
+    "type": "education"
+  },
+  "https://openalex.org/I110263422": {
+    "id": 394,
+    "openalex_id": "https://openalex.org/I110263422",
+    "ror": "https://ror.org/0257kt353",
+    "name": "University West",
+    "country_code": "SE",
+    "type": "education"
+  },
+  "https://openalex.org/I122346577": {
+    "id": 395,
+    "openalex_id": "https://openalex.org/I122346577",
+    "ror": "https://ror.org/02d4c4y02",
+    "name": "University of Modena and Reggio Emilia",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I164861460": {
+    "id": 396,
+    "openalex_id": "https://openalex.org/I164861460",
+    "ror": "https://ror.org/02xzytt36",
+    "name": "Manipal Academy of Higher Education",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I11986463": {
+    "id": 397,
+    "openalex_id": "https://openalex.org/I11986463",
+    "ror": "https://ror.org/01e6ksd91",
+    "name": "Universit\u00e0 Iuav di Venezia",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I1291357265": {
+    "id": 398,
+    "openalex_id": "https://openalex.org/I1291357265",
+    "ror": "https://ror.org/00mrhvv69",
+    "name": "Ministry of Health",
+    "country_code": "SG",
+    "type": "government"
+  },
+  "https://openalex.org/I1307585291": {
+    "id": 399,
+    "openalex_id": "https://openalex.org/I1307585291",
+    "ror": "https://ror.org/04y58d606",
+    "name": "Khulna University of Engineering and Technology",
+    "country_code": "BD",
+    "type": "education"
+  },
+  "https://openalex.org/I1320553840": {
+    "id": 400,
+    "openalex_id": "https://openalex.org/I1320553840",
+    "ror": "https://ror.org/03g03ge92",
+    "name": "Amgen (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I141576021": {
+    "id": 401,
+    "openalex_id": "https://openalex.org/I141576021",
+    "ror": "https://ror.org/05v509s40",
+    "name": "Universit\u00e9 Le Havre Normandie",
+    "country_code": "FR",
+    "type": "education"
+  },
+  "https://openalex.org/I1280414376": {
+    "id": 402,
+    "openalex_id": "https://openalex.org/I1280414376",
+    "ror": "https://ror.org/02e2egq70",
+    "name": "United States Air Force Research Laboratory",
+    "country_code": "US",
+    "type": "facility"
+  },
+  "https://openalex.org/I1286498122": {
+    "id": 403,
+    "openalex_id": "https://openalex.org/I1286498122",
+    "ror": "https://ror.org/04ce9mt19",
+    "name": "Hoover Institution",
+    "country_code": "US",
+    "type": "facility"
+  },
+  "https://openalex.org/I109301148": {
+    "id": 404,
+    "openalex_id": "https://openalex.org/I109301148",
+    "ror": "https://ror.org/01dk4b453",
+    "name": "Pasadena City College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1298207432": {
+    "id": 405,
+    "openalex_id": "https://openalex.org/I1298207432",
+    "ror": "https://ror.org/04r33pf22",
+    "name": "Guy's Hospital",
+    "country_code": "GB",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I1313014049": {
+    "id": 406,
+    "openalex_id": "https://openalex.org/I1313014049",
+    "ror": "https://ror.org/0117jxy09",
+    "name": "Springer Nature (Germany)",
+    "country_code": "DE",
+    "type": "company"
+  },
+  "https://openalex.org/I125861091": {
+    "id": 407,
+    "openalex_id": "https://openalex.org/I125861091",
+    "ror": "https://ror.org/02y2cxp25",
+    "name": "HELP University",
+    "country_code": "MY",
+    "type": "education"
+  },
+  "https://openalex.org/I129043915": {
+    "id": 408,
+    "openalex_id": "https://openalex.org/I129043915",
+    "ror": "https://ror.org/05ht0mh31",
+    "name": "University of Udine",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I170238339": {
+    "id": 409,
+    "openalex_id": "https://openalex.org/I170238339",
+    "ror": "https://ror.org/05ezss144",
+    "name": "Duy Tan University",
+    "country_code": "VN",
+    "type": "education"
+  },
+  "https://openalex.org/I121032520": {
+    "id": 410,
+    "openalex_id": "https://openalex.org/I121032520",
+    "ror": "https://ror.org/016f61126",
+    "name": "Medical University of Lublin",
+    "country_code": "PL",
+    "type": "education"
+  },
+  "https://openalex.org/I119856527": {
+    "id": 411,
+    "openalex_id": "https://openalex.org/I119856527",
+    "ror": "https://ror.org/04xf6nm78",
+    "name": "Cadi Ayyad University",
+    "country_code": "MA",
+    "type": "education"
+  },
+  "https://openalex.org/I110026055": {
+    "id": 412,
+    "openalex_id": "https://openalex.org/I110026055",
+    "ror": "https://ror.org/014837179",
+    "name": "Iscte \u2013 Instituto Universit\u00e1rio de Lisboa",
+    "country_code": "PT",
+    "type": "education"
+  },
+  "https://openalex.org/I177969490": {
+    "id": 413,
+    "openalex_id": "https://openalex.org/I177969490",
+    "ror": "https://ror.org/03yrrjy16",
+    "name": "University of Southern Denmark",
+    "country_code": "DK",
+    "type": "education"
+  },
+  "https://openalex.org/I117015748": {
+    "id": 414,
+    "openalex_id": "https://openalex.org/I117015748",
+    "ror": "https://ror.org/04keq6987",
+    "name": "Purdue University Northwest",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1308548392": {
+    "id": 415,
+    "openalex_id": "https://openalex.org/I1308548392",
+    "ror": "https://ror.org/01arysc35",
+    "name": "Santa Fe Institute",
+    "country_code": "US",
+    "type": "funder"
+  },
+  "https://openalex.org/I161106909": {
+    "id": 416,
+    "openalex_id": "https://openalex.org/I161106909",
+    "ror": "https://ror.org/03w04rv71",
+    "name": "Iran University of Medical Sciences",
+    "country_code": "IR",
+    "type": "education"
+  },
+  "https://openalex.org/I108326093": {
+    "id": 417,
+    "openalex_id": "https://openalex.org/I108326093",
+    "ror": "https://ror.org/018xens77",
+    "name": "Ithaka Harbors",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I119878761": {
+    "id": 418,
+    "openalex_id": "https://openalex.org/I119878761",
+    "ror": "https://ror.org/05qg1tz58",
+    "name": "Federal Reserve Bank of Atlanta",
+    "country_code": "US",
+    "type": "other"
+  },
+  "https://openalex.org/I100722782": {
+    "id": 419,
+    "openalex_id": "https://openalex.org/I100722782",
+    "ror": "https://ror.org/00bmxak18",
+    "name": "Fukuoka Institute of Technology",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I122140584": {
+    "id": 420,
+    "openalex_id": "https://openalex.org/I122140584",
+    "ror": "https://ror.org/03490as77",
+    "name": "Universidade Federal do Rio de Janeiro",
+    "country_code": "BR",
+    "type": "education"
+  },
+  "https://openalex.org/I112524849": {
+    "id": 421,
+    "openalex_id": "https://openalex.org/I112524849",
+    "ror": "https://ror.org/00xy44n04",
+    "name": "Yamagata University",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I135140700": {
+    "id": 422,
+    "openalex_id": "https://openalex.org/I135140700",
+    "ror": "https://ror.org/041nas322",
+    "name": "University of Bonn",
+    "country_code": "DE",
+    "type": "education"
+  },
+  "https://openalex.org/I12607205": {
+    "id": 423,
+    "openalex_id": "https://openalex.org/I12607205",
+    "ror": "https://ror.org/00rs45z86",
+    "name": "University College Ghent",
+    "country_code": "BE",
+    "type": "education"
+  },
+  "https://openalex.org/I1316902750": {
+    "id": 424,
+    "openalex_id": "https://openalex.org/I1316902750",
+    "ror": "https://ror.org/03xjacd83",
+    "name": "Cleveland Clinic",
+    "country_code": "US",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I101240087": {
+    "id": 425,
+    "openalex_id": "https://openalex.org/I101240087",
+    "ror": "https://ror.org/029qx3s09",
+    "name": "High Point University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I116660002": {
+    "id": 426,
+    "openalex_id": "https://openalex.org/I116660002",
+    "ror": "https://ror.org/05qz2dz14",
+    "name": "The Max Stern Yezreel Valley College",
+    "country_code": "IL",
+    "type": "education"
+  },
+  "https://openalex.org/I108526665": {
+    "id": 427,
+    "openalex_id": "https://openalex.org/I108526665",
+    "ror": "https://ror.org/00g0n6t22",
+    "name": "Fakir Mohan University",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I108377266": {
+    "id": 428,
+    "openalex_id": "https://openalex.org/I108377266",
+    "ror": "https://ror.org/05byh2e17",
+    "name": "Earth University",
+    "country_code": "CR",
+    "type": "education"
+  },
+  "https://openalex.org/I169086405": {
+    "id": 429,
+    "openalex_id": "https://openalex.org/I169086405",
+    "ror": "https://ror.org/04mpzkf73",
+    "name": "Winthrop University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I106959904": {
+    "id": 430,
+    "openalex_id": "https://openalex.org/I106959904",
+    "ror": "https://ror.org/04atsbb87",
+    "name": "Florida Institute of Technology",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1321305853": {
+    "id": 431,
+    "openalex_id": "https://openalex.org/I1321305853",
+    "ror": "https://ror.org/04grmx538",
+    "name": "National Bureau of Economic Research",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I1289437631": {
+    "id": 432,
+    "openalex_id": "https://openalex.org/I1289437631",
+    "ror": "https://ror.org/0567t7073",
+    "name": "Fox Chase Cancer Center",
+    "country_code": "US",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I110217816": {
+    "id": 433,
+    "openalex_id": "https://openalex.org/I110217816",
+    "ror": "https://ror.org/039p7ck60",
+    "name": "Dongduk Women's University",
+    "country_code": "KR",
+    "type": "education"
+  },
+  "https://openalex.org/I1300699541": {
+    "id": 434,
+    "openalex_id": "https://openalex.org/I1300699541",
+    "ror": "https://ror.org/0025x8m44",
+    "name": "SeaWorld Entertainment",
+    "country_code": "US",
+    "type": "other"
+  },
+  "https://openalex.org/I1294824412": {
+    "id": 435,
+    "openalex_id": "https://openalex.org/I1294824412",
+    "ror": "https://ror.org/04jkbnw46",
+    "name": "Center for Infectious Disease Research",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I165779595": {
+    "id": 436,
+    "openalex_id": "https://openalex.org/I165779595",
+    "ror": "https://ror.org/01ej9dk98",
+    "name": "The University of Melbourne",
+    "country_code": "AU",
+    "type": "education"
+  },
+  "https://openalex.org/I119003972": {
+    "id": 437,
+    "openalex_id": "https://openalex.org/I119003972",
+    "ror": "https://ror.org/05vf0dg29",
+    "name": "Roma Tre University",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I13144388": {
+    "id": 438,
+    "openalex_id": "https://openalex.org/I13144388",
+    "ror": "https://ror.org/02c4zkr79",
+    "name": "Ekiti State University",
+    "country_code": "NG",
+    "type": "education"
+  },
+  "https://openalex.org/I112756935": {
+    "id": 439,
+    "openalex_id": "https://openalex.org/I112756935",
+    "ror": "https://ror.org/04p61dj41",
+    "name": "Technische Hochschule Mannheim",
+    "country_code": "DE",
+    "type": "education"
+  },
+  "https://openalex.org/I1303444417": {
+    "id": 440,
+    "openalex_id": "https://openalex.org/I1303444417",
+    "ror": "https://ror.org/0456r8d26",
+    "name": "Gates Foundation",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I129734738": {
+    "id": 441,
+    "openalex_id": "https://openalex.org/I129734738",
+    "ror": "https://ror.org/02ys8pq62",
+    "name": "All India Institute of Medical Sciences Raipur",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I1296788130": {
+    "id": 442,
+    "openalex_id": "https://openalex.org/I1296788130",
+    "ror": "https://ror.org/00vkrxq08",
+    "name": "University Malaya Medical Centre",
+    "country_code": "MY",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I108160477": {
+    "id": 443,
+    "openalex_id": "https://openalex.org/I108160477",
+    "ror": "https://ror.org/009fw8j44",
+    "name": "Hebei Agricultural University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I138006243": {
+    "id": 444,
+    "openalex_id": "https://openalex.org/I138006243",
+    "ror": "https://ror.org/03m2x1q45",
+    "name": "University of Arizona",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1282462722": {
+    "id": 445,
+    "openalex_id": "https://openalex.org/I1282462722",
+    "ror": "https://ror.org/02xfw2e90",
+    "name": "United States Department of Transportation",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I1290095210": {
+    "id": 446,
+    "openalex_id": "https://openalex.org/I1290095210",
+    "ror": "https://ror.org/03z2d7y96",
+    "name": "Bureau of Labor Statistics",
+    "country_code": "US",
+    "type": "government"
+  },
+  "https://openalex.org/I118517470": {
+    "id": 447,
+    "openalex_id": "https://openalex.org/I118517470",
+    "ror": "https://ror.org/01jkd3546",
+    "name": "P.N. Lebedev Physical Institute of the Russian Academy of Sciences",
+    "country_code": "RU",
+    "type": "facility"
+  },
+  "https://openalex.org/I114845381": {
+    "id": 448,
+    "openalex_id": "https://openalex.org/I114845381",
+    "ror": "https://ror.org/03yyd7552",
+    "name": "National Institute of Technology Calicut",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I115283149": {
+    "id": 449,
+    "openalex_id": "https://openalex.org/I115283149",
+    "ror": "https://ror.org/04aj4sh46",
+    "name": "Brookings Institution",
+    "country_code": "US",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I129877168": {
+    "id": 450,
+    "openalex_id": "https://openalex.org/I129877168",
+    "ror": "https://ror.org/033n9gh91",
+    "name": "Carl von Ossietzky Universit\u00e4t Oldenburg",
+    "country_code": "DE",
+    "type": "education"
+  },
+  "https://openalex.org/I112576028": {
+    "id": 451,
+    "openalex_id": "https://openalex.org/I112576028",
+    "ror": "https://ror.org/02kp7p620",
+    "name": "Central Leather Research Institute",
+    "country_code": "IN",
+    "type": "facility"
+  },
+  "https://openalex.org/I121980950": {
+    "id": 452,
+    "openalex_id": "https://openalex.org/I121980950",
+    "ror": "https://ror.org/00h6set76",
+    "name": "Utah State University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I149910238": {
+    "id": 453,
+    "openalex_id": "https://openalex.org/I149910238",
+    "ror": "https://ror.org/049pfb863",
+    "name": "Kent State University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I121883995": {
+    "id": 454,
+    "openalex_id": "https://openalex.org/I121883995",
+    "ror": "https://ror.org/052r2xn60",
+    "name": "Johannes Kepler University of Linz",
+    "country_code": "AT",
+    "type": "education"
+  },
+  "https://openalex.org/I114292369": {
+    "id": 455,
+    "openalex_id": "https://openalex.org/I114292369",
+    "ror": "https://ror.org/04js17g72",
+    "name": "Ifakara Health Institute",
+    "country_code": "TZ",
+    "type": "nonprofit"
+  },
+  "https://openalex.org/I116480835": {
+    "id": 456,
+    "openalex_id": "https://openalex.org/I116480835",
+    "ror": "https://ror.org/029wb5j17",
+    "name": "Our Lady of the Lake University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I184903800": {
+    "id": 457,
+    "openalex_id": "https://openalex.org/I184903800",
+    "ror": "https://ror.org/01zewfb16",
+    "name": "Environment Agency",
+    "country_code": "GB",
+    "type": "government"
+  },
+  "https://openalex.org/I139660479": {
+    "id": 458,
+    "openalex_id": "https://openalex.org/I139660479",
+    "ror": "https://ror.org/00f1zfq44",
+    "name": "Central South University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I121760703": {
+    "id": 459,
+    "openalex_id": "https://openalex.org/I121760703",
+    "ror": "https://ror.org/04jsx0x49",
+    "name": "University of Applied Sciences Technikum Wien",
+    "country_code": "AT",
+    "type": "education"
+  },
+  "https://openalex.org/I107118585": {
+    "id": 460,
+    "openalex_id": "https://openalex.org/I107118585",
+    "ror": "https://ror.org/00y93ak93",
+    "name": "Shepherd University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I112991645": {
+    "id": 461,
+    "openalex_id": "https://openalex.org/I112991645",
+    "ror": "https://ror.org/023qdcg29",
+    "name": "Airbus (France)",
+    "country_code": "FR",
+    "type": "company"
+  },
+  "https://openalex.org/I1341412227": {
+    "id": 462,
+    "openalex_id": "https://openalex.org/I1341412227",
+    "ror": "https://ror.org/05hh8d621",
+    "name": "IBM (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I132091411": {
+    "id": 463,
+    "openalex_id": "https://openalex.org/I132091411",
+    "ror": "https://ror.org/00ad27c73",
+    "name": "A. Alikhanyan National Laboratory",
+    "country_code": "AM",
+    "type": "facility"
+  },
+  "https://openalex.org/I113940042": {
+    "id": 464,
+    "openalex_id": "https://openalex.org/I113940042",
+    "ror": "https://ror.org/006teas31",
+    "name": "Shanghai University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I177802217": {
+    "id": 465,
+    "openalex_id": "https://openalex.org/I177802217",
+    "ror": "https://ror.org/031bsb921",
+    "name": "University of Mannheim",
+    "country_code": "DE",
+    "type": "education"
+  },
+  "https://openalex.org/I1282105669": {
+    "id": 466,
+    "openalex_id": "https://openalex.org/I1282105669",
+    "ror": "https://ror.org/05gvnxz63",
+    "name": "Argonne National Laboratory",
+    "country_code": "US",
+    "type": "facility"
+  },
+  "https://openalex.org/I1320184640": {
+    "id": 467,
+    "openalex_id": "https://openalex.org/I1320184640",
+    "ror": "https://ror.org/05x4m5564",
+    "name": "Public Health Agency of Sweden",
+    "country_code": "SE",
+    "type": "funder"
+  },
+  "https://openalex.org/I100887729": {
+    "id": 468,
+    "openalex_id": "https://openalex.org/I100887729",
+    "ror": "https://ror.org/049skhf47",
+    "name": "Andhra University",
+    "country_code": "IN",
+    "type": "education"
+  },
+  "https://openalex.org/I112862951": {
+    "id": 469,
+    "openalex_id": "https://openalex.org/I112862951",
+    "ror": "https://ror.org/05ctdxz19",
+    "name": "University of Messina",
+    "country_code": "IT",
+    "type": "education"
+  },
+  "https://openalex.org/I121847817": {
+    "id": 470,
+    "openalex_id": "https://openalex.org/I121847817",
+    "ror": "https://ror.org/00awd9g61",
+    "name": "The Graduate Center, CUNY",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I100625452": {
+    "id": 471,
+    "openalex_id": "https://openalex.org/I100625452",
+    "ror": "https://ror.org/03nw6pt28",
+    "name": "ON Semiconductor (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I132053463": {
+    "id": 472,
+    "openalex_id": "https://openalex.org/I132053463",
+    "ror": "https://ror.org/01r9htc13",
+    "name": "Universit\u00e9 Libre de Bruxelles",
+    "country_code": "BE",
+    "type": "education"
+  },
+  "https://openalex.org/I2801068065": {
+    "id": 473,
+    "openalex_id": "https://openalex.org/I2801068065",
+    "ror": "https://ror.org/03bdt1p29",
+    "name": "Musik Akademie Basel",
+    "country_code": "CH",
+    "type": "education"
+  },
+  "https://openalex.org/I107853901": {
+    "id": 474,
+    "openalex_id": "https://openalex.org/I107853901",
+    "ror": "https://ror.org/03wdrmh81",
+    "name": "Sahand University of Technology",
+    "country_code": "IR",
+    "type": "education"
+  },
+  "https://openalex.org/I128559575": {
+    "id": 475,
+    "openalex_id": "https://openalex.org/I128559575",
+    "ror": "https://ror.org/033jvzr14",
+    "name": "University of Ruhuna",
+    "country_code": "LK",
+    "type": "education"
+  },
+  "https://openalex.org/I107182072": {
+    "id": 476,
+    "openalex_id": "https://openalex.org/I107182072",
+    "ror": "https://ror.org/04jfz0g97",
+    "name": "Tung Wah College",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I131141727": {
+    "id": 477,
+    "openalex_id": "https://openalex.org/I131141727",
+    "ror": "https://ror.org/033fgr632",
+    "name": "Universidad de Ciencias Medicas",
+    "country_code": "CR",
+    "type": "education"
+  },
+  "https://openalex.org/I100681346": {
+    "id": 478,
+    "openalex_id": "https://openalex.org/I100681346",
+    "ror": "https://ror.org/04fves619",
+    "name": "Forest Institute",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I185261750": {
+    "id": 479,
+    "openalex_id": "https://openalex.org/I185261750",
+    "ror": "https://ror.org/03dbr7087",
+    "name": "University of Toronto",
+    "country_code": "CA",
+    "type": "education"
+  },
+  "https://openalex.org/I1301411061": {
+    "id": 480,
+    "openalex_id": "https://openalex.org/I1301411061",
+    "ror": "https://ror.org/00wqczk30",
+    "name": "Pasteur Institute of Iran",
+    "country_code": "IR",
+    "type": "facility"
+  },
+  "https://openalex.org/I11923345": {
+    "id": 481,
+    "openalex_id": "https://openalex.org/I11923345",
+    "ror": "https://ror.org/008fyn775",
+    "name": "Wroc\u0142aw University of Science and Technology",
+    "country_code": "PL",
+    "type": "education"
+  },
+  "https://openalex.org/I112475681": {
+    "id": 482,
+    "openalex_id": "https://openalex.org/I112475681",
+    "ror": "https://ror.org/058cmd703",
+    "name": "Joint Global Change Research Institute",
+    "country_code": "US",
+    "type": "facility"
+  },
+  "https://openalex.org/I100116408": {
+    "id": 483,
+    "openalex_id": "https://openalex.org/I100116408",
+    "ror": "https://ror.org/005bw2d06",
+    "name": "University of Port Harcourt",
+    "country_code": "NG",
+    "type": "education"
+  },
+  "https://openalex.org/I1285764155": {
+    "id": 484,
+    "openalex_id": "https://openalex.org/I1285764155",
+    "ror": "https://ror.org/02891sr49",
+    "name": "Merck & Co., Inc., Rahway, NJ, USA (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I1280822658": {
+    "id": 485,
+    "openalex_id": "https://openalex.org/I1280822658",
+    "ror": "https://ror.org/027h8t796",
+    "name": "Federal Statistical Office",
+    "country_code": "CH",
+    "type": "government"
+  },
+  "https://openalex.org/I126596746": {
+    "id": 486,
+    "openalex_id": "https://openalex.org/I126596746",
+    "ror": "https://ror.org/03bqmcz70",
+    "name": "Jagiellonian University",
+    "country_code": "PL",
+    "type": "education"
+  },
+  "https://openalex.org/I110152177": {
+    "id": 487,
+    "openalex_id": "https://openalex.org/I110152177",
+    "ror": "https://ror.org/02kyckx55",
+    "name": "University of Akron",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I118931453": {
+    "id": 488,
+    "openalex_id": "https://openalex.org/I118931453",
+    "ror": "https://ror.org/01cntdd82",
+    "name": "Santa Monica College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I109010114": {
+    "id": 489,
+    "openalex_id": "https://openalex.org/I109010114",
+    "ror": "https://ror.org/00w32k615",
+    "name": "SunEdison (United States)",
+    "country_code": "US",
+    "type": "company"
+  },
+  "https://openalex.org/I1288162130": {
+    "id": 490,
+    "openalex_id": "https://openalex.org/I1288162130",
+    "ror": "https://ror.org/006jjmw19",
+    "name": "University of Colorado Hospital",
+    "country_code": "US",
+    "type": "healthcare"
+  },
+  "https://openalex.org/I104234503": {
+    "id": 491,
+    "openalex_id": "https://openalex.org/I104234503",
+    "ror": "https://ror.org/05gqsa340",
+    "name": "Hokkaido University of Science",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I110847814": {
+    "id": 492,
+    "openalex_id": "https://openalex.org/I110847814",
+    "ror": "https://ror.org/01m006041",
+    "name": "Thiel College",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I200296433": {
+    "id": 493,
+    "openalex_id": "https://openalex.org/I200296433",
+    "ror": "https://ror.org/02drdmm93",
+    "name": "Chinese Academy of Medical Sciences & Peking Union Medical College",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I110676245": {
+    "id": 494,
+    "openalex_id": "https://openalex.org/I110676245",
+    "ror": "https://ror.org/0376myh60",
+    "name": "Universidade Cat\u00f3lica de Pelotas",
+    "country_code": "BR",
+    "type": "education"
+  },
+  "https://openalex.org/I135120706": {
+    "id": 495,
+    "openalex_id": "https://openalex.org/I135120706",
+    "ror": "https://ror.org/007f1da21",
+    "name": "University of Baghdad",
+    "country_code": "IQ",
+    "type": "education"
+  },
+  "https://openalex.org/I11381156": {
+    "id": 496,
+    "openalex_id": "https://openalex.org/I11381156",
+    "ror": "https://ror.org/04a8t1e98",
+    "name": "Osaka Gakuin University",
+    "country_code": "JP",
+    "type": "education"
+  },
+  "https://openalex.org/I132487946": {
+    "id": 497,
+    "openalex_id": "https://openalex.org/I132487946",
+    "ror": "https://ror.org/01vbgty78",
+    "name": "Institute of Space Sciences",
+    "country_code": "ES",
+    "type": "facility"
+  },
+  "https://openalex.org/I111599522": {
+    "id": 498,
+    "openalex_id": "https://openalex.org/I111599522",
+    "ror": "https://ror.org/04mkzax54",
+    "name": "Jiangnan University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I116953780": {
+    "id": 499,
+    "openalex_id": "https://openalex.org/I116953780",
+    "ror": "https://ror.org/03rc6as71",
+    "name": "Tongji University",
+    "country_code": "CN",
+    "type": "education"
+  },
+  "https://openalex.org/I102499492": {
+    "id": 500,
+    "openalex_id": "https://openalex.org/I102499492",
+    "ror": "https://ror.org/058ndjg49",
+    "name": "Logan University",
+    "country_code": "US",
+    "type": "education"
+  },
+  "https://openalex.org/I1321434546": {
+    "id": 501,
+    "openalex_id": "https://openalex.org/I1321434546",
+    "ror": "https://ror.org/01qtasp15",
+    "name": "European Southern Observatory",
+    "country_code": "DE",
+    "type": "facility"
+  },
+  "https://openalex.org/I111532955": {
+    "id": 502,
+    "openalex_id": "https://openalex.org/I111532955",
+    "ror": "https://ror.org/03ey7ve44",
+    "name": "Regulus Therapeutics (United States)",
+    "country_code": "US",
+    "type": "company"
+  }
+}

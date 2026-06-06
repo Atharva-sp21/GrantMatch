@@ -1,902 +1,452 @@
 [
   {
     "id": 0,
-    "name": "advanced neural network applications",
-    "field_of_study": "Advanced",
-    "funding_frequency": 0.0,
-    "researcher_count": 16,
-    "trend_score": 0.0,
-    "grant_count": 12
+    "name": "physics",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 1,
-    "name": "advanced sensor and energy harvesting materials",
-    "field_of_study": "Advanced",
-    "funding_frequency": 0.0,
-    "researcher_count": 20,
-    "trend_score": 0.0,
-    "grant_count": 12
+    "name": "medicine",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 2,
-    "name": "algebraic geometry and number theory",
-    "field_of_study": "Algebraic",
-    "funding_frequency": 0.0,
-    "researcher_count": 11,
-    "trend_score": 0.0,
-    "grant_count": 12
+    "name": "biology",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 3,
-    "name": "algorithm",
-    "field_of_study": "Algorithm",
-    "funding_frequency": 0.0,
-    "researcher_count": 160,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "summary",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 4,
-    "name": "alzheimer's disease research and treatments",
-    "field_of_study": "Alzheimer'S",
-    "funding_frequency": 0.0,
-    "researcher_count": 17,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "large",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 5,
-    "name": "artificial intelligence",
-    "field_of_study": "Artificial",
-    "funding_frequency": 0.0,
-    "researcher_count": 320,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "health",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 6,
-    "name": "astronomy",
-    "field_of_study": "Astronomy",
-    "funding_frequency": 0.0,
-    "researcher_count": 22,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "which",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 7,
-    "name": "astrophysics",
-    "field_of_study": "Astrophysics",
-    "funding_frequency": 0.0,
-    "researcher_count": 21,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "disease",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 8,
-    "name": "biochemistry",
-    "field_of_study": "Biochemistry",
-    "funding_frequency": 0.0,
-    "researcher_count": 50,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "internal",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 9,
-    "name": "biology",
-    "field_of_study": "Biology",
-    "funding_frequency": 0.0,
-    "researcher_count": 546,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "science",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 10,
-    "name": "biomedical",
-    "field_of_study": "Biomedical",
-    "funding_frequency": 0.0,
-    "researcher_count": 58,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "internal medicine",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 11,
-    "name": "burden of disease",
-    "field_of_study": "Burden",
-    "funding_frequency": 0.0,
-    "researcher_count": 32,
-    "trend_score": 0.0,
-    "grant_count": 1
+    "name": "cell",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 12,
-    "name": "business",
-    "field_of_study": "Business",
-    "funding_frequency": 0.0,
-    "researcher_count": 44,
-    "trend_score": 0.0,
-    "grant_count": 1
+    "name": "development",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 13,
-    "name": "cancer",
-    "field_of_study": "Cancer",
-    "funding_frequency": 0.0,
-    "researcher_count": 283,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "nuclear",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 14,
-    "name": "cancer genomics and diagnostics",
-    "field_of_study": "Cancer",
-    "funding_frequency": 0.0,
-    "researcher_count": 26,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "clinical",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 15,
-    "name": "cancer immunotherapy and biomarkers",
-    "field_of_study": "Cancer",
-    "funding_frequency": 0.0,
-    "researcher_count": 21,
-    "trend_score": 0.0,
-    "grant_count": 1
+    "name": "studies",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 16,
-    "name": "cancer research",
-    "field_of_study": "Cancer",
-    "funding_frequency": 0.0,
-    "researcher_count": 116,
-    "trend_score": 0.0,
-    "grant_count": 1
+    "name": "specific",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 17,
-    "name": "cardiac valve diseases and treatments",
-    "field_of_study": "Cardiac",
-    "funding_frequency": 0.0,
-    "researcher_count": 9,
-    "trend_score": 0.0,
-    "grant_count": 1
+    "name": "particle",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 18,
-    "name": "cardiology",
-    "field_of_study": "Cardiology",
-    "funding_frequency": 0.0,
-    "researcher_count": 63,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "including",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 19,
-    "name": "cardiovascular",
-    "field_of_study": "Cardiovascular",
-    "funding_frequency": 0.0,
-    "researcher_count": 70,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "novel",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 20,
-    "name": "cell biology",
-    "field_of_study": "Cell",
-    "funding_frequency": 0.0,
-    "researcher_count": 106,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "hadron",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 21,
-    "name": "chemical engineering",
-    "field_of_study": "Chemical",
-    "funding_frequency": 0.0,
-    "researcher_count": 44,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "particle physics",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 22,
-    "name": "chemistry",
-    "field_of_study": "Chemistry",
-    "funding_frequency": 0.0,
-    "researcher_count": 263,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "nuclear physics",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 23,
-    "name": "climate",
-    "field_of_study": "Climate",
-    "funding_frequency": 0.0,
-    "researcher_count": 20,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "mechanisms",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 24,
-    "name": "clinical psychology",
-    "field_of_study": "Clinical",
-    "funding_frequency": 0.0,
-    "researcher_count": 26,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "their",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 25,
-    "name": "cognition",
-    "field_of_study": "Cognition",
-    "funding_frequency": 0.0,
-    "researcher_count": 108,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "aim",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 26,
-    "name": "cohort",
-    "field_of_study": "Cohort",
-    "funding_frequency": 0.0,
-    "researcher_count": 144,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "collider",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 27,
-    "name": "cohort study",
-    "field_of_study": "Cohort",
-    "funding_frequency": 0.0,
-    "researcher_count": 26,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "hadron collider",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 28,
-    "name": "combinatorics",
-    "field_of_study": "Combinatorics",
-    "funding_frequency": 0.0,
-    "researcher_count": 24,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "large hadron",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 29,
-    "name": "composite material",
-    "field_of_study": "Composite",
-    "funding_frequency": 0.0,
-    "researcher_count": 37,
-    "trend_score": 0.0,
-    "grant_count": 5
+    "name": "aims",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 30,
-    "name": "computational biology",
-    "field_of_study": "Computational",
-    "funding_frequency": 0.0,
-    "researcher_count": 117,
-    "trend_score": 0.0,
+    "name": "how",
+    "researcher_count": 0,
     "grant_count": 0
   },
   {
     "id": 31,
-    "name": "computer",
-    "field_of_study": "Computer",
-    "funding_frequency": 0.0,
-    "researcher_count": 73,
-    "trend_score": 0.0,
-    "grant_count": 1
+    "name": "through",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 32,
-    "name": "computer science",
-    "field_of_study": "Computer",
-    "funding_frequency": 0.0,
-    "researcher_count": 462,
-    "trend_score": 0.0,
-    "grant_count": 5
+    "name": "gene",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 33,
-    "name": "computer vision",
-    "field_of_study": "Computer",
-    "funding_frequency": 0.0,
-    "researcher_count": 30,
-    "trend_score": 0.0,
-    "grant_count": 5
+    "name": "provide",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 34,
-    "name": "condensed matter physics",
-    "field_of_study": "Condensed",
-    "funding_frequency": 0.0,
-    "researcher_count": 23,
-    "trend_score": 0.0,
-    "grant_count": 5
+    "name": "also",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 35,
-    "name": "coronavirus disease 2019 (covid-19)",
-    "field_of_study": "Coronavirus",
-    "funding_frequency": 0.0,
-    "researcher_count": 24,
-    "trend_score": 0.0,
-    "grant_count": 5
+    "name": "understanding",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 36,
-    "name": "covid",
-    "field_of_study": "Covid",
-    "funding_frequency": 0.0,
-    "researcher_count": 33,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "cancer",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 37,
-    "name": "dementia",
-    "field_of_study": "Dementia",
-    "funding_frequency": 0.0,
-    "researcher_count": 31,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "cells",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 38,
-    "name": "dementia and cognitive impairment research",
-    "field_of_study": "Dementia",
-    "funding_frequency": 0.0,
-    "researcher_count": 16,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "use",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 39,
-    "name": "demography",
-    "field_of_study": "Demography",
-    "funding_frequency": 0.0,
-    "researcher_count": 83,
-    "trend_score": 0.0,
-    "grant_count": 5
+    "name": "human",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 40,
-    "name": "diabetes",
-    "field_of_study": "Diabetes",
-    "funding_frequency": 0.0,
-    "researcher_count": 26,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "high",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 41,
-    "name": "diabetes mellitus",
-    "field_of_study": "Diabetes",
-    "funding_frequency": 0.0,
-    "researcher_count": 32,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "other",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 42,
-    "name": "disease",
-    "field_of_study": "Disease",
-    "funding_frequency": 0.0,
-    "researcher_count": 504,
-    "trend_score": 0.0,
-    "grant_count": 5
+    "name": "identify",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 43,
-    "name": "disease burden",
-    "field_of_study": "Disease",
-    "funding_frequency": 0.0,
-    "researcher_count": 26,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "function",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 44,
-    "name": "ecology",
-    "field_of_study": "Ecology",
-    "funding_frequency": 0.0,
-    "researcher_count": 46,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "such",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 45,
-    "name": "economics",
-    "field_of_study": "Economics",
-    "funding_frequency": 0.0,
-    "researcher_count": 29,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "critical",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 46,
-    "name": "endocrinology",
-    "field_of_study": "Endocrinology",
-    "funding_frequency": 0.0,
-    "researcher_count": 47,
-    "trend_score": 0.0,
-    "grant_count": 5
+    "name": "not",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 47,
-    "name": "energy",
-    "field_of_study": "Energy",
-    "funding_frequency": 0.0,
-    "researcher_count": 94,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "environmental",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 48,
-    "name": "engineering",
-    "field_of_study": "Engineering",
-    "funding_frequency": 0.0,
-    "researcher_count": 246,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "role",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 49,
-    "name": "environmental health",
-    "field_of_study": "Environmental",
-    "funding_frequency": 0.0,
-    "researcher_count": 118,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "develop",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 50,
-    "name": "environmental science",
-    "field_of_study": "Environmental",
-    "funding_frequency": 0.0,
-    "researcher_count": 53,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "molecular",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 51,
-    "name": "evolution and genetic dynamics",
-    "field_of_study": "Evolution",
-    "funding_frequency": 0.0,
-    "researcher_count": 9,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "determine",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 52,
-    "name": "evolutionary biology",
-    "field_of_study": "Evolutionary",
-    "funding_frequency": 0.0,
-    "researcher_count": 34,
-    "trend_score": 0.0,
-    "grant_count": 1
+    "name": "well",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 53,
-    "name": "gene",
-    "field_of_study": "Gene",
-    "funding_frequency": 0.0,
-    "researcher_count": 838,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "both",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 54,
-    "name": "genetic associations and epidemiology",
-    "field_of_study": "Genetic",
-    "funding_frequency": 0.0,
-    "researcher_count": 38,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "work",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 55,
-    "name": "genetics",
-    "field_of_study": "Genetics",
-    "funding_frequency": 0.0,
-    "researcher_count": 175,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "associated",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 56,
-    "name": "genome",
-    "field_of_study": "Genome",
-    "funding_frequency": 0.0,
-    "researcher_count": 90,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "impact",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 57,
-    "name": "genome-wide association study",
-    "field_of_study": "Genome-Wide",
-    "funding_frequency": 0.0,
-    "researcher_count": 22,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "during",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 58,
-    "name": "genomics",
-    "field_of_study": "Genomics",
-    "funding_frequency": 0.0,
-    "researcher_count": 32,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "genetics",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 59,
-    "name": "genomics and phylogenetic studies",
-    "field_of_study": "Genomics",
-    "funding_frequency": 0.0,
-    "researcher_count": 24,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "goal",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 60,
-    "name": "geography",
-    "field_of_study": "Geography",
-    "funding_frequency": 0.0,
-    "researcher_count": 46,
-    "trend_score": 0.0,
-    "grant_count": 2
+    "name": "potential",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 61,
-    "name": "geology",
-    "field_of_study": "Geology",
-    "funding_frequency": 0.0,
-    "researcher_count": 24,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "long",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 62,
-    "name": "gerontology",
-    "field_of_study": "Gerontology",
-    "funding_frequency": 0.0,
-    "researcher_count": 55,
-    "trend_score": 0.0,
-    "grant_count": 6
+    "name": "proposal",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 63,
-    "name": "gut microbiota and health",
-    "field_of_study": "Gut",
-    "funding_frequency": 0.0,
-    "researcher_count": 19,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "however",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 64,
-    "name": "health",
-    "field_of_study": "Health",
-    "funding_frequency": 0.0,
-    "researcher_count": 369,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "therapeutic",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 65,
-    "name": "heart failure",
-    "field_of_study": "Heart",
-    "funding_frequency": 0.0,
-    "researcher_count": 41,
-    "trend_score": 0.0,
-    "grant_count": 4
+    "name": "two",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 66,
-    "name": "high-energy particle collisions research",
-    "field_of_study": "High-Energy",
-    "funding_frequency": 0.0,
-    "researcher_count": 17,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "proposed",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 67,
-    "name": "human immunodeficiency virus (hiv)",
-    "field_of_study": "Human",
-    "funding_frequency": 0.0,
-    "researcher_count": 19,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "key",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 68,
-    "name": "immune system",
-    "field_of_study": "Immune",
-    "funding_frequency": 0.0,
-    "researcher_count": 63,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "more",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 69,
-    "name": "immunology",
-    "field_of_study": "Immunology",
-    "funding_frequency": 0.0,
-    "researcher_count": 94,
-    "trend_score": 0.0,
-    "grant_count": 7
+    "name": "treatment",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 70,
-    "name": "intensive care medicine",
-    "field_of_study": "Intensive",
-    "funding_frequency": 0.0,
-    "researcher_count": 59,
-    "trend_score": 0.0,
-    "grant_count": 3
+    "name": "but",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 71,
-    "name": "internal medicine",
-    "field_of_study": "Internal",
-    "funding_frequency": 0.0,
-    "researcher_count": 331,
-    "trend_score": 0.0,
+    "name": "all",
+    "researcher_count": 0,
     "grant_count": 0
   },
   {
     "id": 72,
-    "name": "kidney disease",
-    "field_of_study": "Kidney",
-    "funding_frequency": 0.0,
-    "researcher_count": 42,
-    "trend_score": 0.0,
-    "grant_count": 6
+    "name": "while",
+    "researcher_count": 0,
+    "grant_count": 0
   },
   {
     "id": 73,
-    "name": "law",
-    "field_of_study": "Law",
-    "funding_frequency": 0.0,
-    "researcher_count": 41,
-    "trend_score": 0.0,
+    "name": "patients",
+    "researcher_count": 0,
     "grant_count": 0
   },
   {
     "id": 74,
-    "name": "machine learning",
-    "field_of_study": "Machine",
-    "funding_frequency": 0.0,
-    "researcher_count": 163,
-    "trend_score": 0.0,
+    "name": "test",
+    "researcher_count": 0,
     "grant_count": 0
-  },
-  {
-    "id": 75,
-    "name": "materials",
-    "field_of_study": "Materials",
-    "funding_frequency": 0.0,
-    "researcher_count": 92,
-    "trend_score": 0.0,
-    "grant_count": 3
-  },
-  {
-    "id": 76,
-    "name": "materials science",
-    "field_of_study": "Materials",
-    "funding_frequency": 0.0,
-    "researcher_count": 154,
-    "trend_score": 0.0,
-    "grant_count": 2
-  },
-  {
-    "id": 77,
-    "name": "mathematics",
-    "field_of_study": "Mathematics",
-    "funding_frequency": 0.0,
-    "researcher_count": 136,
-    "trend_score": 0.0,
-    "grant_count": 8
-  },
-  {
-    "id": 78,
-    "name": "medicine",
-    "field_of_study": "Medicine",
-    "funding_frequency": 0.0,
-    "researcher_count": 624,
-    "trend_score": 0.0,
-    "grant_count": 8
-  },
-  {
-    "id": 79,
-    "name": "medline",
-    "field_of_study": "Medline",
-    "funding_frequency": 0.0,
-    "researcher_count": 66,
-    "trend_score": 0.0,
-    "grant_count": 6
-  },
-  {
-    "id": 80,
-    "name": "mental health",
-    "field_of_study": "Mental",
-    "funding_frequency": 0.0,
-    "researcher_count": 41,
-    "trend_score": 0.0,
-    "grant_count": 2
-  },
-  {
-    "id": 81,
-    "name": "meta-analysis and systematic reviews",
-    "field_of_study": "Meta-Analysis",
-    "funding_frequency": 0.0,
-    "researcher_count": 24,
-    "trend_score": 0.0,
-    "grant_count": 3
-  },
-  {
-    "id": 82,
-    "name": "nanotechnology",
-    "field_of_study": "Nanotechnology",
-    "funding_frequency": 0.0,
-    "researcher_count": 73,
-    "trend_score": 0.0,
-    "grant_count": 4
-  },
-  {
-    "id": 83,
-    "name": "neuroscience",
-    "field_of_study": "Neuroscience",
-    "funding_frequency": 0.0,
-    "researcher_count": 72,
-    "trend_score": 0.0,
-    "grant_count": 2
-  },
-  {
-    "id": 84,
-    "name": "nuclear physics",
-    "field_of_study": "Nuclear",
-    "funding_frequency": 0.0,
-    "researcher_count": 25,
-    "trend_score": 0.0,
-    "grant_count": 2
-  },
-  {
-    "id": 85,
-    "name": "ocean",
-    "field_of_study": "Ocean",
-    "funding_frequency": 0.0,
-    "researcher_count": 9,
-    "trend_score": 0.0,
-    "grant_count": 2
-  },
-  {
-    "id": 86,
-    "name": "oncology",
-    "field_of_study": "Oncology",
-    "funding_frequency": 0.0,
-    "researcher_count": 59,
-    "trend_score": 0.0,
-    "grant_count": 4
-  },
-  {
-    "id": 87,
-    "name": "optics",
-    "field_of_study": "Optics",
-    "funding_frequency": 0.0,
-    "researcher_count": 32,
-    "trend_score": 0.0,
-    "grant_count": 3
-  },
-  {
-    "id": 88,
-    "name": "optoelectronics",
-    "field_of_study": "Optoelectronics",
-    "funding_frequency": 0.0,
-    "researcher_count": 36,
-    "trend_score": 0.0,
-    "grant_count": 4
-  },
-  {
-    "id": 89,
-    "name": "particle detector development and performance",
-    "field_of_study": "Particle",
-    "funding_frequency": 0.0,
-    "researcher_count": 24,
-    "trend_score": 0.0,
-    "grant_count": 4
-  },
-  {
-    "id": 90,
-    "name": "particle physics",
-    "field_of_study": "Particle",
-    "funding_frequency": 0.0,
-    "researcher_count": 23,
-    "trend_score": 0.0,
-    "grant_count": 3
-  },
-  {
-    "id": 91,
-    "name": "particle physics theoretical and experimental studies",
-    "field_of_study": "Particle",
-    "funding_frequency": 0.0,
-    "researcher_count": 24,
-    "trend_score": 0.0,
-    "grant_count": 3
-  },
-  {
-    "id": 92,
-    "name": "pathology",
-    "field_of_study": "Pathology",
-    "funding_frequency": 0.0,
-    "researcher_count": 95,
-    "trend_score": 0.0,
-    "grant_count": 3
-  },
-  {
-    "id": 93,
-    "name": "physics",
-    "field_of_study": "Physics",
-    "funding_frequency": 0.0,
-    "researcher_count": 203,
-    "trend_score": 0.0,
-    "grant_count": 2
-  },
-  {
-    "id": 94,
-    "name": "political science",
-    "field_of_study": "Political",
-    "funding_frequency": 0.0,
-    "researcher_count": 51,
-    "trend_score": 0.0,
-    "grant_count": 2
-  },
-  {
-    "id": 95,
-    "name": "population",
-    "field_of_study": "Population",
-    "funding_frequency": 0.0,
-    "researcher_count": 292,
-    "trend_score": 0.0,
-    "grant_count": 2
-  },
-  {
-    "id": 96,
-    "name": "psychiatry",
-    "field_of_study": "Psychiatry",
-    "funding_frequency": 0.0,
-    "researcher_count": 46,
-    "trend_score": 0.0,
-    "grant_count": 1
-  },
-  {
-    "id": 97,
-    "name": "psychological intervention",
-    "field_of_study": "Psychological",
-    "funding_frequency": 0.0,
-    "researcher_count": 33,
-    "trend_score": 0.0,
-    "grant_count": 1
-  },
-  {
-    "id": 98,
-    "name": "psychology",
-    "field_of_study": "Psychology",
-    "funding_frequency": 0.0,
-    "researcher_count": 187,
-    "trend_score": 0.0,
-    "grant_count": 2
-  },
-  {
-    "id": 99,
-    "name": "public health",
-    "field_of_study": "Public",
-    "funding_frequency": 0.0,
-    "researcher_count": 86,
-    "trend_score": 0.0,
-    "grant_count": 3
   }
 ]
