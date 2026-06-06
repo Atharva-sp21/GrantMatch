@@ -1,0 +1,5 @@
+venv/
+data/processed/researcher_profile.json
+__pycache__/
+*.pyc
+*.dylib
